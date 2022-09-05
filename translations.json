@@ -1,0 +1,490 @@
+{
+    "btniclose": "RiCloseCircleLine",
+    "btniopen": "RiMotorbikeFill",
+
+    "greetingst": {
+        "en": "Welcome Friend!",
+        "es": "Saludos Compa!",
+        "pt": "Te desejamos Boas-Vindas!"
+    },
+
+    "navbar": {
+        "start": {
+            "en": "Start",
+            "es": "Comienzo",
+            "pt": "Início"
+        },
+        "greetings": {
+            "en": "Greetings",
+            "es": "Saludos",
+            "pt": "Bem-vindo"
+        },
+        "services": {
+            "en": "Services",
+            "es": "Servicios",
+            "pt": "Serviços"
+        },
+        "projects": {
+            "en": "Projects",
+            "es": "Proyectos",
+            "pt": "Projetos"
+        },
+        "team": {
+            "en": "Team",
+            "es": "Equipo",
+            "pt": "Equipe"
+        },
+        "contacts": {
+            "en": "Contacts",
+            "es": "Contactos",
+            "pt": "Contatos"
+        },
+        "about": {
+            "en": "About",
+            "es": "Sobre Nosotros",
+            "pt": "Sobre Nós"
+        },
+        "drafts": {
+            "en": "Drafts",
+            "es": "Borradores",
+            "pt": "Rascunhos"
+        },
+        "concepts": {
+            "en": "Concepts",
+            "es": "Conceptos",
+            "pt": "Conceitos"
+        }
+    },
+
+    "servicemt": {
+        "en": "Our Services",
+        "es": "Nuestros Servicios",
+        "pt": "Nossos Serviços"
+    },
+
+    "servicet": {
+        "en": [
+            "Email Service",
+            "Cloud Service",
+            "Robot Service",
+            "Host and Domain Service",
+            "Web Site Art/Design"
+        ],
+        "es": [
+            "Servicio de Email",
+            "Servicio de Cloud",
+            "Servicio de Robot",
+            "Servicio de Host y Dominio",
+            "Diseño y Arte de Páginas Web"
+        ],
+        "pt": [
+            "Serviço de Email",
+            "Serviço de Nuvem (Cloud)",
+            "Serviço de Automação de Processos (Robô)",
+            "Serviço de Host e Domínio",
+            "Arte e Design para Web Sites"
+        ]
+    },
+    "servicest": {
+        "en": [
+            "We have a convenient price to manage your company or personal email sender system",
+            "Our practical and easy-to-use cloud system to meet your business demands",
+            "Automated process designed to meet your research or information gathering demands, it can work 24/7",
+            "Have a domain make your business seems professional and helps to show yourself to customers",
+            "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention"
+        ],
+        "es": [
+            "A precios convenientes te brindamos una hierramienta para gerenciar tus email o de tu empresa",
+            "Uno servicio simples e intuitivo para atender las demandas de tu compañia",
+            "Procesos customizados que pueden ser definidos para rodar 24x7 para obtener informaciones o hacer consultas para tu negócio",
+            "Tener uno dominio para su negócio lo hace profesional para que sus clientes te puedan contactarlo y veriicar sus actualizaciones",
+            "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes"
+        ],
+        "pt": [
+            "Gerenciar seus emails ou da sua empresa de forma fácil e a um preço muito comodo",
+            "Com nosso sistema de cloud gerencie seus arquivos sem complicações e sem preocupações",
+            "Robôs desenhados segundo as suas necessidades, tanto para pesquisar quanto para obter informações, com servidores funcionando 24 horas e 7 dias na semana",
+            "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
+            "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
+        ]
+    },
+
+    "en": {
+        "greetingst": "Welcome Friend!",
+        "navbar": [
+            "Start",
+            "Greetings",
+            "Services",
+            "Projects",
+            "Team",
+            "Contacts",
+            "About",
+            "Drafts",
+            "Concepts"
+        ],
+        "servicemt": "Our Services",
+        "servicet": [
+            "Email Service",
+            "Cloud Service",
+            "Robot Service",
+            "Host and Domain Service",
+            "Web Site Art/Design"
+        ],
+        "servicest": [
+            "We have a convenient price to manage your company or personal email sender system",
+            "Our practical and easy-to-use cloud system to meet your business demands",
+            "Automated process designed to meet your research or information gathering demands, it can work 24/7",
+            "Have a domain make your business seems professional and helps to show yourself to customers",
+            "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention"
+        ],
+        "servicemodalt": [
+            "Send Emails never was so easy",
+            "Save information in a clean and simple way",
+            "It process data all time",
+            "",
+            ""
+        ],
+        "servicemodalmsg": [
+            "Send an email to yoursel to how our system is working",
+            "Send an image and recive it's url - this image expire past 2 days",
+            "Look the data processed by our robot in table in the right",
+            "",
+            ""
+        ],
+        "projectmt": "Our Projects",
+        "projectt": [
+            "Ad Gallery App",
+            "Personal App for Business Sales"
+        ],
+        "projectst": [
+            "stage pre-Alpha",
+            "stage pre-Alpha"
+        ],
+        "projecttmsg": [
+            "For local commerce is a pratical way to create a \"Virtual Shopping Mall\", seek for ad-clients and show the gallery for viewer-clients.",
+            "This is an app in the form of a list for the customer to choose between the products and send an email with the purchase information."
+        ],
+        "teammt": "Our Team",
+        "teamfounders": "Founders",
+        "teamrole": [
+            "Full Stack Programmer and Designer",
+            "Site Reliability Engineer",
+            "Data Analysis Engineer",
+            "Web Support and QA Analyst"
+        ],
+        "teamcv": [
+            "studied at the UFV",
+            "Graduated from the UFV",
+            "MSc at the UFV",
+            "Graduated from the IF Sudeste MG \n studied at the UFSJ"
+        ],
+        "teamlanguage": [
+            "Portuguese, English and Spanish",
+            "Portuguese and English",
+            "Portuguese, English and French",
+            "Portuguese and English"
+        ],
+        "teamaddress": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ],
+        "teamcountry": [
+            "Argentina",
+            "Ireland",
+            "Brazil",
+            "Brazil"
+        ],
+        "contactmt": "Contacts",
+        "contactilename": "Write your name here",
+        "contactilemail": "Enter email",
+        "contactiledisclaimer": "We'll never share your email with anyone else.",
+        "contactilemessage": "What do you want to say to us?",
+        "testemailt": "Test Email",
+        "testemaililmessage": "Test message to yourself",
+        "aboutmt": "about our Company, \n about our Team \n and \n about our Way",
+        "draftmt": "Drafts",
+        "conceptmt": "Concepts",
+        "conceptmsgs": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure is a cloud provider."
+        ],
+        "conceptqtrs": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ],
+        "contactmm": "Send us an email \n to contact@czar.dev \n or \n Use our email system \n to contact us directly",
+        "footm": "Devs",
+        "foots": "Developer Team",
+        "btnok": "OK",
+        "btnagree": "I agree!",
+        "btncancel": "Cancel",
+        "btndisagree": "I disagree!",
+        "btnsendemail": "Send Email",
+        "btnclose": "Close",
+        "btnsendfile": "Upload File",
+        "comingsoon": "Coming Soon...",
+        "comingsoonmsg": "We are working hard to provide to you this new product model.",
+        "cloudservicedescription": "Image upload",
+        "emaildescription": "Email sending",
+        "newsrobot": "News bot",
+        "cookie": "This website uses cookies to enhance the user experience."
+    },
+    "es": {
+        "greetingst": "Saludos Compa!",
+        "navbar": [
+            "Comienzo",
+            "Saludos",
+            "Servicios",
+            "Proyectos",
+            "Equipo",
+            "Contactos",
+            "Sobre Nosotros",
+            "Borradores",
+            "Conceptos"
+        ],
+        "servicemt": "Nuestros Servicios",
+        "servicet": [
+            "Servicio de Email",
+            "Servicio de Cloud",
+            "Servicio de Robot",
+            "Servicio de Host y Dominio",
+            "Diseño y Arte de Páginas Web"
+        ],
+        "servicest": [
+            "A precios convenientes te brindamos una hierramienta para gerenciar tus email o de tu empresa",
+            "Uno servicio simples e intuitivo para atender las demandas de tu compañia",
+            "Procesos customizados que pueden ser definidos para rodar 24x7 para obtener informaciones o hacer consultas para tu negócio",
+            "Tener uno dominio para su negócio lo hace profesional para que sus clientes te puedan contactarlo y veriicar sus actualizaciones",
+            "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes"
+        ],
+        "servicemodalt": [
+            "Envia mails nunca foi tan fácil",
+            "Guardar informaciones de una forma segura, limpia y sensilla",
+            "Datos estan siendo procesados todo el tiempo",
+            "",
+            ""
+        ],
+        "servicemodalmsg": [
+            "Enviate un mail para ti mismo, para que vea nuestro sistema en funcionamiento",
+            "Aramazena una imagen en la cloud y recibí la url de esa imagen - la imagen aspira despúes de 2 días",
+            "Mira lo que proceso nuestro robot en la tabla a la derecha",
+            "",
+            ""
+        ],
+        "projectmt": "Nuestros Proyectos",
+        "projectt": [
+            "Aplicación de Exhibición de Anuncios",
+            "Aplicación Personal para Ventas y Entregas"
+        ],
+        "projectst": [
+            "Etapa Prealfa",
+            "Etapa Prealfa"
+        ],
+        "projecttmsg": [
+            "Proporcionar a las empresas locales una plataforma publicidad virtual como uno Centro Comercial, encuentre anunciantes y exhiba tus productos a los clientes.",
+            "Esta aplicación es basada un catalogo de productos de uno negócio, donde el cliente lista los produtos deseados y uno email es enviado automaticamente."
+        ],
+        "teammt": "Nuestra Equipo",
+        "teamfounders": "Grupo Creador",
+        "teamrole": [
+            "Desarrollador Full Stack y Designer",
+            "Ingeniero de Confiabilidad de Sitios (SRE)",
+            "Ingeniera de Análisis de Datos",
+            "Web Soporte y QA"
+        ],
+        "teamcv": [
+            "estudió en UFV",
+            "Graduado por la UFV",
+            "Mestría en la UFV",
+            "Graduado en el IF Sudeste MG \n estudió en la UFSJ"
+        ],
+        "teamlanguage": [
+            "Portugués, Inglés y Español",
+            "Portugués e Inglés",
+            "Portugués, Inglés y Francés",
+            "Portugués e Inglés"
+        ],
+        "teamaddress": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ],
+        "teamcountry": [
+            "Argentina",
+            "Irlanda",
+            "Brasil",
+            "Brasil"
+        ],
+        "contactmt": "Contactos",
+        "contactilename": "Escrebe tu nombre aquí",
+        "contactilemail": "Introduzca su email aquí",
+        "contactiledisclaimer": "Nunca compartiremos su email con nadie más.",
+        "contactilemessage": "¿Qué quieres decirnos?",
+        "testemailt": "Email de Prueba",
+        "testemaililmessage": "Mensaje de prueba para su email",
+        "aboutmt": "Sobre nuestro Negócio, sobre nuestra Equipo y sobre Nustra Filosofía",
+        "draftmt": "Borradores",
+        "conceptmt": "Conceptos",
+        "conceptmsgs": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure es provedor cloud."
+        ],
+        "conceptqtrs": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ],
+        "contactmm": "Enviános un Email \n para contacto@czar.dev \n o \n Use nuestro sistema de email \n para uno contacto directo desde esa página",
+        "footm": "Desarrollo",
+        "foots": "Equipo de Dearrolladores",
+        "btnok": "Dale",
+        "btnagree": "De Acuerdo!",
+        "btncancel": "Cancelar",
+        "btndisagree": "No estoy de acuerdo!",
+        "btnsendemail": "Enviar Email",
+        "btnclose": "Cerrar",
+        "btnsendfile": "Subir Archivo",
+        "comingsoon": "Próximamente...",
+        "comingsoonmsg": "Estamos trabajando fuertemente para poder brindarte ese nuevo modelo de producto.",
+        "cloudservicedescription": "Carga de Imagen",
+        "emaildescription": "Envio de email",
+        "newsrobot": "Robot de noticias",
+        "cookie": "Este sitio web utiliza cookies para mejorar la experiencia del usuario."
+    },
+    "pt": {
+        "greetingst": "Te desejamos Boas-Vindas!",
+        "navbar": [
+            "Início",
+            "Bem-vindo",
+            "Serviços",
+            "Projetos",
+            "Equipe",
+            "Contatos",
+            "Sobre Nós",
+            "Rascunhos",
+            "Conceitos"
+        ],
+        "servicemt": "Nossos Serviços",
+        "servicet": [
+            "Serviço de Email",
+            "Serviço de Nuvem (Cloud)",
+            "Serviço de Automação de Processos (Robô)",
+            "Serviço de Host e Domínio",
+            "Arte e Design para Web Sites"
+        ],
+        "servicest": [
+            "Gerenciar seus emails ou da sua empresa de forma fácil e a um preço muito comodo",
+            "Com nosso sistema de cloud gerencie seus arquivos sem complicações e sem preocupações",
+            "Robôs desenhados segundo as suas necessidades, tanto para pesquisar quanto para obter informações, com servidores funcionando 24 horas e 7 dias na semana",
+            "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
+            "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
+        ],
+        "servicemodalt": [
+            "Mandar E-mails nunca foi tão fácil",
+            "Armazene informações de forma limpa e prática",
+            "Processando dados todo o tempo",
+            "",
+            ""
+        ],
+        "servicemodalmsg": [
+            "Envie um e-mail pra si mesmo para ver nosso sistema de e-mail funcionando",
+            "Insira uma imagem e receba a url da mesma - a imagem tem duração de 2 dias",
+            "Veja o que já foi processado pelo nosso robô a direita",
+            "",
+            ""
+        ],
+        "projectmt": "Nossos Projetos",
+        "projectt": [
+            "Aplicativo Galeria de Anúncios",
+            "Aplicativo de Vendas Personalizado"
+        ],
+        "projectst": [
+            "Estágio pre-Alpha",
+            "Estágio pre-Alpha"
+        ],
+        "projecttmsg": [
+            "Criar uma vitrine de anúncios para o comércio local, os anúnciantes publicam enquanto os usúarios podem fazer buscas nos anúncios.",
+            "Um catálogo de produtos onde o cliente ao finalizar a compra envia a listagem por e-mail para o négocio, simples e prático."
+        ],
+        "teammt": "Nossa Equipe",
+        "teamfounders": "Fundadores",
+        "teamrole": [
+            "Programador Full Stack e Designer",
+            "Engenheiro de Confiabilidade",
+            "Engenheira e Analista de Dados",
+            "Suporte Web e Analista QA"
+        ],
+        "teamcv": [
+            "estudou na UFV",
+            "Graduado pela UFV",
+            "Mestranda na UFV",
+            "Graduado no IF Sudeste MG \n estudou na UFSJ"
+        ],
+        "teamlanguage": [
+            "Português, Inglês e Espanhol",
+            "Português e Inglês",
+            "Português, Inglês e Francês",
+            "Português e Inglês"
+        ],
+        "teamaddress": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ],
+        "teamcountry": [
+            "Argentina",
+            "Irlanda",
+            "Brasil",
+            "Brasil"
+        ],
+        "contactmt": "Contatos",
+        "contactilename": "Seu nome",
+        "contactilemail": "Seu e-mail",
+        "contactiledisclaimer": "Não se preocupe. Seu e-mail não será compartilhado com ninguém.",
+        "contactilemessage": "O que gostaria de nos dizer?",
+        "testemailt": "E-mail de Teste",
+        "testemaililmessage": "Deixe sua mensagem de teste para receber no seu e-mail",
+        "aboutmt": "Tudo sobre nossa empresa, sobre nosso Time e nossa Visão de Mundo",
+        "draftmt": "Rascunhos",
+        "conceptmt": "Conceitos",
+        "conceptmsgs": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure é um provedor de Nuvem."
+        ],
+        "conceptqtrs": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ],
+        "contactmm": "Envie um e-mail \n para contato@czar.dev \n ou \n Use nosso sistema de e-mail \n contactando-nos aqui mesmo",
+        "footm": "Desenvolvedores",
+        "foots": "Time de Programadores",
+        "btnok": "Certo",
+        "btnagree": "Aceito!",
+        "btncancel": "Cancelar",
+        "btndisagree": "Não, Obrigado!",
+        "btnsendemail": "Enviar Email",
+        "btnclose": "Fechar",
+        "btnsendfile": "Subir Arquivo",
+        "comingsoon": "Em Breve...",
+        "comingsoonmsg": "Estamos trabalhando fortemente para poder proporcionar esse novo modelo de produto.",
+        "cloudservicedescription": "Subir imagem",
+        "emaildescription": "Envio de email",
+        "newsrobot": "Robo de notícias",
+        "cookie": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
+    }
+}
