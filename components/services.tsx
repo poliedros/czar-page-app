@@ -23,8 +23,8 @@ export default function Services({
                 {/*<div id="mainWrapper">
                 <div id="cardsWrapper">*/}
                 <Row className="justify-center" /* style={{ justifyContent: "center" }} */>
-                    <h3 className="uppercase tracking-widest mx-6" style={{ fontFamily: "'Ubuntu Condensed', sans-serif", /* textTransform: "uppercase", letterSpacing: ".3rem", margin: "1.5rem 0" */ }}>{ translations.servicemt[language] }</h3>
-                    <Col xs={12} lg={4} style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "1rem 0 1rem 0" }}>
+                    <h3 className="unselectable uppercase tracking-[.3rem] my-6" style={{ fontFamily: "'Ubuntu Condensed', sans-serif", /* textTransform: "uppercase", letterSpacing: ".3rem", margin: "1.5rem 0" */ }}>{ translations.servicemt[language] }</h3>
+                    <Col xs={12} lg={4} className="flex items-center justify-center my-4" /* style={{ display: "flex", alignItems: "center", justifyContent: "center", margin: "1rem 0 1rem 0" }} */>
                         <CardCzar preview={
                             {
                                 state: 'AD',
@@ -36,6 +36,7 @@ export default function Services({
                                 message: '',
                                 icon2: 'GiPaintBrush',
                                 bgImage: 'seventh',
+                                artist: 'jacksonsophat.com',
                                 language: language,
                             }
                         }/>
@@ -52,6 +53,7 @@ export default function Services({
                                 message: 'czar.dev',
                                 icon2: '',
                                 bgImage: 'sixth',
+                                artist: 'kobu.agency',
                                 language: language,
                             }
                         }/>
@@ -81,6 +83,7 @@ export default function Services({
                                 message: 'QWERTYIOP',
                                 icon2: '',
                                 bgImage: 'first',
+                                artist: 'lucasgeorgewendtfotografia.blogspot.com',
                                 language: language,
                             }
                         }/>
@@ -110,6 +113,7 @@ export default function Services({
                                 message: 'Cumulonimbus',
                                 icon2: '',
                                 bgImage: 'second',
+                                artist: 'instagram.com/ibam_photovideo',
                                 language: language,
                             }
                         }/>
@@ -139,6 +143,7 @@ export default function Services({
                                 message: 'Domo arigato, Mr. Roboto',
                                 icon2: '',
                                 bgImage: 'third',
+                                artist: 'instagram.com/jem.sahagun',
                                 language: language,
                             }
                         }/>

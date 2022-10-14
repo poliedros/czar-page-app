@@ -4,10 +4,10 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 
-export default function ModalCzar() {
+export default function ModalCzar({ show, handleClose }: any) {
     return <>
         <Modal
-            show={ undefined /* this.state.showE */} onHide={ undefined /* this.handleCloseE */}
+            show={ show } onHide={ handleClose }
             size="lg"
             aria-labelledby="contained-modal-title-vcenter"
             centered
@@ -45,7 +45,7 @@ Um sistema de email pronto para ser usado em aplicativos ou paginas, todos os pr
                   </Row>
             </Modal.Body>
             <Modal.Footer>
-              <Button onClick={ undefined /* this.handleCloseE */}>{ /* this.getIcons('ri', 'btniclose') */ } { /* translations[this.props.language].btnclose */ }</Button>{/* <RiCloseCircleLine /> */}
+              <Button onClick={ handleClose }>{ /* this.getIcons('ri', 'btniclose') */ } { /* translations[this.props.language].btnclose */ }</Button>{/* <RiCloseCircleLine /> */}
             </Modal.Footer>
           </Modal>
     </>;

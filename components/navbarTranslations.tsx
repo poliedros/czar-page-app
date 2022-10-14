@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import * as IconsIo from "react-icons/io5";
-import { BsSlashCircleFill } from "react-icons/bs";
+/* import * as IconsIo from "react-icons/io5";
+import { BsSlashCircleFill } from "react-icons/bs"; */
 
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -9,7 +9,8 @@ import Nav from "react-bootstrap/Nav";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 
-import defaultIcons from "../defaultIcons.json";
+//import defaultIcons from "../defaultIcons.json";
+import getIcons from "../functions/getIcons";
 
 export default function NavbarTranslations({
     handleLanguage,
@@ -21,7 +22,7 @@ export default function NavbarTranslations({
     const handleCloseTOC = () => setShowTOC(false);
     const handleShowTOC = () => setShowTOC(true);
 
-    function getIcons(ico: string, name: string) {
+    /* function getIcons(ico: string, name: string) {
         let IconComponent;
 
         if (ico == "io") IconComponent = IconsIo[defaultIcons[name]];
@@ -32,7 +33,7 @@ export default function NavbarTranslations({
         }
 
         return <IconComponent />;
-    }
+    } */
 
     return (
         <>
@@ -42,14 +43,14 @@ export default function NavbarTranslations({
             >
                 <Container>
                     <Nav
-                        className="me-auto navmedia !flex-col"
+                        className="unselectable me-auto navmedia !flex-col"
                         style={{
                             fontFamily: "'M PLUS Code Latin', sans-serif",
                             /* flexDirection: "column", */
                         }}
                     >
                         <div className="text-white">
-                            {getIcons("io", "ilanguage")}
+                            {getIcons("io5", "ilanguage")}
                         </div>
                         {/* <IoLanguageSharp style={{ color: "white" }} /> */}
                         <br />
@@ -105,7 +106,7 @@ export default function NavbarTranslations({
                 onClick={handleShowTOC}
             >
                 <div className="w-[24px] h-[24px]">
-                    {getIcons("io", "ilanguage")}
+                    {getIcons("io5", "ilanguage")}
                 </div>
                 {/* <IoLanguageSharp className="navbuttonmedia" style={{ width: "24px", height: "24px" }} /> */}
             </Button>

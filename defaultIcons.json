@@ -1,4 +1,7 @@
 {
     "ilanguage": "IoLanguageSharp",
-    "imenu": "ImMenu"
+    "imenu": "ImMenu",
+    "iarrowup": "IoIosArrowUp",
+    "iarrowdown": "IoIosArrowDown",
+    "iplus": "BiPlusMedical"
 }

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import * as IconsIm from "react-icons/im";
-import { BsSlashCircleFill } from "react-icons/bs";
+/* import * as IconsIm from "react-icons/im";
+import { BsSlashCircleFill } from "react-icons/bs"; */
 
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -10,7 +10,8 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 
 import translations from "../translations.json";
-import defaultIcons from "../defaultIcons.json";
+//import defaultIcons from "../defaultIcons.json";
+import getIcons from "../functions/getIcons";
 
 export default function NavbarCzar({
     language,
@@ -22,7 +23,7 @@ export default function NavbarCzar({
     const handleCloseMOC = () => setShowMOC(false);
     const handleShowMOC = () => setShowMOC(true);
 
-    function getIcons(ico: string, name: string) {
+    /* function getIcons(ico: string, name: string) {
         let IconComponent;
 
         if (ico == "im") IconComponent = IconsIm[defaultIcons[name]];
@@ -33,7 +34,7 @@ export default function NavbarCzar({
         }
 
         return <IconComponent />;
-    }
+    } */
 
     return (
         <>
@@ -43,7 +44,7 @@ export default function NavbarCzar({
             >
                 <Container>
                     <Nav
-                        className="me-auto navmedia !flex-col"
+                        className="unselectable me-auto navmedia !flex-col"
                         style={{
                             /* flexDirection: "column", */ fontFamily:
                                 "'M PLUS Code Latin', sans-serif",

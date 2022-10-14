@@ -7,6 +7,11 @@
         "es": "Saludos Compa!",
         "pt": "Te desejamos Boas-Vindas!"
     },
+    "greetingmsg": {
+        "en": "We are a small team, but don't underestimate us\nbecause we easily compensate with our\nmotivation, interest and willingness to learn.",
+        "es": "Somos un equipo pequeño, pero no nos subestimes\nporque lo compensamos fácilmente\ncon nuestra motivación, interés y ganas de aprender.",
+        "pt": "Embora possamos parecer um pequeno grupo de desenvolvedores,\nnão se iluda subestimando-nos.\nNossa motivação, interesse e apetite por aprender compensam nosso tamanho."
+    },
 
     "navbar": {
         "start": {
@@ -107,6 +112,291 @@
             "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
             "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
         ]
+    },
+
+    "projectmt": {
+        "en": "Our Projects",
+        "es": "Nuestros Proyectos",
+        "pt": "Nossos Projetos"
+    },
+
+    "projectt": {
+        "en": [
+            "Ad Gallery App",
+            "Personal App for Business Sales"
+        ],
+        "es": [
+            "Aplicación de Exhibición de Anuncios",
+            "Aplicación Personal para Ventas y Entregas"
+        ],
+        "pt": [
+            "Aplicativo Galeria de Anúncios",
+            "Aplicativo de Vendas Personalizado"
+        ]
+    },
+    "projectst": {
+        "en": [
+            "stage pre-Alpha",
+            "stage pre-Alpha"
+        ],
+        "es": [
+            "Etapa Prealfa",
+            "Etapa Prealfa"
+        ],
+        "pt": [
+            "Estágio pre-Alpha",
+            "Estágio pre-Alpha"
+        ]
+    },
+    "projecttmsg": {
+        "en": [
+            "For local commerce is a pratical way to create a \"Virtual Shopping Mall\", seek for ad-clients and show the gallery for viewer-clients.",
+            "This is an app in the form of a list for the customer to choose between the products and send an email with the purchase information."
+        ],
+        "es": [
+            "Proporcionar a las empresas locales una plataforma publicidad virtual como uno Centro Comercial, encuentre anunciantes y exhiba tus productos a los clientes.",
+            "Esta aplicación es basada un catalogo de productos de uno negócio, donde el cliente lista los produtos deseados y uno email es enviado automaticamente."
+        ],
+        "pt": [
+            "Criar uma vitrine de anúncios para o comércio local, os anúnciantes publicam enquanto os usúarios podem fazer buscas nos anúncios.",
+            "Um catálogo de produtos onde o cliente ao finalizar a compra envia a listagem por e-mail para o négocio, simples e prático."
+        ]
+    },
+    "teammt": {
+        "en": "Our Team",
+        "es": "Nuestra Equipo",
+        "pt": "Nossa Equipe"
+    },
+    "teamfounders": {
+        "en": "Founders",
+        "es": "Grupo Creador",
+        "pt": "Fundadores"
+    },
+    "teamrole": {
+        "en": [
+            "Full Stack Programmer and Designer",
+            "Site Reliability Engineer",
+            "Data Analysis Engineer",
+            "Web Support and QA Analyst"
+        ],
+        "es": [
+            "Desarrollador Full Stack y Designer",
+            "Ingeniero de Confiabilidad de Sitios (SRE)",
+            "Ingeniera de Análisis de Datos",
+            "Web Soporte y QA"
+        ],
+        "pt": [
+            "Programador Full Stack e Designer",
+            "Engenheiro de Confiabilidade",
+            "Engenheira e Analista de Dados",
+            "Suporte Web e Analista QA"
+        ]
+    },
+    "teamcv": {
+        "en": [
+            "studied at the UFV",
+            "Graduated from the UFV",
+            "MSc at the UFV",
+            "Graduated from the IF Sudeste MG \n studied at the UFSJ"
+        ],
+        "es": [
+            "estudió en UFV",
+            "Graduado por la UFV",
+            "Mestría en la UFV",
+            "Graduado en el IF Sudeste MG \n estudió en la UFSJ"
+        ],
+        "pt": [
+            "estudou na UFV",
+            "Graduado pela UFV",
+            "Mestranda na UFV",
+            "Graduado no IF Sudeste MG \n estudou na UFSJ"
+        ]
+    },
+    "teamlanguage": {
+        "en": [
+            "Portuguese, English and Spanish",
+            "Portuguese and English",
+            "Portuguese, English and French",
+            "Portuguese and English"
+        ],
+        "es": [
+            "Portugués, Inglés y Español",
+            "Portugués e Inglés",
+            "Portugués, Inglés y Francés",
+            "Portugués e Inglés"
+        ],
+        "pt": [
+            "Português, Inglês e Espanhol",
+            "Português e Inglês",
+            "Português, Inglês e Francês",
+            "Português e Inglês"
+        ]
+    },
+    "teamaddress": {
+        "en": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ],
+        "es": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ],
+        "pt": [
+            "Ciudad Autonóma de Buenos Aires",
+            "Dublin",
+            "Conselheiro Lafaiete",
+            "São João del Rei"
+        ]
+    },
+    "teamcountry": {
+        "en": [
+            "Argentina",
+            "Ireland",
+            "Brazil",
+            "Brazil"
+        ],
+        "es": [
+            "Argentina",
+            "Irlanda",
+            "Brasil",
+            "Brasil"
+        ],
+        "pt": [
+            "Argentina",
+            "Irlanda",
+            "Brasil",
+            "Brasil"
+        ]
+    },
+    "contactmt": {
+        "en": "Contacts",
+        "es": "Contactos",
+        "pt": "Contatos"
+    },
+    "contactilename": {
+        "en": "Write your name here",
+        "es": "Escrebe tu nombre aquí",
+        "pt": "Seu nome"
+    },
+    "contactilemail": {
+        "en": "Enter email",
+        "es": "Introduzca su email aquí",
+        "pt": "Seu e-mail"
+    },
+    "contactiledisclaimer": {
+        "en": "We'll never share your email with anyone else.",
+        "es": "Nunca compartiremos su email con nadie más.",
+        "pt": "Não se preocupe. Seu e-mail não será compartilhado com ninguém."
+    },
+    "contactilemessage": {
+        "en": "What do you want to say to us?",
+        "es": "¿Qué quieres decirnos?",
+        "pt": "O que gostaria de nos dizer?"
+    },
+    "testemailt": {
+        "en": "Test Email",
+        "es": "Email de Prueba",
+        "pt": "E-mail de Teste"
+    },
+    "testemaililmessage": {
+        "en": "Test message to yourself",
+        "es": "Mensaje de prueba para su email",
+        "pt": "Deixe sua mensagem de teste para receber no seu e-mail"
+    },
+    "contactmm": {
+        "en": "Send us an email\nto contact@czar.dev\nor\nUse our email system\nto contact us directly",
+        "es": "Enviános un Email\npara contacto@czar.dev\no\nUse nuestro sistema de email\npara uno contacto directo desde esa página",
+        "pt": "Envie um e-mail\npara contato@czar.dev\nou\nUse nosso sistema de e-mail\ncontactando-nos aqui mesmo"
+    },
+    "aboutmt": {
+        "en": "about our Company,\nabout our Team\nand\nabout our Way",
+        "es": "Sobre nuestro Negócio,\nsobre nuestra Equipo\ny\nsobre Nustra Filosofía",
+        "pt": "Tudo sobre nossa empresa,\nsobre nosso Time\ne\nnossa Visão de Mundo"
+    },
+    "draftmt": {
+        "en": "Drafts",
+        "es": "Borradores",
+        "pt": "Rascunhos"
+    },
+    "conceptmt": {
+        "en": "Concepts",
+        "es": "Conceptos",
+        "pt": "Conceitos"
+    },
+    "conceptmsgs": {
+        "en": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure is a cloud provider."
+        ],
+        "es": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure es provedor cloud."
+        ],
+        "pt": [
+            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+            "Azure é um provedor de Nuvem."
+        ]
+    },
+    "conceptqtrs": {
+        "en": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ],
+        "es": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ],
+        "pt": [
+            "Anderson Ribeiro",
+            "Anderson Ribeiro",
+            "Carlos Zansavio",
+            "Carlos Zansavio"
+        ]
+    },
+
+    "footm": {
+        "en": "Devs",
+        "es": "Desarrollo",
+        "pt": "Desenvolvedores"
+    },
+    "foots": {
+        "en": "Developer Team",
+        "es": "Equipo de Dearrolladores",
+        "pt": "Time de Programadores"
+    },
+    "btnok": {
+        "en": "OK",
+        "es": "Dale",
+        "pt": "Certo"
+    },
+    "btnsendemail": {
+        "en": "Send Email",
+        "es": "Enviar Email",
+        "pt": "Enviar E-mail"
+    },
+    "comingsoon": {
+        "en": "Coming Soon...",
+        "es": "Próximamente...",
+        "pt": "Em Breve..."
+    },
+    "cookie": {
+        "en": "This website uses cookies to enhance the user experience.",
+        "es": "Este sitio web utiliza cookies para mejorar la experiencia del usuario.",
+        "pt": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
     },
 
     "en": {
