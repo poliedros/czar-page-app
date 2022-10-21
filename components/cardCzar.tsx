@@ -22,15 +22,10 @@ export default function CardCzar({ preview }: any) {
 
     trackingPointer(preview, setStyle);
 
-    const [showE, setShowE] = useState(false);
+    const [show, setShow] = useState(false);
 
-    const handleShowE = () => setShowE(true);
-    const handleCloseE = () => setShowE(false);
-
-    const [showAD, setShowAD] = useState(false);
-
-    const handleShowAD = () => setShowAD(true);
-    const handleCloseAD = () => setShowAD(false);
+    const handleShow = () => setShow(true);
+    const handleClose = () => setShow(false);
 
     /* function getOffset(element: any) {
         if (!element.getClientRects().length) {
@@ -94,7 +89,7 @@ export default function CardCzar({ preview }: any) {
                 <div className="photografer2 fixed text-end top-0 right-10" style={{ /* display: "none" / }}><span className="bg-green-600 p-1.5 text-xs">Anderson Mendes</span></div> */}
                 <div
                     className="card card-mt"
-                    onClick={ preview.state == 'E' ? handleShowE : preview.state == 'AD' ? handleShowAD : undefined }
+                    onClick={ handleShow }
                 >
                     <div
                         className={"cont-scroll image-mt " + preview.bgImage}
@@ -214,8 +209,7 @@ export default function CardCzar({ preview }: any) {
             ) : (
                 <></>
             )}
-            <ModalCzar show={ showE } handleClose={ handleCloseE }/>
-            <ModalCzar show={ showAD } handleClose={ handleCloseAD }/>
+            <ModalCzar show={ show } handleClose={ handleClose } state={ preview.state }/>
         </>
     );
 }

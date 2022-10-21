@@ -3,8 +3,9 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
+import ModalCzarBody from './modalCzarBody';
 
-export default function ModalCzar({ show, handleClose }: any) {
+export default function ModalCzar({ show, handleClose, state }: any) {
     return <>
         <Modal
             show={ show } onHide={ handleClose }
@@ -18,6 +19,7 @@ export default function ModalCzar({ show, handleClose }: any) {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
+              <ModalCzarBody state={state} />
               <Row>
               <Col>
                 <h4>{ /* translations[this.props.language].servicemodalt[0] */ }</h4>
