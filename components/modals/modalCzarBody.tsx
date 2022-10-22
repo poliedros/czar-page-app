@@ -1,29 +1,32 @@
-import Modal2 from './modal2';
-import Modal3 from './modal3';
-import Modal4 from './modal4';
-import Modal5 from './modal5';
-import Modal6 from './modal6';
-import Modal7 from './modal7';
-import Modal8 from './modal8';
+
+import ModalEmail from './modalEmail';
+import ModalArtDesign from './modalArtDesign';
+import ModalCloud from './modalCloud';
+import ModalRobot from './modalRobot';
+import ModalHostDomain from './modalHostDomain';
+import ModalAdGallery from './modalAdGallery';
+import ModalBusinessSales from './modalBusinessSales';
+import { useState } from 'react';
+import { Language } from '../languages';
 
 type RenderBodyType = {state : string};
 
-export default function ModalCzarBody({ state }: RenderBodyType) {
+export default function ModalCzarBody({ state }: RenderBodyType, { language }: Language) {
   switch (state) {
-    case 'E':
-      return <Modal2/>;
-    case 'AD':
-      return <Modal3/>;
-    case 'HDS':
-      return <Modal4/>;
-    case 'CD':
-      return <Modal5/>;
-    case 'RS':
-      return <Modal6/>;
-    case 'AGA':
-      return <Modal7/>;
-    case 'PA':
-      return <Modal8/>;
+    case 'Email':
+      return <ModalEmail language={language}/>;
+    case 'ArtDesign':
+      return <ModalArtDesign language={language}/>;
+    case 'HostDomain':
+      return <ModalHostDomain language={language}/>;
+    case 'Cloud':
+      return <ModalCloud language={language}/>;
+    case 'Robot':
+      return <ModalRobot language={language}/>;
+    case 'AdGallery':
+      return <ModalAdGallery language={language}/>;
+    case 'BusinessSales':
+      return <ModalBusinessSales language={language}/>;
     default:
       console.log("não entrou em nenhuma condição");
       break;

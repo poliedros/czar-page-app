@@ -12,8 +12,9 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Button from "react-bootstrap/Button";
 
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function Start({ language }: { language: "en" | "es" | "pt" }) {
+export default function Start({ language }: Language) {
     const [showOC, setShowOC] = useState(true);
 
     const handleShowOC = () => setShowOC(true);

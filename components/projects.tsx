@@ -5,12 +5,9 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function Projects({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function Projects({ language }: Language) {
     return (
         <>
             <div className="App-header" id="projects">
@@ -55,7 +52,7 @@ export default function Projects({
                         >
                             <CardCzar
                                 preview={{
-                                    state: "AG",
+                                    state: "AdGallery",
                                     icon: "IoGrid",
                                     iconType: "io5",
                                     type: "project",
@@ -68,22 +65,6 @@ export default function Projects({
                                     language: language,
                                 }}
                             />
-                            {/* <div className="card" onClick={undefined /* this.handleShowG /}>
-                            <div className="image fifth">
-                                <div className="screen"></div>
-                                <div className="text text-end p-4" style={{ fontFamily: "'Source Sans Pro', sans-serif", /* textAlign: "end", padding: "1rem" / }}>
-                                    <h1 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}>{/* <IoGrid /> /}<br />{/* translations[this.props.language].projectt[0] /}</h1>
-                                    <h3>{/* translations[this.props.language].projectst[0] /}</h3>
-                                    <h5>
-                                        {/* translations[this.props.language].projecttmsg[0] /}
-                                        <br />
-                                        {/* <a href="https://poliedros.github.io/catalog-app/">
-                                project example
-                              </a> /}
-                                    </h5>
-                                </div>
-                            </div>
-                        </div> */}
                         </Col>
                         <Col
                             xs={12}
@@ -92,7 +73,7 @@ export default function Projects({
                         >
                             <CardCzar
                                 preview={{
-                                    state: "PS",
+                                    state: "BusinessSales",
                                     icon: "IoListCircleSharp",
                                     iconType: "io5",
                                     type: "project",
@@ -105,18 +86,6 @@ export default function Projects({
                                     language: language,
                                 }}
                             />
-                            {/* <div className="card" onClick={undefined /* this.handleShowS /}>
-                            <div className="image fourth">
-                                <div className="screen"></div>
-                                <div className="text text-end p-4" style={{ fontFamily: "'Source Sans Pro', sans-serif", /* textAlign: "end", padding: "1rem" / }}>
-                                    <h2 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}>{/* <IoListCircleSharp /> /}<br />{/* translations[this.props.language].projectt[1] /}</h2>
-                                    <h3>{/* translations[this.props.language].projectst[1] /}</h3>
-                                    <h5>
-                                        {/* translations[this.props.language].projecttmsg[1] /}
-                                    </h5>
-                                </div>
-                            </div>
-                        </div> */}
                         </Col>
                     </Row>
                 </Container>

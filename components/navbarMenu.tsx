@@ -12,12 +12,9 @@ import Button from "react-bootstrap/Button";
 import translations from "../translations.json";
 //import defaultIcons from "../defaultIcons.json";
 import getIcons from "../functions/getIcons";
+import { Language } from "./languages";
 
-export default function NavbarCzar({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function NavbarCzar({ language }: Language) {
     const [showMOC, setShowMOC] = useState(false);
 
     const handleCloseMOC = () => setShowMOC(false);

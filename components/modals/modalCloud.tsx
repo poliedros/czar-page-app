@@ -1,6 +1,7 @@
 import { Button, Col, Row } from "react-bootstrap";
+import { Language } from "../languages";
 
-export default function Modal3() {
+export default function ModalCloud({ language }: Language) {
     return <>
                 <Row>
                     <Col>

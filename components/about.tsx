@@ -1,8 +1,9 @@
 import Container from "react-bootstrap/Container";
 
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function About({ language }: { language: "en" | "es" | "pt" }) {
+export default function About({ language }: Language) {
     return (
         <>
             <div

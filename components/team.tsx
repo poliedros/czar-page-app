@@ -6,8 +6,9 @@ import Col from "react-bootstrap/Col";
 
 import getIcons from "../functions/getIcons";
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function Team({ language }: { language: "en" | "es" | "pt" }) {
+export default function Team({ language }: Language) {
     return (
         <>
             <div className="App-header" id="team">

@@ -1,7 +1,8 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { FaPaperPlane } from "react-icons/fa";
+import { Language } from "../languages";
 
-export default function Modal2() {
+export default function ModalEmail({ language }: Language) {
     return <>
                 <Row>
                     <Col>

@@ -209,7 +209,7 @@ export default function CardCzar({ preview }: any) {
             ) : (
                 <></>
             )}
-            <ModalCzar show={ show } handleClose={ handleClose } state={ preview.state }/>
+            <ModalCzar show={ show } handleClose={ handleClose } state={ preview.state } language={preview.language}/>
         </>
     );
 }

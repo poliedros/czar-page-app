@@ -1,10 +1,7 @@
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function Contacts({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function Contacts({ language }: Language) {
     return (
         <>
             <div className="App-header" id="drafts">

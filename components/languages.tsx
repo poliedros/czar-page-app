@@ -1,0 +1,1 @@
+export type Language = {language: "en" | "es" | "pt"};

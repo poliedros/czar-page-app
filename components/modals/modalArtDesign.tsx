@@ -1,4 +1,6 @@
-export default function Modal6() {
+import { Language } from "../languages";
+
+export default function ModalArtDesign({ language }: Language) {
     return <>
                 <h4>{/* translations[this.props.language].comingsoon */}</h4>
                 <p>

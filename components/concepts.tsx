@@ -3,12 +3,9 @@ import Container from "react-bootstrap/Container";
 import getIconsByName from "../functions/getIconsByName";
 
 import translations from "../translations.json";
+import { Language } from "./languages";
 
-export default function Concepts({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function Concepts({ language }: Language) {
     return (
         <>
             <div className="App-header" id="concepts">

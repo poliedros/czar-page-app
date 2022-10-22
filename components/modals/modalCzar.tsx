@@ -4,8 +4,9 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import ModalCzarBody from './modalCzarBody';
+import { Language } from '../languages';
 
-export default function ModalCzar({ show, handleClose, state }: any) {
+export default function ModalCzar({ show, handleClose, state }: any, { language }: Language) {
     return <>
         <Modal
             show={ show } onHide={ handleClose }
@@ -19,7 +20,7 @@ export default function ModalCzar({ show, handleClose, state }: any) {
               </Modal.Title>
             </Modal.Header>
             <Modal.Body>
-              <ModalCzarBody state={state} />
+              <ModalCzarBody state={state} language={language}/>
               <Row>
               <Col>
                 <h4>{ /* translations[this.props.language].servicemodalt[0] */ }</h4>

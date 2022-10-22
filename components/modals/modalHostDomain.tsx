@@ -1,4 +1,6 @@
-export default function Modal8() {
+import { Language } from "../languages";
+
+export default function ModalHostDomain({ language }: Language) {
     return <>
                 <h4>{/* translations[this.props.language].comingsoon */}</h4>
                 <p>

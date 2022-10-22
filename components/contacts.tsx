@@ -8,12 +8,9 @@ import Form from "react-bootstrap/Form";
 import translations from "../translations.json";
 
 import getIconsByName from "../functions/getIconsByName";
+import { Language } from "./languages";
 
-export default function Contacts({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function Contacts({ language }: Language) {
     return (
         <>
             <div

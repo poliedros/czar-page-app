@@ -1,6 +1,7 @@
 import { Col, Row, Table } from "react-bootstrap";
+import { Language } from "../languages";
 
-export default function Modal4() {
+export default function ModalRobot({ language }: Language) {
     return <>
                 <Row>
                     <Col>
