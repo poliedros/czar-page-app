@@ -1,0 +1,21 @@
+<Modal
+            show={false /* this.state.showHD */} onHide={undefined /* this.handleCloseHD */}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <h2 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}><MdDomainVerification /> {/* translations[this.props.language].servicet[4] */}</h2>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <h4>{/* translations[this.props.language].comingsoon */}</h4>
+                <p>
+                    {/* translations[this.props.language].comingsoonmsg */}
+                </p>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button onClick={undefined /* this.handleCloseHD */}>{/* this.getIcons('ri', 'btniclose') */} {/* translations[this.props.language].btnclose */}</Button>
+            </Modal.Footer>
+        </Modal>

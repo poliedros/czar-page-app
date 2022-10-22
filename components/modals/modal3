@@ -1,0 +1,43 @@
+<Modal
+            show={false /* this.state.showC */} onHide={undefined /* this.handleCloseC */}
+            size="lg"
+            aria-labelledby="contained-modal-title-vcenter"
+            centered
+        >
+            <Modal.Header closeButton>
+                <Modal.Title id="contained-modal-title-vcenter">
+                    <h2 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}><RiCloudFill /> {/* translations[this.props.language].servicet[1] */}</h2>
+                </Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+                <Row>
+                    <Col>
+                        <h4>{/* translations[this.props.language].servicemodalt[1] */}</h4>
+                        <h6>{/* translations[this.props.language].servicemodalmsg[1] */}</h6>
+                    </Col>
+                    <Col>
+                        <h4>{/* translations[this.props.language].cloudservicedescription */}</h4>
+                        <input type="file" id="input-file-now-custom-2" className="file-upload" data-height="500"
+                            /* onChange={(e) => {
+
+                                const files = e.target.files;
+                                const formData = new FormData();
+                                formData.append("file", files[0]);
+
+                                for (var key of formData.entries()) {
+                                    console.log(key[0] + ', ' + key[1]);
+                                }
+
+                                if (!files) return;
+                                if (files.length <= 0) return;
+
+                                this.setState({ file: files[0] });
+                            }} */ />
+                        <Button onClick={undefined /* this.handleClick */}>{/* translations[this.props.language].btnsendfile */}</Button>
+                    </Col>
+                </Row>
+            </Modal.Body>
+            <Modal.Footer>
+                <Button onClick={undefined /* this.handleCloseC */}>{/* this.getIcons('ri', 'btniclose') */} {/* translations[this.props.language].btnclose */}</Button>
+            </Modal.Footer>
+        </Modal>

@@ -5,7 +5,7 @@ import translations from "../translations.json";
 import getIconsByName from "../functions/getIconsByName";
 import trackingPointer from "../functions/trackingPointer";
 
-import ModalCzar from "./modalCzar";
+import ModalCzar from "./modals/modalCzar";
 
 /* interface Preview {
     state: string;

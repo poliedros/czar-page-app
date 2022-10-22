@@ -1,5 +1,7 @@
 import CardCzar from './cardCzar';
 
+import { useReducer } from 'react';
+
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -9,11 +11,58 @@ import { MdEmail, MdDomainVerification } from "react-icons/md";
 
 import translations from "../translations.json";
 
-export default function Services({
-    language,
-}: {
-    language: "en" | "es" | "pt";
-}) {
+export default function Services({ language }: { language: "en" | "es" | "pt" }) {
+
+    const BLOCK = 'BLOCK';
+    const SEE_AVAILABILITY = 'SEE_AVAILABILITY';
+
+    const modalInitialState = {
+        heading: '',
+        content: '',
+        confirmButtonText: '',
+        confirmButtonAction: '',
+        show: false
+    };
+
+    const modalReducer = (state: any, action: any) => {
+  
+        switch (action.type) {
+              case BLOCK:
+                return { 
+                    heading: "Block User.",
+                    content: "Are you sure you want to block user?",
+                    confirmButtonText: "Block",
+                    confirmButtonAction: () => console.log('User blocked'),
+                    show: true
+                  }
+              case SEE_AVAILABILITY:
+                return { 
+                    heading: "See Availability",
+                    content: "Below is availability. Select a time and date that works for you.",
+                    confirmButtonText: "Request Session",
+                    confirmButtonAction: () => console.log('Session(s) requested.'),
+                    show: true
+                  }
+
+  
+        }
+    };
+
+    const [modalState, modalDispatch] = useReducer(modalReducer, modalInitialState);
+
+    const dispatchModalAction = (action: string) => {
+        modalDispatch({
+          type: action
+        })
+    }
+
+    const closeModalHandler = () => {
+
+        modalDispatch({
+            type: CLOSE
+        })
+    }
+
     return <>
         <div className="App-header" id="services" /*style={{ backgroundColor: "#282c34", minHeight: "100vh" }}*/>
             {/* <h1>Email Sercive | for your business | for your code</h1>
@@ -146,7 +195,7 @@ export default function Services({
                                 artist: 'instagram.com/jem.sahagun',
                                 language: language,
                             }
-                        }/>
+                        }/> 
                         
                         {/* <div className="card" onClick={undefined /* this.handleShowR /}>
                             <div className="image third">
