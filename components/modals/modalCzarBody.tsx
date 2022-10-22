@@ -8,12 +8,9 @@ import ModalBusinessSales from "./projectBusinessSales";
 import { useState } from "react";
 import { Language } from "../languages";
 
-type RenderBodyType = { state: string };
+type RenderBodyType = { state: string; language: Language };
 
-export default function ModalCzarBody(
-  { state }: RenderBodyType,
-  { language }: Language
-) {
+export default function ModalCzarBody({ state, language }: RenderBodyType) {
   switch (state) {
     case "Email":
       return <ModalEmail language={language} />;

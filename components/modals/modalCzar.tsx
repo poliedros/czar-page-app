@@ -5,10 +5,21 @@ import { Language } from "../languages";
 import translations from "../../functions/translations";
 import { RiCloseCircleLine } from "react-icons/ri";
 
-export default function ModalCzar(
-  { show, handleClose, state, title }: any,
-  { language }: Language
-) {
+type ObjType = {
+  show: any;
+  handleClose: any;
+  state: any;
+  title: any;
+  language: Language;
+};
+
+export default function ModalCzar({
+  show,
+  handleClose,
+  state,
+  title,
+  language,
+}: ObjType) {
   return (
     <>
       <Modal
