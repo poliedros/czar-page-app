@@ -399,6 +399,14 @@
         "pt": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
     },
 
+    "btnclose": {
+        "en": "Close",
+        "es": "Cerrar",
+        "pt": "Fechar"
+    },
+
+
+
     "en": {
         "greetingst": "Welcome Friend!",
         "navbar": [
@@ -516,7 +524,7 @@
         "btncancel": "Cancel",
         "btndisagree": "I disagree!",
         "btnsendemail": "Send Email",
-        "btnclose": "Close",
+        "btnclose": "Close", 
         "btnsendfile": "Upload File",
         "comingsoon": "Coming Soon...",
         "comingsoonmsg": "We are working hard to provide to you this new product model.",

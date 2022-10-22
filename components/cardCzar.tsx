@@ -1,6 +1,6 @@
 import React, { /* useEffect, */ useState } from "react";
 
-import translations from "../translations.json";
+import translations from "./../functions/translations";
 
 import getIconsByName from "../functions/getIconsByName";
 import trackingPointer from "../functions/trackingPointer";
@@ -18,16 +18,16 @@ import ModalCzar from "./modals/modalCzar";
 } */
 
 export default function CardCzar({ preview }: any) {
-    const [style, setStyle] = useState<any>(undefined);
+  const [style, setStyle] = useState<any>(undefined);
 
-    trackingPointer(preview, setStyle);
+  trackingPointer(preview, setStyle);
 
-    const [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
 
-    const handleShow = () => setShow(true);
-    const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  const handleClose = () => setShow(false);
 
-    /* function getOffset(element: any) {
+  /* function getOffset(element: any) {
         if (!element.getClientRects().length) {
             return { top: 0, left: 0 };
         }
@@ -81,103 +81,107 @@ export default function CardCzar({ preview }: any) {
         });
     }, []); */
 
-    return (
+  return (
+    <>
+      {preview.type === "service" ? (
         <>
-            {preview.type === "service" ? (
-                <>
-                {/* <div className="card2 fixed text-end top-0 right-3"><span className="bg-black p-1.5 text-xs" style={{ writingMode: "tb-rl" }}>Mendes</span></div>
+          {/* <div className="card2 fixed text-end top-0 right-3"><span className="bg-black p-1.5 text-xs" style={{ writingMode: "tb-rl" }}>Mendes</span></div>
                 <div className="photografer2 fixed text-end top-0 right-10" style={{ /* display: "none" / }}><span className="bg-green-600 p-1.5 text-xs">Anderson Mendes</span></div> */}
-                <div
-                    className="card card-mt"
-                    onClick={ handleShow }
-                >
-                    <div
-                        className={"cont-scroll image-mt " + preview.bgImage}
-                        style={style}
-                    >
-                        <div className="screen-mt">
-                        <div className="p-4">
-                            { getIconsByName(preview.iconType, preview.icon) }
-                        </div>
-                        <div className="photografer fixed text-end top-0 right-3 invisible"><span className="bg-black p-1 m-1 text-[.5rem]" style={{ writingMode: "vertical-rl" }}>{ preview.artist }</span></div>
-                        {/* <div className="flex justify-center"><span className="backdrop-blur-lg z-10 p-1">{ getIconsByName("io5", "IoChevronUp") }</span></div> */}
-                        <div
-                            className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
-                            style={{
-                                fontFamily: "'Source Sans Pro', sans-serif",
-                            }}
-                        >
-                            <h1
-                                style={{
-                                    fontFamily:
-                                        "'Ubuntu Condensed', sans-serif",
-                                }}
-                            >
-                                {
-                                    translations[preview.type + "t"][
-                                        preview.language
-                                    ][preview.pos]
-                                }
-                            </h1>
-                            <h6
-                                className="text-[#e2e8f0] drop-shadow-[1px_1px_2px_black]"
-                                style={{
-                                    fontFamily:
-                                        "'M PLUS Code Latin', sans-serif",
-                                }}
-                            >
-                                {preview.message}
-                                {/* <GiPaintBrush /> */}
-                            </h6>
-                            <h5>
-                                {
-                                    translations[preview.type + "st"][
-                                        preview.language
-                                    ][preview.pos]
-                                }
-                            </h5>
-                            {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
-                            {/* <div className="adown flex justify-center invisible"><span className="backdrop-blur-sm z-10 p-1">{ getIconsByName("io5", "IoChevronDown") }</span></div> */}
-                        </div>
-                        </div>
-                        {/* <div className="adown flex justify-center invisible"><span className="backdrop-blur-sm z-10 p-1">{ getIconsByName("io5", "IoChevronDown") }</span></div> */}
-                    </div>
+          <div className="card card-mt" onClick={handleShow}>
+            <div
+              className={"cont-scroll image-mt " + preview.bgImage}
+              style={style}
+            >
+              <div className="screen-mt">
+                <div className="p-4">
+                  {getIconsByName(preview.iconType, preview.icon)}
                 </div>
-                
-                </>
-            ) : preview.type === "project" ? (
+                <div className="photografer fixed text-end top-0 right-3 invisible">
+                  <span
+                    className="bg-black p-1 m-1 text-[.5rem]"
+                    style={{ writingMode: "vertical-rl" }}
+                  >
+                    {preview.artist}
+                  </span>
+                </div>
+                {/* <div className="flex justify-center"><span className="backdrop-blur-lg z-10 p-1">{ getIconsByName("io5", "IoChevronUp") }</span></div> */}
                 <div
-                    className="card card-mt"
-                    onClick={undefined /* this.handleShowAD */}
+                  className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
+                  style={{
+                    fontFamily: "'Source Sans Pro', sans-serif",
+                  }}
                 >
-                    <div
-                        className={"image-mt " + preview.bgImage}
-                        style={style}
-                    >
-                        <div className="screen-mt">
-                        <div className="p-4">
-                            {getIconsByName(preview.iconType, preview.icon)}
-                        </div>
-                        <div className="photografer fixed text-end top-0 right-3 invisible"><span className="bg-black p-1 m-1 text-[.5rem]" style={{ writingMode: "vertical-rl" }}>{ preview.artist }</span></div>
-                        <div
-                            className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
-                            style={{
-                                fontFamily: "'Source Sans Pro', sans-serif",
-                            }}
-                        >
-                            <h1
-                                style={{
-                                    fontFamily:
-                                        "'Ubuntu Condensed', sans-serif",
-                                }}
-                            >
-                                {
-                                    translations[preview.type + "t"][
-                                        preview.language
-                                    ][preview.pos]
-                                }
-                            </h1>
-                            {/* <h6
+                  <h1
+                    style={{
+                      fontFamily: "'Ubuntu Condensed', sans-serif",
+                    }}
+                  >
+                    {translations(
+                      preview.type + "t",
+                      preview.language,
+                      preview.pos
+                    )}
+                  </h1>
+                  <h6
+                    className="text-[#e2e8f0] drop-shadow-[1px_1px_2px_black]"
+                    style={{
+                      fontFamily: "'M PLUS Code Latin', sans-serif",
+                    }}
+                  >
+                    {preview.message}
+                    {/* <GiPaintBrush /> */}
+                  </h6>
+                  <h5>
+                    {translations(
+                      preview.type + "st",
+                      preview.language,
+                      preview.pos
+                    )}
+                  </h5>
+                  {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
+                  {/* <div className="adown flex justify-center invisible"><span className="backdrop-blur-sm z-10 p-1">{ getIconsByName("io5", "IoChevronDown") }</span></div> */}
+                </div>
+              </div>
+              {/* <div className="adown flex justify-center invisible"><span className="backdrop-blur-sm z-10 p-1">{ getIconsByName("io5", "IoChevronDown") }</span></div> */}
+            </div>
+          </div>
+        </>
+      ) : preview.type === "project" ? (
+        <div
+          className="card card-mt"
+          onClick={undefined /* this.handleShowAD */}
+        >
+          <div className={"image-mt " + preview.bgImage} style={style}>
+            <div className="screen-mt">
+              <div className="p-4">
+                {getIconsByName(preview.iconType, preview.icon)}
+              </div>
+              <div className="photografer fixed text-end top-0 right-3 invisible">
+                <span
+                  className="bg-black p-1 m-1 text-[.5rem]"
+                  style={{ writingMode: "vertical-rl" }}
+                >
+                  {preview.artist}
+                </span>
+              </div>
+              <div
+                className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
+                style={{
+                  fontFamily: "'Source Sans Pro', sans-serif",
+                }}
+              >
+                <h1
+                  style={{
+                    fontFamily: "'Ubuntu Condensed', sans-serif",
+                  }}
+                >
+                  {translations(
+                    preview.type + "t",
+                    preview.language,
+                    preview.pos
+                  )}
+                </h1>
+                {/* <h6
                                 className="text-[#e2e8f0] drop-shadow-[1px_1px_2px_black]"
                                 style={{
                                     fontFamily:
@@ -187,29 +191,35 @@ export default function CardCzar({ preview }: any) {
                                 {preview.message}
                                 {/* <GiPaintBrush /> /}
                             </h6> */}
-                            <h4>
-                                {
-                                    translations[preview.type + "st"][
-                                        preview.language
-                                    ][preview.pos]
-                                }
-                            </h4>
-                            <h6>
-                                {
-                                    translations[preview.type + "tmsg"][
-                                        preview.language
-                                    ][preview.pos]
-                                }
-                            </h6>
-                            {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            ) : (
-                <></>
-            )}
-            <ModalCzar show={ show } handleClose={ handleClose } state={ preview.state } language={preview.language}/>
-        </>
-    );
+                <h4>
+                  {translations(
+                    preview.type + "st",
+                    preview.language,
+                    preview.pos
+                  )}
+                </h4>
+                <h6>
+                  {translations(
+                    preview.type + "tmsg",
+                    preview.language,
+                    preview.pos
+                  )}
+                </h6>
+                {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
+              </div>
+            </div>
+          </div>
+        </div>
+      ) : (
+        <></>
+      )}
+      <ModalCzar
+        show={show}
+        handleClose={handleClose}
+        state={preview.state}
+        language={preview.language}
+        title={translations(preview.type + "t", preview.language, preview.pos)}
+      />
+    </>
+  );
 }
