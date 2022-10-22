@@ -1,23 +1,29 @@
-
+import Modal2 from './modal2';
+import Modal3 from './modal3';
+import Modal4 from './modal4';
+import Modal5 from './modal5';
+import Modal6 from './modal6';
+import Modal7 from './modal7';
+import Modal8 from './modal8';
 
 type RenderBodyType = {state : string};
 
 export default function ModalCzarBody({ state }: RenderBodyType) {
   switch (state) {
     case 'E':
-      return <h2>E</h2>;
+      return <Modal2/>;
     case 'AD':
-      return <h2>AD</h2>;
+      return <Modal3/>;
     case 'HDS':
-      return <h2>HDS</h2>;
+      return <Modal4/>;
     case 'CD':
-      return <h2>CD</h2>;
+      return <Modal5/>;
     case 'RS':
-      return <h2>RS</h2>;
+      return <Modal6/>;
     case 'AGA':
-      return <h2>AGA</h2>;
+      return <Modal7/>;
     case 'PA':
-      return <h2>PA</h2>;
+      return <Modal8/>;
     default:
       console.log("não entrou em nenhuma condição");
       break;

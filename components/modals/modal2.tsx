@@ -1,15 +1,8 @@
-<Modal
-            show={ showE } onHide={ handleCloseE }
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    <h2 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}><MdEmail /> {/* translations[this.props.language].servicet[0] */}</h2>
-                </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
+import { Button, Col, Form, Row } from "react-bootstrap";
+import { FaPaperPlane } from "react-icons/fa";
+
+export default function Modal2() {
+    return <>
                 <Row>
                     <Col>
                         <h4>{/* translations[this.props.language].servicemodalt[0] */}</h4>
@@ -35,8 +28,5 @@ Um sistema de email pronto para ser usado em aplicativos ou paginas, todos os pr
                         </Form>
                     </Col>
                 </Row>
-            </Modal.Body>
-            <Modal.Footer>
-                <Button onClick={undefined /* this.handleCloseE */}>{/* this.getIcons('ri', 'btniclose') */} {/* translations[this.props.language].btnclose */}</Button>{/* <RiCloseCircleLine /> */}
-            </Modal.Footer>
-        </Modal>
+                </>
+}

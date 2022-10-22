@@ -1,15 +1,7 @@
-<Modal
-            show={false /* this.state.showR */} onHide={undefined /* this.handleCloseR */}
-            size="lg"
-            aria-labelledby="contained-modal-title-vcenter"
-            centered
-        >
-            <Modal.Header closeButton>
-                <Modal.Title id="contained-modal-title-vcenter">
-                    <h2 style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}><RiRobotFill /> {/* translations[this.props.language].servicet[2] */}</h2>
-                </Modal.Title>
-            </Modal.Header>
-            <Modal.Body>
+import { Col, Row, Table } from "react-bootstrap";
+
+export default function Modal4() {
+    return <>
                 <Row>
                     <Col>
                         <h4>{/* translations[this.props.language].servicemodalt[2] */}</h4>
@@ -53,8 +45,5 @@
                         </div>
                     </Col>
                 </Row>
-            </Modal.Body>
-            <Modal.Footer>
-                <Button onClick={undefined /* this.handleCloseR */}>{/* this.getIcons('ri', 'btniclose') */} {/* translations[this.props.language].btnclose */}</Button>
-            </Modal.Footer>
-        </Modal>
+            </>
+}
