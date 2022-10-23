@@ -4,10 +4,10 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-import translations from "../translations.json";
+import translations from "../functions/translations";
 import { Language } from "./languages";
 
-export default function Projects({ language }: Language) {
+export default function Projects({ language }: { language: Language }) {
   return (
     <>
       <div className="App-header" id="projects">
@@ -20,7 +20,7 @@ export default function Projects({ language }: Language) {
                   "'Ubuntu Condensed', sans-serif" /* textTransform: "uppercase", letterSpacing: ".3rem", margin: "1.5rem 0" */,
               }}
             >
-              {translations.projectmt[language]}
+              {translations("projectmt", language)}
             </h3>
 
             <Col

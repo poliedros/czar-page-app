@@ -467,6 +467,16 @@
         "es": "Robot de noticias",
         "pt": "Robô de notícias"   
     },
+    "sectionabout": {
+        "en": "CZAR Devs is currently in an embryonic enterprise stage - the kick-off came from the founders after establishing a small range of ideas to solve common problems for small businesses. We currently work remotely from 3 different countries and so we added more members migrating to CZAR+ Devs. Our focus are in to manage the flow of information in the business such as email system management, file management like cloud service and automatization of process to catch and delivery information. In our projects that we develop based on the claims of companies/owners, the idea is to guide managers to have a better experience to organize information and the work cycle.",
+        "es": "",
+        "pt": ""
+    },
+    "sectiongreetings": {
+        "en": "We are looking for people or companies interested in simple and focused projects or services to solve problems for companies, organizations or communities.",
+        "es": "",
+        "pt": ""
+    },
 
 
 
