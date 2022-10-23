@@ -1,10 +1,6 @@
 import { Language } from "../languages";
+import translations from "../../functions/translations";
 
-export default function ModalHostDomain({ language }: Language) {
-    return <>
-                <h4>{/* translations[this.props.language].comingsoon */}</h4>
-                <p>
-                    {/* translations[this.props.language].comingsoonmsg */}
-                </p>
-            </>
+export default function ModalHostDomain({ language }: { language: Language }) {
+  return <p> {translations("modalHostDomainContent", language)} </p>;
 }

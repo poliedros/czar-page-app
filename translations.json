@@ -405,6 +405,75 @@
         "pt": "Fechar"
     },
 
+    "modalArtDesignContent": {
+        "en": "A website is the gateway to your company. Nowadays, people look online first before purchasing a product or service. CZAR+ can help you to expose your business on the internet in order to attract more customers with a more present and professional.",
+        "es": "Un sitio web es la puerta de entrada a su empresa. Hoy en día, las personas primero buscan en línea antes de comprar un producto o servicio. CZAR+ puede ayudarlo a exponer su negocio en Internet para atraer más clientes con una imagen más actual y profesional",
+        "pt": "Um site é a porta de entrada para sua empresa. Atualmente, as pessoas procuram primeiro online antes de adquirir um produto ou serviço. A CZAR+ pode te ajudar a expor seu negócio na internet de forma a atrair mais clientes com uma imagem mais presente e profissional."
+    },
+
+    "modalHostDomainContent": {
+        "en": "We provide the infrastructure needed to keep your application up and running.",
+        "es": "Proporcionamos la infraestructura necesaria para mantener su aplicación en funcionamiento.",
+        "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável"
+    },
+
+    "servicemodalt": {
+        "en": [
+            "Send Emails never was so easy",
+            "Save information in a clean and simple way",
+            "It process data all time"
+        ],
+        "es": [
+            "Envia mails nunca foi tan fácil",
+            "Guardar informaciones de una forma segura, limpia y sensilla",
+            "Datos estan siendo procesados todo el tiempo"
+        ],
+        "pt": [
+            "Mandar E-mails nunca foi tão fácil",
+            "Armazene informações de forma limpa e prática",
+            "Processando dados todo o tempo"
+        ]
+    },
+
+    "servicemodalmsg":{
+        "en":[
+            "Send an email to yoursel to how our system is working",
+            "Send an image and recive it's url - this image expire past 2 days",
+            "Look the data processed by our robot in table in the right"
+        ],
+        "es":[
+            "Enviate un mail para ti mismo, para que vea nuestro sistema en funcionamiento",
+            "Aramazena una imagen en la cloud y recibí la url de esa imagen - la imagen aspira despúes de 2 días",
+            "Mira lo que proceso nuestro robot en la tabla a la derecha"
+        ],
+        "pt":[
+            "Envie um e-mail pra si mesmo para ver nosso sistema de e-mail funcionando",
+            "Insira uma imagem e receba a url da mesma - a imagem tem duração de 2 dias",
+            "Veja o que já foi processado pelo nosso robô a direita"
+        ]
+    },
+    "cloudservicedescription":{
+        "en": "Image upload",
+        "es": "Carga de Imagen",
+        "pt": "Subir imagem"
+    },
+    "btnsendfile":{
+        "en": "Upload File",
+        "es": "Subir Archivo",
+        "pt": "Subir Arquivo"
+    },
+    "newsrobot": {
+        "en": "News bot",
+        "es": "Robot de noticias",
+        "pt": "Robô de notícias"   
+    },
+
+
+
+
+
+
+
 
 
     "en": {

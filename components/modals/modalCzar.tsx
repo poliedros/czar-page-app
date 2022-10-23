@@ -39,13 +39,7 @@ export default function ModalCzar({
         <Modal.Body>
           <ModalCzarBody state={state} language={language} />
         </Modal.Body>
-        <Modal.Footer>
-          {language}
-          <Button onClick={handleClose}>
-            {translations("btnclose", language)}
-            <RiCloseCircleLine />
-          </Button>
-        </Modal.Footer>
+        <Modal.Footer></Modal.Footer>
       </Modal>
     </>
   );
