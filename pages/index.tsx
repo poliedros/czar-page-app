@@ -7,11 +7,14 @@ const Home: NextPage = () => {
     <div>
       <Head>
         <title>Czar+</title>
-        <meta name="description" content="Czar+ Page" />
+        <meta
+          name="CZAR+ is a software company with a specialized team to develop the right solution for your business."
+          content="Czar+ Page"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <CzIntro /> 
+      <CzIntro />
     </div>
   );
 };
