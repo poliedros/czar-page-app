@@ -7,6 +7,7 @@ import Col from "react-bootstrap/Col";
 import getIcons from "../functions/getIcons";
 import translations from "../translations.json";
 import { Language } from "./languages";
+import getIconsByName from "../functions/getIconsByName";
 
 export default function Team({ language }: { language: Language }) {
   return (
@@ -32,7 +33,7 @@ export default function Team({ language }: { language: Language }) {
             <Col
               md={6}
               style={{
-                /* height: "75vh", */ backgroundColor: "green",
+                backgroundColor: "green",
               }}
             >
               <Row
@@ -110,6 +111,21 @@ export default function Team({ language }: { language: Language }) {
                       alt=""
                       className="w-25 h-35" /* style={{ width: '25px', height: '35px' }} */
                     />
+                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
+                      {getIconsByName("io", "IoLogoLinkedin")}
+                    </a>
+                    &nbsp;
+                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
+                      {getIconsByName("bs", "BsMedium")}
+                    </a>
+                    &nbsp;
+                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
+                      {getIconsByName("bs", "BsTwitter")}
+                    </a>
+                    &nbsp;
+                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
+                      {getIconsByName("bs", "BsYoutube")}
+                    </a>
                   </div>
                 </Col>
                 <Col
@@ -175,6 +191,9 @@ export default function Team({ language }: { language: Language }) {
                         ][0] /* translations[this.props.language].teamaddress[0] */
                       }
                     </h6>
+                    <a href="https://www.linkedin.com/in/anderson-mendes-ribeiro/">
+                      {getIconsByName("io", "IoLogoLinkedin")}
+                    </a>
                     <Image
                       src={"" /* process.env.PUBLIC_URL + '/ar.svg' */}
                       alt=""
@@ -196,7 +215,10 @@ export default function Team({ language }: { language: Language }) {
             </Col>
             <Col
               md={6}
-              className="bg-green" /* style={{ /* height: "75vh", / backgroundColor: "green" }} */
+              className="bg-green"
+              style={{
+                backgroundColor: "green",
+              }}
             >
               <Row className="h-[5vh]" /* style={{ height: "5vh" }} */>
                 <Col className="flex items-center">
@@ -289,6 +311,9 @@ export default function Team({ language }: { language: Language }) {
                       alt=""
                       className="w-50 h-46" /* style={{ width: '50px', height: '46px' }} */
                     />
+                    <a href="https://www.linkedin.com/in/daniela-souza-gomes/">
+                      {getIconsByName("io", "IoLogoLinkedin")}
+                    </a>
                   </div>
                 </Col>
                 <Col
@@ -359,6 +384,9 @@ export default function Team({ language }: { language: Language }) {
                       alt=""
                       className="w-50 h-46" /* style={{ width: '50px', height: '46px' }} */
                     />
+                    <a href="https://www.linkedin.com/in/lucas-abreu-417680238/">
+                      {getIconsByName("io", "IoLogoLinkedin")}
+                    </a>
                   </div>
                 </Col>
               </Row>

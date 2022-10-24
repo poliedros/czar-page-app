@@ -90,7 +90,7 @@ export default function Start({ language }: { language: Language }) {
       >
         <Offcanvas.Body className="flex items-center justify-between overflow-hidden">
           {translations("cookie", language)}
-          <Button variant="primary" onClick={handleCloseOC} className="me-2">
+          <Button variant="secondary" onClick={handleCloseOC} className="me-2">
             {translations("btnok", language)}
           </Button>
         </Offcanvas.Body>

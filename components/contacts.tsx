@@ -32,7 +32,8 @@ export default function Contacts({ language }: { language: Language }) {
 
           <br />
           <Row>
-            <Col xs={12} md={6} className="my-12">
+            <Col md={3}>
+              {/* <Col xs={12} md={6} className="my-12">
               <Container>
                 <h3 className="text-start">
                   <h4
@@ -136,7 +137,9 @@ export default function Contacts({ language }: { language: Language }) {
                   {translations.teamcountry[language][3]}
                 </h6>
               </Container>
+            </Col> */}
             </Col>
+
             <Col
               xs={12}
               md={6}
@@ -197,7 +200,7 @@ export default function Contacts({ language }: { language: Language }) {
                   <div className="flex justify-center">
                     <Button
                       className="!flex items-center"
-                      variant="primary"
+                      variant="secondary"
                       type="submit"
                     >
                       {getIconsByName("fa", "FaPaperPlane")} &nbsp;{" "}
@@ -207,6 +210,7 @@ export default function Contacts({ language }: { language: Language }) {
                 </Form>
               </Container>
             </Col>
+            <Col md={3}></Col>
           </Row>
         </Container>
       </div>

@@ -2,6 +2,8 @@ import { Button, Col, Form, Row } from "react-bootstrap";
 import { FaPaperPlane } from "react-icons/fa";
 import { Language } from "../languages";
 import translations from "../../functions/translations";
+import Variants from "../../styles/variants";
+import getIconsByName from "../../functions/getIconsByName";
 
 export default function ModalEmail({ language }: { language: Language }) {
   return (
@@ -51,8 +53,13 @@ export default function ModalEmail({ language }: { language: Language }) {
                 }
               />
             </Form.Group>
-            <Button variant="primary" type="submit">
-              <FaPaperPlane /> &nbsp; {translations("btnsendemail", language)}
+            <Button
+              className="!flex items-center"
+              variant="secondary"
+              type="submit"
+            >
+              {getIconsByName("fa", "FaPaperPlane")} &nbsp;{" "}
+              {translations("btnsendemail", language)}
             </Button>
           </Form>
         </Col>
