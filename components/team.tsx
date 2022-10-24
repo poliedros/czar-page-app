@@ -135,7 +135,7 @@ export default function Team({ language }: { language: Language }) {
                       twitter: "",
                       medium: "",
                     },
-                    pos: 2,
+                    pos: 3,
                     language: language,
                   }}
                 />

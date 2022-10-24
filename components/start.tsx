@@ -86,7 +86,7 @@ export default function Start({ language }: { language: Language }) {
         onHide={handleCloseOC}
         scroll={false}
         backdrop={false}
-        className="!h-24"
+        className="!h-12"
       >
         <Offcanvas.Body className="flex items-center justify-between overflow-hidden">
           {translations("cookie", language)}
