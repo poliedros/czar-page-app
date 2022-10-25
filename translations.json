@@ -399,6 +399,98 @@
         "pt": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
     },
 
+    "btnclose": {
+        "en": "Close",
+        "es": "Cerrar",
+        "pt": "Fechar"
+    },
+
+    "modalArtDesignContent": {
+        "en": "A website is the gateway to your company. Nowadays, people look online first before purchasing a product or service. CZAR+ can help you to expose your business on the internet in order to attract more customers with a more present and professional.",
+        "es": "Un sitio web es la puerta de entrada a su empresa. Hoy en día, las personas primero buscan en línea antes de comprar un producto o servicio. CZAR+ puede ayudarlo a exponer su negocio en Internet para atraer más clientes con una imagen más actual y profesional",
+        "pt": "Um site é a porta de entrada para sua empresa. Atualmente, as pessoas procuram primeiro online antes de adquirir um produto ou serviço. A CZAR+ pode te ajudar a expor seu negócio na internet de forma a atrair mais clientes com uma imagem mais presente e profissional."
+    },
+
+    "modalHostDomainContent": {
+        "en": "We provide the infrastructure needed to keep your application up and running.",
+        "es": "Proporcionamos la infraestructura necesaria para mantener su aplicación en funcionamiento.",
+        "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável"
+    },
+
+    "servicemodalt": {
+        "en": [
+            "Send Emails never was so easy",
+            "Save information in a clean and simple way",
+            "It process data all time"
+        ],
+        "es": [
+            "Envia mails nunca foi tan fácil",
+            "Guardar informaciones de una forma segura, limpia y sensilla",
+            "Datos estan siendo procesados todo el tiempo"
+        ],
+        "pt": [
+            "Mandar E-mails nunca foi tão fácil",
+            "Armazene informações de forma limpa e prática",
+            "Processando dados todo o tempo"
+        ]
+    },
+
+    "servicemodalmsg":{
+        "en":[
+            "Send an email to yoursel to how our system is working",
+            "Send an image and recive it's url - this image expire past 2 days",
+            "Look the data processed by our robot in table in the right"
+        ],
+        "es":[
+            "Enviate un mail para ti mismo, para que vea nuestro sistema en funcionamiento",
+            "Aramazena una imagen en la cloud y recibí la url de esa imagen - la imagen aspira despúes de 2 días",
+            "Mira lo que proceso nuestro robot en la tabla a la derecha"
+        ],
+        "pt":[
+            "Envie um e-mail pra si mesmo para ver nosso sistema de e-mail funcionando",
+            "Insira uma imagem e receba a url da mesma - a imagem tem duração de 2 dias",
+            "Veja o que já foi processado pelo nosso robô a direita"
+        ]
+    },
+    "cloudservicedescription":{
+        "en": "Image upload",
+        "es": "Carga de Imagen",
+        "pt": "Subir imagem"
+    },
+    "btnsendfile":{
+        "en": "Upload File",
+        "es": "Subir Archivo",
+        "pt": "Subir Arquivo"
+    },
+    "newsrobot": {
+        "en": "News bot",
+        "es": "Robot de noticias",
+        "pt": "Robô de notícias"   
+    },
+    "sectionabout": {
+        "en": "CZAR Devs is currently in an embryonic enterprise stage - the kick-off came from the founders after establishing a small range of ideas to solve common problems for small businesses. We currently work remotely from 3 different countries and so we added more members migrating to CZAR+ Devs. Our focus are in to manage the flow of information in the business such as email system management, file management like cloud service and automatization of process to catch and delivery information. In our projects that we develop based on the claims of companies/owners, the idea is to guide managers to have a better experience to organize information and the work cycle.",
+        "es": "CZAR Devs se encuentra actualmente en una etapa empresarial embrionaria: el puntapié inicial provino de los fundadores después de establecer una pequeña gama de ideas para resolver problemas comunes para las pequeñas empresas. Actualmente trabajamos de forma remota desde 3 países diferentes, por lo que agregamos más miembros que migran a CZAR+ Devs. Nuestro enfoque está en administrar el flujo de información en el negocio, como la administración del sistema de correo electrónico, la administración de archivos como el servicio en la nube y la automatización del proceso para capturar y enviar información. En nuestros proyectos que desarrollamos en base a los reclamos de las empresas/dueños, la idea es orientar a los gerentes a tener una mejor experiencia para organizar la información y el ciclo de trabajo.",
+        "pt": "A CZAR Devs está atualmente em um estágio de empreendimento embrionário - o pontapé inicial veio dos fundadores após estabelecer uma pequena gama de ideias para resolver problemas comuns para pequenas empresas. Atualmente trabalhamos remotamente de 3 países diferentes e por isso adicionamos mais membros migrando para o CZAR+ Devs. Nosso foco está em gerenciar o fluxo de informações no negócio, como gerenciamento de sistema de e-mail, gerenciamento de arquivos como serviço em nuvem e automatização de processos para captura e entrega de informações. Em nossos projetos que desenvolvemos a partir das reivindicações das empresas/proprietários, a ideia é orientar os gestores a terem uma melhor experiência para organizar as informações e o ciclo de trabalho."
+    },
+    "sectiongreetings": {
+        "en": "We are looking for people or companies interested in simple and focused projects or services to solve problems for companies, organizations or communities.",
+        "es": "Buscamos personas o empresas interesadas en proyectos o servicios sencillos y enfocados a solucionar problemas de empresas, organizaciones o comunidades.",
+        "pt": "Procuramos pessoas ou empresas interessadas em projetos ou serviços simples e focados para resolver problemas para empresas, organizações ou comunidades."
+    },
+    "webpagetitle": { 
+        "en": "Solving your problem through software",
+        "es": "Resolviendo su problema a través del software",
+        "pt": "Solucionando seu problema através de software"
+    },
+
+
+
+
+
+
+
+
+
     "en": {
         "greetingst": "Welcome Friend!",
         "navbar": [
@@ -516,7 +608,7 @@
         "btncancel": "Cancel",
         "btndisagree": "I disagree!",
         "btnsendemail": "Send Email",
-        "btnclose": "Close",
+        "btnclose": "Close", 
         "btnsendfile": "Upload File",
         "comingsoon": "Coming Soon...",
         "comingsoonmsg": "We are working hard to provide to you this new product model.",

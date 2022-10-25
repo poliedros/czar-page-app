@@ -8,7 +8,7 @@ import * as IconsSi from "react-icons/si";
 
 import { BsSlashCircleFill } from "react-icons/bs";
 
-export default function getIconsByName(ico, name) {
+export default function getIconsByName(ico, name, color="white") {
     let IconComponent;
 
     if (ico === "bs") IconComponent = IconsBs[name];
@@ -24,5 +24,5 @@ export default function getIconsByName(ico, name) {
         return <BsSlashCircleFill />;
     }
 
-    return <IconComponent />;
+    return <IconComponent color={color}/>;
 }

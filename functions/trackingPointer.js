@@ -47,5 +47,5 @@ export default function TrackingPoiner(preview, setStyle) {
                     "rotateY(" + 0 + "deg)" + " " + "rotateX(" + 0 + "deg)",
             });
         });
-    }, []);
+    }, [preview.id, setStyle]);
 }
