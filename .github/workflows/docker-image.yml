@@ -61,5 +61,5 @@ jobs:
         with:
           name: "VERSION"
           value: $((${{ secrets.VERSION }}+1))
-          repository: carloszan/czar-page-app
+          repository: poliedros/czar-page-app
           token: ${{ secrets.REPO_ACCESS_TOKEN }}
