@@ -1,8 +1,25 @@
 import { Button, Col, Row } from "react-bootstrap";
 import { Language } from "../languages";
 import translations from "../../functions/translations";
+import { useState } from "react";
+import axios from "axios";
 
 export default function ModalCloud({ language }: { language: Language }) {
+  const [file, setFile] = useState<File>();
+
+  async function onClickHandle() {
+    const request = { file };
+    const res = await axios.post("https://api.images.czar.dev", request, {
+      headers: {
+        "Content-Type": "multipart/form-data",
+      },
+    });
+
+    const id = res.data.id;
+    alert(`https://catalogv2.blob.core.windows.net/storage-images/${id}`);
+    return `https://catalogv2.blob.core.windows.net/storage-images/${id}`;
+  }
+
   return (
     <>
       <Row>
@@ -17,23 +34,23 @@ export default function ModalCloud({ language }: { language: Language }) {
             id="input-file-now-custom-2"
             className="file-upload"
             data-height="500"
-            /* onChange={(e) => {
+            onChange={(e) => {
+              const files = e.target.files;
+              const formData = new FormData();
+              if (!files) return;
+              formData.append("file", files[0]);
 
-                                const files = e.target.files;
-                                const formData = new FormData();
-                                formData.append("file", files[0]);
+              if (!files) return;
+              if (files.length <= 0) return;
 
-                                for (var key of formData.entries()) {
-                                    console.log(key[0] + ', ' + key[1]);
-                                }
-
-                                if (!files) return;
-                                if (files.length <= 0) return;
-
-                                this.setState({ file: files[0] });
-                            }} */
+              setFile(files[0]);
+            }}
           />
-          <Button onClick={undefined /* this.handleClick */}>
+          <Button
+            className="!flex items-center"
+            variant="secondary"
+            onClick={onClickHandle}
+          >
             {translations("btnsendfile", language)}
           </Button>
         </Col>

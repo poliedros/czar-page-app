@@ -4,8 +4,20 @@ import { Language } from "../languages";
 import translations from "../../functions/translations";
 import Variants from "../../styles/variants";
 import getIconsByName from "../../functions/getIconsByName";
+import { useState } from "react";
 
 export default function ModalEmail({ language }: { language: Language }) {
+  const [email, setEmail] = useState("");
+  const [msg, setMsg] = useState("");
+
+  async function onClickHandle() {
+    const data = { to: email, body: msg };
+    await fetch("/api/sendemail", {
+      body: JSON.stringify(data),
+      method: "POST",
+    });
+  }
+
   return (
     <>
       <Row>
@@ -16,7 +28,7 @@ export default function ModalEmail({ language }: { language: Language }) {
         <Col>
           <h4>{translations("testemailt", language)}</h4>
           <Form
-            onSubmit={undefined /* this.handleSubmit2 */}
+            onSubmit={undefined}
             className="flex flex-col text-center"
             style={{
               display: "flex",
@@ -28,10 +40,10 @@ export default function ModalEmail({ language }: { language: Language }) {
               <Form.Control
                 type="email"
                 placeholder={translations("contactilemail", language)}
-                value={undefined /* this.emailFrom */}
-                onChange={
-                  (v) => {} /* this.setState({ emailTo: v.target.value }) */
-                }
+                value={email}
+                onChange={(v) => {
+                  setEmail(v.target.value);
+                }}
               />
               <Form.Text className="text-muted">
                 <h6 className="text-gray" style={{ color: "gray" }}>
@@ -47,16 +59,17 @@ export default function ModalEmail({ language }: { language: Language }) {
                 as="textarea"
                 rows={3}
                 placeholder={translations("testemaililmessage", language)}
-                value={undefined /* this.emailBody */}
-                onChange={
-                  (v) => {} /* this.setState({ emailBodyTo: v.target.value }) */
-                }
+                value={msg}
+                onChange={(v) => {
+                  setMsg(v.target.value);
+                }}
               />
             </Form.Group>
             <Button
               className="!flex items-center"
               variant="secondary"
               type="submit"
+              onClick={onClickHandle}
             >
               {getIconsByName("fa", "FaPaperPlane")} &nbsp;{" "}
               {translations("btnsendemail", language)}
