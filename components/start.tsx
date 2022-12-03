@@ -12,6 +12,7 @@ import Button from "react-bootstrap/Button";
 
 import { Language } from "./languages";
 import translations from "../functions/translations";
+import CapButton from "../atoms/capButton";
 
 export default function Start({ language }: { language: Language }) {
   const [showOC, setShowOC] = useState(true);
@@ -42,6 +43,7 @@ export default function Start({ language }: { language: Language }) {
               ZAR
             </h1>
           </div>
+          <CapButton kind="close" language={language} />
           <BsChevronCompactUp className="slide-top fixed top-6 text-white z-[1]" />
           <BsChevronCompactDown className="slide-bottom fixed bottom-6 text-white z-[1]" />
           <BsMouse

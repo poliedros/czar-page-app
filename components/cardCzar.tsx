@@ -1,4 +1,4 @@
-import React, { /* useEffect, */ useState } from "react";
+import React, { useState } from "react";
 
 import translations from "./../functions/translations";
 
@@ -21,8 +21,6 @@ export default function CardCzar({ preview }: any) {
     <>
       {preview.type === "service" ? (
         <>
-          {/* <div className="card2 fixed text-end top-0 right-3"><span className="bg-black p-1.5 text-xs" style={{ writingMode: "tb-rl" }}>Mendes</span></div>
-                <div className="photografer2 fixed text-end top-0 right-10" style={{ /* display: "none" / }}><span className="bg-green-600 p-1.5 text-xs">Anderson Mendes</span></div> */}
           <div className="card card-mt" onClick={handleShow}>
             <div
               className={"cont-scroll image-mt " + preview.bgImage}
@@ -40,7 +38,6 @@ export default function CardCzar({ preview }: any) {
                     {preview.artist}
                   </span>
                 </div>
-                {/* <div className="flex justify-center"><span className="backdrop-blur-lg z-10 p-1">{ getIconsByName("io5", "IoChevronUp") }</span></div> */}
                 <div
                   className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
                   style={{

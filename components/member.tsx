@@ -1,11 +1,6 @@
-import Modal from "react-bootstrap/Modal";
-import Button from "react-bootstrap/Button";
 import { Language } from "./languages";
 import translations from "../functions/translations";
-import { RiCloseCircleLine } from "react-icons/ri";
-import getIconsByName from "../functions/getIconsByName";
 import { Row, Col } from "react-bootstrap";
-import Image from "next/image";
 import SocialMedia from "./socialMedia";
 
 type MemberData = {
@@ -32,6 +27,20 @@ export default function MemberCzar({ data }: { data: MemberData }) {
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${data.image})`,
         }}
       >
+        <Row>
+          <Col>
+            <SocialMedia media={"Linkedin"} link={data.links.linkedin} />
+          </Col>
+          <Col>
+            <SocialMedia media={"Medium"} link={data.links.medium} />
+          </Col>
+          <Col>
+            <SocialMedia media={"Twitter"} link={data.links.twitter} />
+          </Col>
+          <Col>
+            <SocialMedia media={"Youtube"} link={data.links.youtube} />
+          </Col>
+        </Row>
         <div className="my-[5vh]">
           <h1
             style={{
@@ -54,20 +63,6 @@ export default function MemberCzar({ data }: { data: MemberData }) {
           </h4>
           <h5>{translations("teamcv", data.language, data.pos)}</h5>
           <h6>{translations("teamaddress", data.language, data.pos)}</h6>
-          <Row>
-            <Col>
-              <SocialMedia media={"Linkedin"} link={data.links.linkedin} />
-            </Col>
-            <Col>
-              <SocialMedia media={"Medium"} link={data.links.medium} />
-            </Col>
-            <Col>
-              <SocialMedia media={"Twitter"} link={data.links.twitter} />
-            </Col>
-            <Col>
-              <SocialMedia media={"Youtube"} link={data.links.youtube} />
-            </Col>
-          </Row>
         </div>
       </Col>
     </>

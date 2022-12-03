@@ -2,6 +2,12 @@
     "btniclose": "RiCloseCircleLine",
     "btniopen": "RiMotorbikeFill",
 
+    "emptyText": {
+        "en": "Empty Text",
+        "es": "Texto Vacio",
+        "pt": "Texto Vazio"
+    },
+
     "greetingst": {
         "en": "Welcome Friend!",
         "es": "Saludos Compa!",
