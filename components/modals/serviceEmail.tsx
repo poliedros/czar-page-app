@@ -10,8 +10,8 @@ export default function ModalEmail({ language }: { language: Languages }) {
     <>
       <Row>
         <Col>
-          <h4>{translations("servicemodalt", language, 0)}</h4>
-          <h6>{translations("servicemodalmsg", language, 0)}</h6>
+          <h4>{translations("servicemodalt", language)}</h4>
+          <h6>{translations("servicemodalmsg", language)}</h6>
         </Col>
         <Col>
           <h4>{translations("testemailt", language)}</h4>

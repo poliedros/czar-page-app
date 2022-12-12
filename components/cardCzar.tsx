@@ -52,8 +52,7 @@ export default function CardCzar({ preview }: any) {
                   >
                     {translations(
                       preview.type + "t",
-                      preview.language,
-                      preview.pos
+                      preview.language
                     )}
                   </h1>
                   <h6
@@ -68,8 +67,7 @@ export default function CardCzar({ preview }: any) {
                   <h5>
                     {translations(
                       preview.type + "st",
-                      preview.language,
-                      preview.pos
+                      preview.language
                     )}
                   </h5>
                   {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
@@ -111,8 +109,7 @@ export default function CardCzar({ preview }: any) {
                 >
                   {translations(
                     preview.type + "t",
-                    preview.language,
-                    preview.pos
+                    preview.language
                   )}
                 </h1>
                 {/* <h6
@@ -128,15 +125,13 @@ export default function CardCzar({ preview }: any) {
                 <h4>
                   {translations(
                     preview.type + "st",
-                    preview.language,
-                    preview.pos
+                    preview.language
                   )}
                 </h4>
                 <h6>
                   {translations(
                     preview.type + "tmsg",
-                    preview.language,
-                    preview.pos
+                    preview.language
                   )}
                 </h6>
                 {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
@@ -152,7 +147,7 @@ export default function CardCzar({ preview }: any) {
         handleClose={handleClose}
         state={preview.state}
         language={preview.language}
-        title={translations(preview.type + "t", preview.language, preview.pos)}
+        title={translations(preview.type + "t", preview.language)}
       />
     </>
   );
