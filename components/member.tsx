@@ -1,4 +1,4 @@
-import { Language } from "./languages";
+import { Languages } from "../types/languages";
 import translations from "../functions/translations";
 import { Row, Col } from "react-bootstrap";
 import SocialMedia from "./socialMedia";
@@ -13,7 +13,7 @@ type MemberData = {
     twitter: string;
     linkedin: string;
   };
-  language: Language;
+  language: Languages;
 };
 
 export default function MemberCzar({ data }: { data: MemberData }) {
@@ -56,13 +56,13 @@ export default function MemberCzar({ data }: { data: MemberData }) {
               textShadow: "1px 1px 2px black, 2px 2px 4px #000000",
             }}
           >
-            {translations("teamlanguage", data.language, data.pos)}
+            {translations("teamlanguage", data.language)[data.pos]}
           </h6>
-          <h4>
-            <b>{translations("teamrole", data.language, data.pos)}</b>
+          <h4 className="font-light">
+            <b>{translations("teamrole", data.language)[data.pos]}</b>
           </h4>
-          <h5>{translations("teamcv", data.language, data.pos)}</h5>
-          <h6>{translations("teamaddress", data.language, data.pos)}</h6>
+          <h5>{translations("teamcv", data.language)[data.pos]}</h5>
+          <h6>{translations("teamaddress", data.language)[data.pos]}</h6>
         </div>
       </Col>
     </>

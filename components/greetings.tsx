@@ -2,9 +2,13 @@ import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
 
 import translations from "../functions/translations";
-import { Language } from "./languages";
 
-export default function Greetings({ language }: { language: Language }) {
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
+
+export default function Greetings() {
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
+
   return (
     <>
       <div className="App-header" id="greetings">

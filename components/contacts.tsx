@@ -5,12 +5,15 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
 import translations from "../translations.json";
 
 import getIconsByName from "../functions/getIconsByName";
-import { Language } from "./languages";
 
-export default function Contacts({ language }: { language: Language }) {
+export default function Contacts() {
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
+
   return (
     <>
       <div
@@ -199,7 +202,7 @@ export default function Contacts({ language }: { language: Language }) {
                   </Form.Group>
                   <div className="flex justify-center">
                     <Button
-                      className="!flex items-center"
+                      className="!flex items-center !font-thin"
                       variant="secondary"
                       type="submit"
                     >

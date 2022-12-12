@@ -1,8 +1,8 @@
 import { Button, Col, Row } from "react-bootstrap";
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 import translations from "../../functions/translations";
 
-export default function ModalCloud({ language }: { language: Language }) {
+export default function ModalCloud({ language }: { language: Languages }) {
   return (
     <>
       <Row>

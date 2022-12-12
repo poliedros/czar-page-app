@@ -6,6 +6,8 @@ import * as gtag from "./../lib/gtag";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
 
+import Layout from "../components/layout";
+
 function MyApp({ Component, pageProps }: AppProps) {
   const router = useRouter();
 
@@ -21,8 +23,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 
   return (
     <>
-      <Analytics />
-      <Component {...pageProps} />
+      <Layout>
+        <Analytics />
+        <Component {...pageProps} />
+      </Layout>
     </>
   );
 }

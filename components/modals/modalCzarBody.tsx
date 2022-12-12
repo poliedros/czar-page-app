@@ -6,9 +6,9 @@ import ModalHostDomain from "./serviceHostDomain";
 import ModalAdGallery from "./projectAdGallery";
 import ModalBusinessSales from "./projectBusinessSales";
 import { useState } from "react";
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 
-type RenderBodyType = { state: string; language: Language };
+type RenderBodyType = { state: string; language: Languages };
 
 export default function ModalCzarBody({ state, language }: RenderBodyType) {
   switch (state) {

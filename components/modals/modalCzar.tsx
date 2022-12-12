@@ -1,7 +1,7 @@
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
 import ModalCzarBody from "./modalCzarBody";
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 import translations from "../../functions/translations";
 import { RiCloseCircleLine } from "react-icons/ri";
 
@@ -10,7 +10,7 @@ type ObjType = {
   handleClose: any;
   state: any;
   title: any;
-  language: Language;
+  language: Languages;
 };
 
 export default function ModalCzar({

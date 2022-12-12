@@ -12,15 +12,16 @@ import Button from "react-bootstrap/Button";
 //import defaultIcons from "../defaultIcons.json";
 import getIcons from "../functions/getIcons";
 
-export default function NavbarTranslations({
-    handleLanguage,
-}: {
-    handleLanguage: any;
-}) {
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
+
+export default function NavbarTranslations() {
     const [showTOC, setShowTOC] = useState(false);
 
     const handleCloseTOC = () => setShowTOC(false);
     const handleShowTOC = () => setShowTOC(true);
+
+    const language = useLanguage();
+    const toggleLanguage: any = useLanguageUpdate();
 
     /* function getIcons(ico: string, name: string) {
         let IconComponent;
@@ -56,11 +57,7 @@ export default function NavbarTranslations({
                         <br />
                         <Nav.Link
                             className="fade-in-rtrans !text-[0.5rem]"
-                            /* style={{ fontSize: ".5rem" }} */ onClick={
-                                () =>
-                                    handleLanguage(
-                                        "en"
-                                    ) /* () => setLanguage('en') */
+                            /* style={{ fontSize: ".5rem" }} */ onClick={() => toggleLanguage("en")
                             }
                         >
                             EN
@@ -68,21 +65,17 @@ export default function NavbarTranslations({
                         <Nav.Link
                             className="fade-in-rtrans !text-[0.5rem]"
                             /* style={{ fontSize: ".5rem" }} */ onClick={
-                                () =>
+                                /* () =>
                                     handleLanguage(
                                         "es"
-                                    ) /* () => { setLanguage('es'); console.log(language) } */
+                                    ) */ /* () => { setLanguage('es'); console.log(language) } */() => toggleLanguage("es")
                             }
                         >
                             ES
                         </Nav.Link>
                         <Nav.Link
                             className="fade-in-rtrans !text-[0.5rem]"
-                            /* style={{ fontSize: ".5rem" }} */ onClick={
-                                () =>
-                                    handleLanguage(
-                                        "pt"
-                                    ) /* undefined  () => setLanguage('pt') */
+                            /* style={{ fontSize: ".5rem" }} */ onClick={() => toggleLanguage("pt")
                             }
                         >
                             PT
@@ -136,30 +129,21 @@ export default function NavbarTranslations({
                             >
                                 <Nav.Link
                                     onClick={
-                                        () =>
-                                            handleLanguage(
-                                                "en"
-                                            ) /* () => setLanguage('en') */
+                                        toggleLanguage
                                     }
                                 >
                                     EN
                                 </Nav.Link>
                                 <Nav.Link
                                     onClick={
-                                        () =>
-                                            handleLanguage(
-                                                "es"
-                                            ) /* () => setLanguage('es') */
+                                        toggleLanguage
                                     }
                                 >
                                     ES
                                 </Nav.Link>
                                 <Nav.Link
                                     onClick={
-                                        () =>
-                                            handleLanguage(
-                                                "pt"
-                                            ) /* () => setLanguage('pt') */
+                                        toggleLanguage
                                     }
                                 >
                                     PT

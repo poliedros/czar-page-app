@@ -12,13 +12,18 @@ import Button from "react-bootstrap/Button";
 import translations from "../translations.json";
 //import defaultIcons from "../defaultIcons.json";
 import getIcons from "../functions/getIcons";
-import { Language } from "./languages";
+import { Languages } from "../types/languages";
 
-export default function NavbarCzar({ language }: { language: Language }) {
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
+
+export default function NavbarCzar() {
   const [showMOC, setShowMOC] = useState(false);
 
   const handleCloseMOC = () => setShowMOC(false);
   const handleShowMOC = () => setShowMOC(true);
+
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
 
   /* function getIcons(ico: string, name: string) {
         let IconComponent;

@@ -4,6 +4,14 @@
 
 /* React CSS */
 
+.invisibleScroll {
+    scrollbar-width: none;
+}
+
+.invisibleScroll::-webkit-scrollbar {
+    display: none;
+}
+
 .App {
     text-align: center;
 }

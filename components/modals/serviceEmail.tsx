@@ -1,11 +1,11 @@
 import { Button, Col, Form, Row } from "react-bootstrap";
 import { FaPaperPlane } from "react-icons/fa";
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 import translations from "../../functions/translations";
 import Variants from "../../styles/variants";
 import getIconsByName from "../../functions/getIconsByName";
 
-export default function ModalEmail({ language }: { language: Language }) {
+export default function ModalEmail({ language }: { language: Languages }) {
   return (
     <>
       <Row>

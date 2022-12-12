@@ -1,7 +1,10 @@
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
 import translations from "../translations.json";
-import { Language } from "./languages";
 
-export default function Contacts({ language }: { language: Language }) {
+export default function Contacts() {
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
+  
   return (
     <>
       <div className="App-header" id="drafts">

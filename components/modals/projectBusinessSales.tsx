@@ -1,6 +1,6 @@
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 
-export default function BusinessSales({ language }: { language: Language }) {
+export default function BusinessSales({ language }: { language: Languages }) {
   return (
     <>
       {/* <div className="card" onClick={undefined /* this.handleShowS /}>

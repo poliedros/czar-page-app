@@ -1,8 +1,8 @@
 import { IoGrid } from "react-icons/io5";
 import translations from "../../functions/translations";
-import { Language } from "../languages";
+import { Languages } from "../../types/languages";
 
-export default function ModalAdGallery({ language }: { language: Language }) {
+export default function ModalAdGallery({ language }: { language: Languages }) {
   return (
     <>
       <div className="card" onClick={undefined}>

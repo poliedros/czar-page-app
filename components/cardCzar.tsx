@@ -6,6 +6,7 @@ import getIconsByName from "../functions/getIconsByName";
 import trackingPointer from "../functions/trackingPointer";
 
 import ModalCzar from "./modals/modalCzar";
+import getIcons from "../functions/getIcons";
 
 export default function CardCzar({ preview }: any) {
   const [style, setStyle] = useState<any>(undefined);
@@ -32,7 +33,7 @@ export default function CardCzar({ preview }: any) {
                 </div>
                 <div className="photografer fixed text-end top-0 right-3 invisible">
                   <span
-                    className="bg-black p-1 m-1 text-[.5rem]"
+                    className="bg-black p-1 m-1 text-[.5rem] unselectable"
                     style={{ writingMode: "vertical-rl" }}
                   >
                     {preview.artist}
@@ -62,7 +63,7 @@ export default function CardCzar({ preview }: any) {
                     }}
                   >
                     {preview.message}
-                    {/* <GiPaintBrush /> */}
+                    <div className="flex justify-end">{preview.icon2 !== "" ? getIconsByName("ri", preview.icon2) : null}</div>
                   </h6>
                   <h5>
                     {translations(

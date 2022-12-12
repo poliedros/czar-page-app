@@ -2,10 +2,13 @@ import Container from "react-bootstrap/Container";
 
 import getIconsByName from "../functions/getIconsByName";
 
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
 import translations from "../functions/translations";
-import { Language } from "./languages";
 
-export default function Concepts({ language }: { language: Language }) {
+export default function Concepts() {
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
+  
   return (
     <>
       <div className="App-header" id="concepts">
@@ -22,9 +25,9 @@ export default function Concepts({ language }: { language: Language }) {
               {getIconsByName("si", "SiReact")}
             </div>
             <div className="border-l border-white p-2 text-left">
-              <h6>{translations("conceptmsgs", language, 0)}</h6>
+              <h6>{translations("conceptmsgs", language)[0]}</h6>
               <h6 style={{ fontSize: ".8rem" }}>
-                {translations("conceptqtrs", language, 0)}
+                {translations("conceptqtrs", language)[0]}
               </h6>
             </div>
           </div>
@@ -40,9 +43,9 @@ export default function Concepts({ language }: { language: Language }) {
               className="border-r border-white"
               style={{ padding: ".5rem", textAlign: "right" }}
             >
-              <h6>{translations("conceptmsgs", language, 1)}</h6>
+              <h6>{translations("conceptmsgs", language)[1]}</h6>
               <h6 style={{ fontSize: ".8rem" }}>
-                {translations("conceptqtrs", language, 1)}
+                {translations("conceptqtrs", language)[1]}
               </h6>
             </div>
             <div style={{ padding: "2rem" }}>
@@ -55,18 +58,18 @@ export default function Concepts({ language }: { language: Language }) {
               {getIconsByName("si", "SiKubernetes")}
             </div>
             <div className="border-l border-white p-2 text-left">
-              <h6>{translations("conceptmsgs", language, 2)}</h6>
+              <h6>{translations("conceptmsgs", language)[2]}</h6>
               <h6 style={{ fontSize: ".8rem" }}>
-                {translations("conceptqtrs", language, 2)}
+                {translations("conceptqtrs", language)[2]}
               </h6>
             </div>
           </div>
           <br />
           <div className="flex items-center justify-center">
             <div className="border-r border-white p-2 text-right">
-              <h6>{translations("conceptmsgs", language, 3)}</h6>
+              <h6>{translations("conceptmsgs", language)[3]}</h6>
               <h6 style={{ fontSize: ".8rem" }}>
-                {translations("conceptqtrs", language, 3)}
+                {translations("conceptqtrs", language)[3]}
               </h6>
             </div>
             <div className="p-8" style={{ padding: "2rem" }}>

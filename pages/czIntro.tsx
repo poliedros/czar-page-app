@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React from "react";
 
 import Start from "../components/start";
 import Greetings from "../components/greetings";
@@ -14,24 +14,25 @@ import NavbarTrans from "../components/navbarTranslations";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function CzIntro() {
-  const [language, setLanguage] = useState<"en" | "es" | "pt">("en");
+import { LanguageProvider } from "../context/languageContext";
 
-  const handleLanguage = (lang: "en" | "es" | "pt") => setLanguage(lang);
+function CzIntro() {
 
   return (
     <>
-      <NavbarMenu language={language} />
-      <NavbarTrans handleLanguage={handleLanguage} />
-      <Start language={language} />
-      <Greetings language={language} />
-      <Services language={language} />
-      <Projects language={language} />
-      <Team language={language} />
-      <Contacts language={language} />
-      <About language={language} />
-      <Drafts language={language} />
-      <Concepts language={language} />
+      <LanguageProvider>
+        <NavbarMenu />
+        <NavbarTrans />
+        <Start />
+        <Greetings />
+        <Services />
+        <Projects />
+        <Team />
+        <Contacts />
+        <About />
+        <Drafts />
+        <Concepts />
+      </LanguageProvider>
     </>
   );
 }

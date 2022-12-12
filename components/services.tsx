@@ -1,13 +1,16 @@
-import CardCzar from "./cardCzar";
+//import CardCzar from "./cardCzar";
 
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import { Container, Row, Col } from "react-bootstrap";
 
 import translations from "../translations.json";
-import { Language } from "./languages";
 
-export default function Services({ language }: { language: Language }) {
+import { useLanguage, useLanguageUpdate } from "../context/languageContext";
+import CapCard from "../atoms/capCard";
+
+export default function Services() {
+  const language = useLanguage();
+  const toggleLanguage = useLanguageUpdate();
+
   return (
     <>
       <div className="App-header" id="services">
@@ -24,7 +27,7 @@ export default function Services({ language }: { language: Language }) {
               lg={4}
               className="flex items-center justify-center my-4"
             >
-              <CardCzar
+              <CapCard
                 preview={{
                   state: "ArtDesign",
                   icon: "MdWeb",
@@ -33,7 +36,7 @@ export default function Services({ language }: { language: Language }) {
                   id: "0",
                   pos: "4",
                   message: "",
-                  icon2: "GiPaintBrush",
+                  icon2: "RiArtboardFill",
                   bgImage: "seventh",
                   artist: "jacksonsophat.com",
                   language: language,
@@ -43,9 +46,9 @@ export default function Services({ language }: { language: Language }) {
             <Col
               xs={12}
               lg={4}
-              className="flex items-center justify-center mx-4 my-4"
+              className="flex items-center justify-center my-4"
             >
-              <CardCzar
+              <CapCard
                 preview={{
                   state: "HostDomain",
                   icon: "MdDomainVerification",
@@ -72,7 +75,7 @@ export default function Services({ language }: { language: Language }) {
                 margin: "1rem 0 1rem 0",
               }}
             >
-              <CardCzar
+              <CapCard
                 preview={{
                   state: "Email",
                   icon: "MdEmail",
@@ -93,7 +96,7 @@ export default function Services({ language }: { language: Language }) {
               lg={4}
               className="flex items-center justify-center my-4"
             >
-              <CardCzar
+              <CapCard
                 preview={{
                   state: "Cloud",
                   icon: "RiCloudFill",
@@ -114,7 +117,7 @@ export default function Services({ language }: { language: Language }) {
               lg={4}
               className="flex items-center justify-center my-4"
             >
-              <CardCzar
+              <CapCard
                 preview={{
                   state: "Robot",
                   icon: "RiRobotFill",
