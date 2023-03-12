@@ -1,515 +1,488 @@
 {
-    "btniclose": "RiCloseCircleLine",
-    "btniopen": "RiMotorbikeFill",
+  "btniclose": "RiCloseCircleLine",
+  "btniopen": "RiMotorbikeFill",
 
-    "emptyText": {
-        "en": "Empty Text",
-        "es": "Texto Vacio",
-        "pt": "Texto Vazio"
-    },
+  "emptyText": {
+    "en": "Empty Text",
+    "es": "Texto Vacio",
+    "pt": "Texto Vazio"
+  },
 
-    "greetingst": {
-        "en": "Welcome Friend!",
-        "es": "Saludos Compa!",
-        "pt": "Te desejamos Boas-Vindas!"
-    },
-    "greetingmsg": {
-        "en": "We are a small team, but don't underestimate us\nbecause we easily compensate with our\nmotivation, interest and willingness to learn.",
-        "es": "Somos un equipo pequeño, pero no nos subestimes\nporque lo compensamos fácilmente\ncon nuestra motivación, interés y ganas de aprender.",
-        "pt": "Embora possamos parecer um pequeno grupo de desenvolvedores,\nnão se iluda subestimando-nos.\nNossa motivação, interesse e apetite por aprender compensam nosso tamanho."
-    },
+  "greetingst": {
+    "en": "Welcome Friend!",
+    "es": "Saludos Compa!",
+    "pt": "Te desejamos Boas-Vindas!"
+  },
+  "greetingmsg": {
+    "en": "Our software factory startup is focused on delivering high-quality, scalable and reliable software solutions \nfor businesses across various industries. We believe that by providing a dedicated team of \nexperienced software developers, we can help our clients accelerate their digital transformation and achieve their business goals.",
+    "es": "¡Bienvenido a nuestra fábrica de software startup! Somos un equipo de expertos en tecnología apasionados por transformar \ntus ideas en software de calidad. Utilizamos metodologías ágiles para garantizar la eficiencia y transparencia en todo \nel proceso de desarrollo, desde la planificación hasta la entrega final.",
+    "pt": "Bem-vindo à nossa fábrica de software startup! Somos uma equipe apaixonada por tecnologia e estamos aqui para transformar \na sua ideia em um software de qualidade. Utilizamos metodologias ágeis para garantir a eficiência e transparência em todo \no processo de desenvolvimento, desde o planejamento até a entrega final."
+  },
 
-    "navbar": {
-        "start": {
-            "en": "Start",
-            "es": "Comienzo",
-            "pt": "Início"
-        },
-        "greetings": {
-            "en": "Greetings",
-            "es": "Saludos",
-            "pt": "Bem-vindo"
-        },
-        "services": {
-            "en": "Services",
-            "es": "Servicios",
-            "pt": "Serviços"
-        },
-        "projects": {
-            "en": "Projects",
-            "es": "Proyectos",
-            "pt": "Projetos"
-        },
-        "team": {
-            "en": "Team",
-            "es": "Equipo",
-            "pt": "Equipe"
-        },
-        "contacts": {
-            "en": "Contacts",
-            "es": "Contactos",
-            "pt": "Contatos"
-        },
-        "about": {
-            "en": "About",
-            "es": "Sobre Nosotros",
-            "pt": "Sobre Nós"
-        },
-        "drafts": {
-            "en": "Drafts",
-            "es": "Borradores",
-            "pt": "Rascunhos"
-        },
-        "concepts": {
-            "en": "Concepts",
-            "es": "Conceptos",
-            "pt": "Conceitos"
-        }
+  "navbar": {
+    "start": {
+      "en": "Start",
+      "es": "Comienzo",
+      "pt": "Início"
     },
-
-    "servicemt": {
-        "en": "Our Services",
-        "es": "Nuestros Servicios",
-        "pt": "Nossos Serviços"
+    "greetings": {
+      "en": "Greetings",
+      "es": "Saludos",
+      "pt": "Bem-vindo"
     },
-
-    "servicet": {
-        "en": [
-            "Email Service",
-            "Cloud Service",
-            "Robot Service",
-            "Host and Domain Service",
-            "Web Site Art/Design"
-        ],
-        "es": [
-            "Servicio de Email",
-            "Servicio de Cloud",
-            "Servicio de Robot",
-            "Servicio de Host y Dominio",
-            "Diseño y Arte de Páginas Web"
-        ],
-        "pt": [
-            "Serviço de Email",
-            "Serviço de Nuvem (Cloud)",
-            "Serviço de Automação de Processos (Robô)",
-            "Serviço de Host e Domínio",
-            "Arte e Design para Web Sites"
-        ]
+    "services": {
+      "en": "Services",
+      "es": "Servicios",
+      "pt": "Serviços"
     },
-    "servicest": {
-        "en": [
-            "We have a convenient price to manage your company or personal email sender system",
-            "Our practical and easy-to-use cloud system to meet your business demands",
-            "Automated process designed to meet your research or information gathering demands, it can work 24/7",
-            "Have a domain make your business seems professional and helps to show yourself to customers",
-            "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention"
-        ],
-        "es": [
-            "A precios convenientes te brindamos una hierramienta para gerenciar tus email o de tu empresa",
-            "Uno servicio simples e intuitivo para atender las demandas de tu compañia",
-            "Procesos customizados que pueden ser definidos para rodar 24x7 para obtener informaciones o hacer consultas para tu negócio",
-            "Tener uno dominio para su negócio lo hace profesional para que sus clientes te puedan contactarlo y veriicar sus actualizaciones",
-            "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes"
-        ],
-        "pt": [
-            "Gerenciar seus emails ou da sua empresa de forma fácil e a um preço muito comodo",
-            "Com nosso sistema de cloud gerencie seus arquivos sem complicações e sem preocupações",
-            "Robôs desenhados segundo as suas necessidades, tanto para pesquisar quanto para obter informações, com servidores funcionando 24 horas e 7 dias na semana",
-            "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
-            "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
-        ]
+    "projects": {
+      "en": "Projects",
+      "es": "Proyectos",
+      "pt": "Projetos"
     },
-
-    "projectmt": {
-        "en": "Our Projects",
-        "es": "Nuestros Proyectos",
-        "pt": "Nossos Projetos"
+    "team": {
+      "en": "Team",
+      "es": "Equipo",
+      "pt": "Equipe"
     },
-
-    "projectt": {
-        "en": [
-            "Ad Gallery App",
-            "Personal App for Business Sales"
-        ],
-        "es": [
-            "Aplicación de Exhibición de Anuncios",
-            "Aplicación Personal para Ventas y Entregas"
-        ],
-        "pt": [
-            "Aplicativo Galeria de Anúncios",
-            "Aplicativo de Vendas Personalizado"
-        ]
+    "contacts": {
+      "en": "Contacts",
+      "es": "Contactos",
+      "pt": "Contatos"
     },
-    "projectst": {
-        "en": [
-            "stage pre-Alpha",
-            "stage pre-Alpha"
-        ],
-        "es": [
-            "Etapa Prealfa",
-            "Etapa Prealfa"
-        ],
-        "pt": [
-            "Estágio pre-Alpha",
-            "Estágio pre-Alpha"
-        ]
+    "about": {
+      "en": "About",
+      "es": "Sobre Nosotros",
+      "pt": "Sobre Nós"
     },
-    "projecttmsg": {
-        "en": [
-            "For local commerce is a pratical way to create a \"Virtual Shopping Mall\", seek for ad-clients and show the gallery for viewer-clients.",
-            "This is an app in the form of a list for the customer to choose between the products and send an email with the purchase information."
-        ],
-        "es": [
-            "Proporcionar a las empresas locales una plataforma publicidad virtual como uno Centro Comercial, encuentre anunciantes y exhiba tus productos a los clientes.",
-            "Esta aplicación es basada un catalogo de productos de uno negócio, donde el cliente lista los produtos deseados y uno email es enviado automaticamente."
-        ],
-        "pt": [
-            "Criar uma vitrine de anúncios para o comércio local, os anúnciantes publicam enquanto os usúarios podem fazer buscas nos anúncios.",
-            "Um catálogo de produtos onde o cliente ao finalizar a compra envia a listagem por e-mail para o négocio, simples e prático."
-        ]
+    "drafts": {
+      "en": "Drafts",
+      "es": "Borradores",
+      "pt": "Rascunhos"
     },
-    "teammt": {
-        "en": "Our Team",
-        "es": "Nuestra Equipo",
-        "pt": "Nossa Equipe"
-    },
-    "teamfounders": {
-        "en": "Founders",
-        "es": "Grupo Creador",
-        "pt": "Fundadores"
-    },
-    "teamrole": {
-        "en": [
-            "Full Stack Programmer and Designer",
-            "Site Reliability Engineer",
-            "Data Analysis Engineer",
-            "Web Support and QA Analyst"
-        ],
-        "es": [
-            "Desarrollador Full Stack y Designer",
-            "Ingeniero de Confiabilidad de Sitios (SRE)",
-            "Ingeniera de Análisis de Datos",
-            "Web Soporte y QA"
-        ],
-        "pt": [
-            "Programador Full Stack e Designer",
-            "Engenheiro de Confiabilidade",
-            "Engenheira e Analista de Dados",
-            "Suporte Web e Analista QA"
-        ]
-    },
-    "teamcv": {
-        "en": [
-            "studied at the UFV",
-            "Graduated from the UFV",
-            "MSc at the UFV",
-            "Graduated from the IF Sudeste MG \n studied at the UFSJ"
-        ],
-        "es": [
-            "estudió en UFV",
-            "Graduado por la UFV",
-            "Mestría en la UFV",
-            "Graduado en el IF Sudeste MG \n estudió en la UFSJ"
-        ],
-        "pt": [
-            "estudou na UFV",
-            "Graduado pela UFV",
-            "Mestranda na UFV",
-            "Graduado no IF Sudeste MG \n estudou na UFSJ"
-        ]
-    },
-    "teamlanguage": {
-        "en": [
-            "Portuguese, English and Spanish",
-            "Portuguese and English",
-            "Portuguese, English and French",
-            "Portuguese and English"
-        ],
-        "es": [
-            "Portugués, Inglés y Español",
-            "Portugués e Inglés",
-            "Portugués, Inglés y Francés",
-            "Portugués e Inglés"
-        ],
-        "pt": [
-            "Português, Inglês e Espanhol",
-            "Português e Inglês",
-            "Português, Inglês e Francês",
-            "Português e Inglês"
-        ]
-    },
-    "teamaddress": {
-        "en": [
-            "Ciudad Autonóma de Buenos Aires",
-            "Dublin",
-            "Conselheiro Lafaiete",
-            "São João del Rei"
-        ],
-        "es": [
-            "Ciudad Autonóma de Buenos Aires",
-            "Dublin",
-            "Conselheiro Lafaiete",
-            "São João del Rei"
-        ],
-        "pt": [
-            "Ciudad Autonóma de Buenos Aires",
-            "Dublin",
-            "Conselheiro Lafaiete",
-            "São João del Rei"
-        ]
-    },
-    "teamcountry": {
-        "en": [
-            "Argentina",
-            "Ireland",
-            "Brazil",
-            "Brazil"
-        ],
-        "es": [
-            "Argentina",
-            "Irlanda",
-            "Brasil",
-            "Brasil"
-        ],
-        "pt": [
-            "Argentina",
-            "Irlanda",
-            "Brasil",
-            "Brasil"
-        ]
-    },
-    "contactmt": {
-        "en": "Contacts",
-        "es": "Contactos",
-        "pt": "Contatos"
-    },
-    "contactilename": {
-        "en": "Write your name here",
-        "es": "Escrebe tu nombre aquí",
-        "pt": "Seu nome"
-    },
-    "contactilemail": {
-        "en": "Enter email",
-        "es": "Introduzca su email aquí",
-        "pt": "Seu e-mail"
-    },
-    "contactiledisclaimer": {
-        "en": "We'll never share your email with anyone else.",
-        "es": "Nunca compartiremos su email con nadie más.",
-        "pt": "Não se preocupe. Seu e-mail não será compartilhado com ninguém."
-    },
-    "contactilemessage": {
-        "en": "What do you want to say to us?",
-        "es": "¿Qué quieres decirnos?",
-        "pt": "O que gostaria de nos dizer?"
-    },
-    "testemailt": {
-        "en": "Test Email",
-        "es": "Email de Prueba",
-        "pt": "E-mail de Teste"
-    },
-    "testemaililmessage": {
-        "en": "Test message to yourself",
-        "es": "Mensaje de prueba para su email",
-        "pt": "Deixe sua mensagem de teste para receber no seu e-mail"
-    },
-    "contactmm": {
-        "en": "Send us an email\nto contact@czar.dev\nor\nUse our email system\nto contact us directly",
-        "es": "Enviános un Email\npara contacto@czar.dev\no\nUse nuestro sistema de email\npara uno contacto directo desde esa página",
-        "pt": "Envie um e-mail\npara contato@czar.dev\nou\nUse nosso sistema de e-mail\ncontactando-nos aqui mesmo"
-    },
-    "aboutmt": {
-        "en": "about our Company,\nabout our Team\nand\nabout our Way",
-        "es": "Sobre nuestro Negócio,\nsobre nuestra Equipo\ny\nsobre Nustra Filosofía",
-        "pt": "Tudo sobre nossa empresa,\nsobre nosso Time\ne\nnossa Visão de Mundo"
-    },
-    "draftmt": {
-        "en": "Drafts",
-        "es": "Borradores",
-        "pt": "Rascunhos"
-    },
-    "conceptmt": {
-        "en": "Concepts",
-        "es": "Conceptos",
-        "pt": "Conceitos"
-    },
-    "conceptmsgs": {
-        "en": [
-            "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
-            "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
-            "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
-            "Azure is a cloud provider."
-        ],
-        "es": [
-            "React es una solución a prueba de balas que permite a nuestros desarrolladores frontend crear mejores sitios web y aplicaciones.",
-            "Pwa es una excelente alternativa para hacer que los sitios web parezcan una aplicación nativa. Nos ayuda a abaratar nuestros productos.",
-            "Kubernetes capacita a nuestro equipo para poder escalar nuestros productos y facilitar la implementación.",
-            "Azure es provedor cloud."
-        ],
-        "pt": [
-            "React é uma solução excepcional que capacita nossos desenvolvedores de front-end a criar sites e aplicativos melhores.",
-            "Pwa é uma ótima alternativa para fazer sites parecerem um aplicativo nativo. Isso nos ajuda a tornar nossos produtos mais baratos.",
-            "Kubernetes capacita nossa equipe para escalar nossos produtos, além de facilitar a implantação.",
-            "Azure é um provedor de Nuvem."
-        ]
-    },
-    "conceptqtrs": {
-        "en": [
-            "Anderson Ribeiro",
-            "Anderson Ribeiro",
-            "Carlos Zansavio",
-            "Carlos Zansavio"
-        ],
-        "es": [
-            "Anderson Ribeiro",
-            "Anderson Ribeiro",
-            "Carlos Zansavio",
-            "Carlos Zansavio"
-        ],
-        "pt": [
-            "Anderson Ribeiro",
-            "Anderson Ribeiro",
-            "Carlos Zansavio",
-            "Carlos Zansavio"
-        ]
-    },
-
-    "footm": {
-        "en": "Devs",
-        "es": "Desarrollo",
-        "pt": "Desenvolvedores"
-    },
-    "foots": {
-        "en": "Developer Team",
-        "es": "Equipo de Dearrolladores",
-        "pt": "Time de Programadores"
-    },
-    "btnok": {
-        "en": "OK",
-        "es": "Dale",
-        "pt": "Certo"
-    },
-    "btnsendemail": {
-        "en": "Send Email",
-        "es": "Enviar Email",
-        "pt": "Enviar E-mail"
-    },
-    "comingsoon": {
-        "en": "Coming Soon...",
-        "es": "Próximamente...",
-        "pt": "Em Breve..."
-    },
-    "cookie": {
-        "en": "This website uses cookies to enhance the user experience.",
-        "es": "Este sitio web utiliza cookies para mejorar la experiencia del usuario.",
-        "pt": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
-    },
-
-    "btnclose": {
-        "en": "Close",
-        "es": "Cerrar",
-        "pt": "Fechar"
-    },
-
-    "modalArtDesignContent": {
-        "en": "A website is the gateway to your company. Nowadays, people look online first before purchasing a product or service. CZAR+ can help you to expose your business on the internet in order to attract more customers with a more present and professional.",
-        "es": "Un sitio web es la puerta de entrada a su empresa. Hoy en día, las personas primero buscan en línea antes de comprar un producto o servicio. CZAR+ puede ayudarlo a exponer su negocio en Internet para atraer más clientes con una imagen más actual y profesional",
-        "pt": "Um site é a porta de entrada para sua empresa. Atualmente, as pessoas procuram primeiro online antes de adquirir um produto ou serviço. A CZAR+ pode te ajudar a expor seu negócio na internet de forma a atrair mais clientes com uma imagem mais presente e profissional."
-    },
-
-    "modalHostDomainContent": {
-        "en": "We provide the infrastructure needed to keep your application up and running.",
-        "es": "Proporcionamos la infraestructura necesaria para mantener su aplicación en funcionamiento.",
-        "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável"
-    },
-
-    "servicemodalt": {
-        "en": [
-            "Send Emails never was so easy",
-            "Save information in a clean and simple way",
-            "It process data all time"
-        ],
-        "es": [
-            "Envia mails nunca foi tan fácil",
-            "Guardar informaciones de una forma segura, limpia y sensilla",
-            "Datos estan siendo procesados todo el tiempo"
-        ],
-        "pt": [
-            "Mandar E-mails nunca foi tão fácil",
-            "Armazene informações de forma limpa e prática",
-            "Processando dados todo o tempo"
-        ]
-    },
-    "servicemodalmsg":{
-        "en":[
-            "Send an email to yoursel to how our system is working",
-            "Send an image and recive it's url - this image expire past 2 days",
-            "Look the data processed by our robot in table in the right"
-        ],
-        "es":[
-            "Enviate un mail para ti mismo, para que vea nuestro sistema en funcionamiento",
-            "Aramazena una imagen en la cloud y recibí la url de esa imagen - la imagen aspira despúes de 2 días",
-            "Mira lo que proceso nuestro robot en la tabla a la derecha"
-        ],
-        "pt":[
-            "Envie um e-mail pra si mesmo para ver nosso sistema de e-mail funcionando",
-            "Insira uma imagem e receba a url da mesma - a imagem tem duração de 2 dias",
-            "Veja o que já foi processado pelo nosso robô a direita"
-        ]
-    },
-    "cloudservicedescription":{
-        "en": "Image upload",
-        "es": "Carga de Imagen",
-        "pt": "Subir imagem"
-    },
-    "btnsendfile":{
-        "en": "Upload File",
-        "es": "Subir Archivo",
-        "pt": "Subir Arquivo"
-    },
-    "number":{
-        "en": "Number",
-        "es": "Número",
-        "pt": "Número"
-    },
-    "agency":{
-        "en": "Agency",
-        "es": "Agencia",
-        "pt": "Agência"
-    },
-    "datehour":{
-        "en": "Date and Hour",
-        "es": "Fecha y Hora",
-        "pt": "Data e Hora"
-    },
-    "news":{
-        "en": "News",
-        "es": "Noticias",
-        "pt": "Notícias"
-    },
-    "btnsendcloud":{
-        "en": "Upload File to Cloud",
-        "es": "Subir Archivo a la Nube",
-        "pt": "Subir Arquivo à Nuvem"
-    },
-    "newsrobot": {
-        "en": "News bot",
-        "es": "Robot de noticias",
-        "pt": "Robô de notícias"   
-    },
-    "sectionabout": {
-        "en": "CZAR Devs is currently in an embryonic enterprise stage - the kick-off came from the founders after establishing a small range of ideas to solve common problems for small businesses. We currently work remotely from 3 different countries and so we added more members migrating to CZAR+ Devs. Our focus are in to manage the flow of information in the business such as email system management, file management like cloud service and automatization of process to catch and delivery information. In our projects that we develop based on the claims of companies/owners, the idea is to guide managers to have a better experience to organize information and the work cycle.",
-        "es": "CZAR Devs se encuentra actualmente en una etapa empresarial embrionaria: el puntapié inicial provino de los fundadores después de establecer una pequeña gama de ideas para resolver problemas comunes para las pequeñas empresas. Actualmente trabajamos de forma remota desde 3 países diferentes, por lo que agregamos más miembros que migran a CZAR+ Devs. Nuestro enfoque está en administrar el flujo de información en el negocio, como la administración del sistema de correo electrónico, la administración de archivos como el servicio en la nube y la automatización del proceso para capturar y enviar información. En nuestros proyectos que desarrollamos en base a los reclamos de las empresas/dueños, la idea es orientar a los gerentes a tener una mejor experiencia para organizar la información y el ciclo de trabajo.",
-        "pt": "A CZAR Devs está atualmente em um estágio de empreendimento embrionário - o pontapé inicial veio dos fundadores após estabelecer uma pequena gama de ideias para resolver problemas comuns para pequenas empresas. Atualmente trabalhamos remotamente de 3 países diferentes e por isso adicionamos mais membros migrando para o CZAR+ Devs. Nosso foco está em gerenciar o fluxo de informações no negócio, como gerenciamento de sistema de e-mail, gerenciamento de arquivos como serviço em nuvem e automatização de processos para captura e entrega de informações. Em nossos projetos que desenvolvemos a partir das reivindicações das empresas/proprietários, a ideia é orientar os gestores a terem uma melhor experiência para organizar as informações e o ciclo de trabalho."
-    },
-    "sectiongreetings": {
-        "en": "We are looking for people or companies interested in simple and focused projects or services to solve problems for companies, organizations or communities.",
-        "es": "Buscamos personas o empresas interesadas en proyectos o servicios sencillos y enfocados a solucionar problemas de empresas, organizaciones o comunidades.",
-        "pt": "Procuramos pessoas ou empresas interessadas em projetos ou serviços simples e focados para resolver problemas para empresas, organizações ou comunidades."
-    },
-    "webpagetitle": { 
-        "en": "Solving your problem through software",
-        "es": "Resolviendo su problema a través del software",
-        "pt": "Solucionando seu problema através de software"
+    "concepts": {
+      "en": "Concepts",
+      "es": "Conceptos",
+      "pt": "Conceitos"
     }
+  },
+
+  "servicemt": {
+    "en": "Our Services",
+    "es": "Nuestros Servicios",
+    "pt": "Nossos Serviços"
+  },
+
+  "servicet": {
+    "en": [
+      "Email Service",
+      "Cloud Service",
+      "Robot Service",
+      "Host and Domain Service",
+      "Web Site Art/Design"
+    ],
+    "es": [
+      "Servicio de Email",
+      "Servicio de Cloud",
+      "Servicio de Robot",
+      "Servicio de Host y Dominio",
+      "Diseño y Arte de Páginas Web"
+    ],
+    "pt": [
+      "Serviço de Email",
+      "Serviço de Nuvem (Cloud)",
+      "Serviço de Automação de Processos (Robô)",
+      "Serviço de Host e Domínio",
+      "Arte e Design para Web Sites"
+    ]
+  },
+  "servicest": {
+    "en": [
+      "We have a convenient price to manage your company or personal email sender system",
+      "Our practical and easy-to-use cloud system to meet your business demands",
+      "Automated process designed to meet your research or information gathering demands, it can work 24/7",
+      "Have a domain make your business seems professional and helps to show yourself to customers",
+      "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention"
+    ],
+    "es": [
+      "A precios convenientes te brindamos una hierramienta para gerenciar tus email o de tu empresa",
+      "Uno servicio simples e intuitivo para atender las demandas de tu compañia",
+      "Procesos customizados que pueden ser definidos para rodar 24x7 para obtener informaciones o hacer consultas para tu negócio",
+      "Tener uno dominio para su negócio lo hace profesional para que sus clientes te puedan contactarlo y veriicar sus actualizaciones",
+      "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes"
+    ],
+    "pt": [
+      "Gerenciar seus emails ou da sua empresa de forma fácil e a um preço muito comodo",
+      "Com nosso sistema de cloud gerencie seus arquivos sem complicações e sem preocupações",
+      "Robôs desenhados segundo as suas necessidades, tanto para pesquisar quanto para obter informações, com servidores funcionando 24 horas e 7 dias na semana",
+      "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
+      "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
+    ]
+  },
+
+  "projectmt": {
+    "en": "Our Projects",
+    "es": "Nuestros Proyectos",
+    "pt": "Nossos Projetos"
+  },
+
+  "projectt": {
+    "en": ["Ad Gallery App", "Personal App for Business Sales"],
+    "es": [
+      "Aplicación de Exhibición de Anuncios",
+      "Aplicación Personal para Ventas y Entregas"
+    ],
+    "pt": [
+      "Aplicativo Galeria de Anúncios",
+      "Aplicativo de Vendas Personalizado"
+    ]
+  },
+  "projectst": {
+    "en": ["stage pre-Alpha", "stage pre-Alpha"],
+    "es": ["Etapa Prealfa", "Etapa Prealfa"],
+    "pt": ["Estágio pre-Alpha", "Estágio pre-Alpha"]
+  },
+  "projecttmsg": {
+    "en": [
+      "For local commerce is a pratical way to create a \"Virtual Shopping Mall\", seek for ad-clients and show the gallery for viewer-clients.",
+      "This is an app in the form of a list for the customer to choose between the products and send an email with the purchase information."
+    ],
+    "es": [
+      "Proporcionar a las empresas locales una plataforma publicidad virtual como uno Centro Comercial, encuentre anunciantes y exhiba tus productos a los clientes.",
+      "Esta aplicación es basada un catalogo de productos de uno negócio, donde el cliente lista los produtos deseados y uno email es enviado automaticamente."
+    ],
+    "pt": [
+      "Criar uma vitrine de anúncios para o comércio local, os anúnciantes publicam enquanto os usúarios podem fazer buscas nos anúncios.",
+      "Um catálogo de produtos onde o cliente ao finalizar a compra envia a listagem por e-mail para o négocio, simples e prático."
+    ]
+  },
+  "teammt": {
+    "en": "Our Team",
+    "es": "Nuestra Equipo",
+    "pt": "Nossa Equipe"
+  },
+  "teamfounders": {
+    "en": "Founders",
+    "es": "Grupo Creador",
+    "pt": "Fundadores"
+  },
+  "teamrole": {
+    "en": [
+      "Full Stack Programmer and Designer",
+      "Site Reliability Engineer",
+      "Data Analysis Engineer",
+      "Web Support and QA Analyst"
+    ],
+    "es": [
+      "Desarrollador Full Stack y Designer",
+      "Ingeniero de Confiabilidad de Sitios (SRE)",
+      "Ingeniera de Análisis de Datos",
+      "Web Soporte y QA"
+    ],
+    "pt": [
+      "Programador Full Stack e Designer",
+      "Engenheiro de Confiabilidade",
+      "Engenheira e Analista de Dados",
+      "Suporte Web e Analista QA"
+    ]
+  },
+  "teamcv": {
+    "en": [
+      "studied at the UFV",
+      "Graduated from the UFV",
+      "MSc at the UFV",
+      "Graduated from the IF Sudeste MG \n studied at the UFSJ"
+    ],
+    "es": [
+      "estudió en UFV",
+      "Graduado por la UFV",
+      "Mestría en la UFV",
+      "Graduado en el IF Sudeste MG \n estudió en la UFSJ"
+    ],
+    "pt": [
+      "estudou na UFV",
+      "Graduado pela UFV",
+      "Mestranda na UFV",
+      "Graduado no IF Sudeste MG \n estudou na UFSJ"
+    ]
+  },
+  "teamlanguage": {
+    "en": [
+      "Portuguese, English and Spanish",
+      "Portuguese and English",
+      "Portuguese, English and French",
+      "Portuguese and English"
+    ],
+    "es": [
+      "Portugués, Inglés y Español",
+      "Portugués e Inglés",
+      "Portugués, Inglés y Francés",
+      "Portugués e Inglés"
+    ],
+    "pt": [
+      "Português, Inglês e Espanhol",
+      "Português e Inglês",
+      "Português, Inglês e Francês",
+      "Português e Inglês"
+    ]
+  },
+  "teamaddress": {
+    "en": [
+      "Ciudad Autonóma de Buenos Aires",
+      "Dublin",
+      "Conselheiro Lafaiete",
+      "São João del Rei"
+    ],
+    "es": [
+      "Ciudad Autonóma de Buenos Aires",
+      "Dublin",
+      "Conselheiro Lafaiete",
+      "São João del Rei"
+    ],
+    "pt": [
+      "Ciudad Autonóma de Buenos Aires",
+      "Dublin",
+      "Conselheiro Lafaiete",
+      "São João del Rei"
+    ]
+  },
+  "teamcountry": {
+    "en": ["Argentina", "Ireland", "Brazil", "Brazil"],
+    "es": ["Argentina", "Irlanda", "Brasil", "Brasil"],
+    "pt": ["Argentina", "Irlanda", "Brasil", "Brasil"]
+  },
+  "contactmt": {
+    "en": "Contacts",
+    "es": "Contactos",
+    "pt": "Contatos"
+  },
+  "contactilename": {
+    "en": "Write your name here",
+    "es": "Escrebe tu nombre aquí",
+    "pt": "Seu nome"
+  },
+  "contactilemail": {
+    "en": "Enter email",
+    "es": "Introduzca su email aquí",
+    "pt": "Seu e-mail"
+  },
+  "contactiledisclaimer": {
+    "en": "We'll never share your email with anyone else.",
+    "es": "Nunca compartiremos su email con nadie más.",
+    "pt": "Não se preocupe. Seu e-mail não será compartilhado com ninguém."
+  },
+  "contactilemessage": {
+    "en": "What do you want to say to us?",
+    "es": "¿Qué quieres decirnos?",
+    "pt": "O que gostaria de nos dizer?"
+  },
+  "testemailt": {
+    "en": "Test Email",
+    "es": "Email de Prueba",
+    "pt": "E-mail de Teste"
+  },
+  "testemaililmessage": {
+    "en": "Test message to yourself",
+    "es": "Mensaje de prueba para su email",
+    "pt": "Deixe sua mensagem de teste para receber no seu e-mail"
+  },
+  "contactmm": {
+    "en": "Send us an email\nto contact@czar.dev\nor\nUse our email system\nto contact us directly",
+    "es": "Enviános un Email\npara contacto@czar.dev\no\nUse nuestro sistema de email\npara uno contacto directo desde esa página",
+    "pt": "Envie um e-mail\npara contato@czar.dev\nou\nUse nosso sistema de e-mail\ncontactando-nos aqui mesmo"
+  },
+  "aboutmt": {
+    "en": "about our Company,\nabout our Team\nand\nabout our Way",
+    "es": "Sobre nuestro Negócio,\nsobre nuestra Equipo\ny\nsobre Nustra Filosofía",
+    "pt": "Tudo sobre nossa empresa,\nsobre nosso Time\ne\nnossa Visão de Mundo"
+  },
+  "draftmt": {
+    "en": "Drafts",
+    "es": "Borradores",
+    "pt": "Rascunhos"
+  },
+  "conceptmt": {
+    "en": "Concepts",
+    "es": "Conceptos",
+    "pt": "Conceitos"
+  },
+  "conceptmsgs": {
+    "en": [
+      "React is a bulletproof solution which empower our frontend developers to build greater websites and apps.",
+      "Pwa is a great alternative to make websites looks like an native app. It help us to make our products cheaper.",
+      "Kubernetes empower our team to be able to scale our products as well as make the deployment easier.",
+      "Azure is a cloud provider."
+    ],
+    "es": [
+      "React es una solución a prueba de balas que permite a nuestros desarrolladores frontend crear mejores sitios web y aplicaciones.",
+      "Pwa es una excelente alternativa para hacer que los sitios web parezcan una aplicación nativa. Nos ayuda a abaratar nuestros productos.",
+      "Kubernetes capacita a nuestro equipo para poder escalar nuestros productos y facilitar la implementación.",
+      "Azure es provedor cloud."
+    ],
+    "pt": [
+      "React é uma solução excepcional que capacita nossos desenvolvedores de front-end a criar sites e aplicativos melhores.",
+      "Pwa é uma ótima alternativa para fazer sites parecerem um aplicativo nativo. Isso nos ajuda a tornar nossos produtos mais baratos.",
+      "Kubernetes capacita nossa equipe para escalar nossos produtos, além de facilitar a implantação.",
+      "Azure é um provedor de Nuvem."
+    ]
+  },
+  "conceptqtrs": {
+    "en": [
+      "Anderson Ribeiro",
+      "Anderson Ribeiro",
+      "Carlos Zansavio",
+      "Carlos Zansavio"
+    ],
+    "es": [
+      "Anderson Ribeiro",
+      "Anderson Ribeiro",
+      "Carlos Zansavio",
+      "Carlos Zansavio"
+    ],
+    "pt": [
+      "Anderson Ribeiro",
+      "Anderson Ribeiro",
+      "Carlos Zansavio",
+      "Carlos Zansavio"
+    ]
+  },
+
+  "footm": {
+    "en": "Devs",
+    "es": "Desarrollo",
+    "pt": "Desenvolvedores"
+  },
+  "foots": {
+    "en": "Developer Team",
+    "es": "Equipo de Dearrolladores",
+    "pt": "Time de Programadores"
+  },
+  "btnok": {
+    "en": "OK",
+    "es": "Dale",
+    "pt": "Certo"
+  },
+  "btnsendemail": {
+    "en": "Send Email",
+    "es": "Enviar Email",
+    "pt": "Enviar E-mail"
+  },
+  "comingsoon": {
+    "en": "Coming Soon...",
+    "es": "Próximamente...",
+    "pt": "Em Breve..."
+  },
+  "cookie": {
+    "en": "This website uses cookies to enhance the user experience.",
+    "es": "Este sitio web utiliza cookies para mejorar la experiencia del usuario.",
+    "pt": "Utilizamos cookies para oferecer melhor experiência, melhorar o desempenho, analisar como você interage em nosso site e personalizar conteúdo."
+  },
+
+  "btnclose": {
+    "en": "Close",
+    "es": "Cerrar",
+    "pt": "Fechar"
+  },
+
+  "modalArtDesignContent": {
+    "en": "A website is the gateway to your company. Nowadays, people look online first before purchasing a product or service. CZAR+ can help you to expose your business on the internet in order to attract more customers with a more present and professional.",
+    "es": "Un sitio web es la puerta de entrada a su empresa. Hoy en día, las personas primero buscan en línea antes de comprar un producto o servicio. CZAR+ puede ayudarlo a exponer su negocio en Internet para atraer más clientes con una imagen más actual y profesional",
+    "pt": "Um site é a porta de entrada para sua empresa. Atualmente, as pessoas procuram primeiro online antes de adquirir um produto ou serviço. A CZAR+ pode te ajudar a expor seu negócio na internet de forma a atrair mais clientes com uma imagem mais presente e profissional."
+  },
+
+  "modalHostDomainContent": {
+    "en": "We provide the infrastructure needed to keep your application up and running.",
+    "es": "Proporcionamos la infraestructura necesaria para mantener su aplicación en funcionamiento.",
+    "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável"
+  },
+
+  "servicemodalt": {
+    "en": [
+      "Send Emails never was so easy",
+      "Save information in a clean and simple way",
+      "It process data all time"
+    ],
+    "es": [
+      "Envia mails nunca foi tan fácil",
+      "Guardar informaciones de una forma segura, limpia y sensilla",
+      "Datos estan siendo procesados todo el tiempo"
+    ],
+    "pt": [
+      "Mandar E-mails nunca foi tão fácil",
+      "Armazene informações de forma limpa e prática",
+      "Processando dados todo o tempo"
+    ]
+  },
+  "servicemodalmsg": {
+    "en": [
+      "Send an email to yoursel to how our system is working",
+      "Send an image and recive it's url - this image expire past 2 days",
+      "Look the data processed by our robot in table in the right"
+    ],
+    "es": [
+      "Enviate un mail para ti mismo, para que vea nuestro sistema en funcionamiento",
+      "Aramazena una imagen en la cloud y recibí la url de esa imagen - la imagen aspira despúes de 2 días",
+      "Mira lo que proceso nuestro robot en la tabla a la derecha"
+    ],
+    "pt": [
+      "Envie um e-mail pra si mesmo para ver nosso sistema de e-mail funcionando",
+      "Insira uma imagem e receba a url da mesma - a imagem tem duração de 2 dias",
+      "Veja o que já foi processado pelo nosso robô a direita"
+    ]
+  },
+  "cloudservicedescription": {
+    "en": "Image upload",
+    "es": "Carga de Imagen",
+    "pt": "Subir imagem"
+  },
+  "btnsendfile": {
+    "en": "Upload File",
+    "es": "Subir Archivo",
+    "pt": "Subir Arquivo"
+  },
+  "number": {
+    "en": "Number",
+    "es": "Número",
+    "pt": "Número"
+  },
+  "agency": {
+    "en": "Agency",
+    "es": "Agencia",
+    "pt": "Agência"
+  },
+  "datehour": {
+    "en": "Date and Hour",
+    "es": "Fecha y Hora",
+    "pt": "Data e Hora"
+  },
+  "news": {
+    "en": "News",
+    "es": "Noticias",
+    "pt": "Notícias"
+  },
+  "btnsendcloud": {
+    "en": "Upload File to Cloud",
+    "es": "Subir Archivo a la Nube",
+    "pt": "Subir Arquivo à Nuvem"
+  },
+  "newsrobot": {
+    "en": "News bot",
+    "es": "Robot de noticias",
+    "pt": "Robô de notícias"
+  },
+  "sectionabout": {
+    "en": "Welcome to CZAR+, a startup software factory that specializes in creating high-quality software products and services for clients. Our assembly-line approach to software development allows us to deliver software products quickly, reliably, and cost-effectively.",
+    "es": "Bienvenido a CZAR+, una startup de software factory especializada en la creación de productos y servicios de software de alta calidad para clientes. Nuestro enfoque de producción en línea para el desarrollo de software nos permite entregar productos de software de manera rápida, confiable y rentable.",
+    "pt": "Bem-vindo à CZAR+, uma startup de software factory que se especializa na criação de produtos e serviços de software de alta qualidade para clientes. Nosso modelo de produção em linha de montagem para o desenvolvimento de software nos permite entregar produtos de software de maneira rápida, confiável e com ótimo custo-benefício."
+  },
+  "sectiongreetings": {
+    "en": "We are looking for people or companies interested in simple and focused projects or services to solve problems for companies, organizations or communities.",
+    "es": "Buscamos personas o empresas interesadas en proyectos o servicios sencillos y enfocados a solucionar problemas de empresas, organizaciones o comunidades.",
+    "pt": "Procuramos pessoas ou empresas interessadas em projetos ou serviços simples e focados para resolver problemas para empresas, organizações ou comunidades."
+  },
+  "webpagetitle": {
+    "en": "Solving your problem through software",
+    "es": "Resolviendo su problema a través del software",
+    "pt": "Solucionando seu problema através de software"
+  }
 }
