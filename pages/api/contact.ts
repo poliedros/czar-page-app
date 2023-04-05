@@ -21,12 +21,12 @@ async function sendMail(name: string, from: string, body: string) {
   const transporter = nodemailer.createTransport(transport);
 
   const bodyToSend = `<p>Nome: ${name}</p>
-                      <p>De: ${from}</p>
+                      <p>Email: ${from}</p>
                       <p>Mensagem: ${body}</p>`;
   const info = await transporter.sendMail({
     from: `"CZAR+ Contato" <${process.env.SMTP_USER}>`, // sender address`
     to: `${process.env.SMTP_TO}`,
-    subject: "Novo contado no site ✔", // Subject line
+    subject: "Novo contato no site ✔", // Subject line
     text: bodyToSend,
     html: bodyToSend,
   });
