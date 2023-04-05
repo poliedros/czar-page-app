@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -13,6 +15,34 @@ import getIconsByName from "../functions/getIconsByName";
 export default function Contacts() {
   const language = useLanguage();
   const toggleLanguage = useLanguageUpdate();
+
+  const [emailName, setEmailName] = useState<string>();
+  const [emailFrom, setEmailFrom] = useState<string>();
+  const [emailBody, setEmailBody] = useState<string>();
+  const [emailLoading, setEmailLoading] = useState<boolean>(false);
+  const [thankFulMessage, setThankFulMessage] = useState<boolean>(false);
+
+  const handleSubmit = async () => {
+    const data = JSON.stringify({
+      from: emailFrom,
+      name: emailName,
+      body: emailBody,
+    });
+
+    setEmailLoading(true);
+    setThankFulMessage(false);
+
+    await fetch("/api/contact", {
+      method: "POST",
+      body: data,
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
+
+    setEmailLoading(false);
+    setThankFulMessage(true);
+  };
 
   return (
     <>
@@ -35,114 +65,7 @@ export default function Contacts() {
 
           <br />
           <Row>
-            <Col md={3}>
-              {/* <Col xs={12} md={6} className="my-12">
-              <Container>
-                <h3 className="text-start">
-                  <h4
-                    style={{
-                      fontFamily: "'M PLUS Code Latin', sans-serif",
-                    }}
-                  >
-                    <a href="https://www.linkedin.com/in/anderson-mendes-ribeiro/">
-                      {getIconsByName("io", "IoLogoLinkedin")}
-                    </a>
-                  </h4>
-                  <div className="verticalLineBottom">
-                    Anderson M. Ribeiro{" "}
-                    <span className="text-xs">
-                      {translations.teamlanguage[language][0]}
-                    </span>
-                  </div>
-                </h3>
-
-                <h6 className="text-end">
-                  {translations.teamaddress[language][0]} -{" "}
-                  {translations.teamcountry[language][0]}
-                </h6>
-                <h3 className="text-start">
-                  <h4
-                    className="flex"
-                    style={{
-                      fontFamily: "'M PLUS Code Latin', sans-serif",
-                    }}
-                  >
-                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
-                      {getIconsByName("io", "IoLogoLinkedin")}
-                    </a>
-                    &nbsp;
-                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
-                      {getIconsByName("bs", "BsMedium")}
-                    </a>
-                    &nbsp;
-                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
-                      {getIconsByName("bs", "BsTwitter")}
-                    </a>
-                    &nbsp;
-                    <a href="https://www.linkedin.com/in/carlos-zansavio/">
-                      {getIconsByName("bs", "BsYoutube")}
-                    </a>
-                  </h4>
-                  <div className="verticalLineBottom">
-                    Carlos H. L. Zansavio{" "}
-                    <span className="text-xs">
-                      {translations.teamlanguage[language][1]}
-                    </span>
-                  </div>
-                </h3>
-
-                <h6 className="text-end">
-                  {translations.teamaddress[language][1]} -{" "}
-                  {translations.teamcountry[language][1]}
-                </h6>
-                <h3 className="text-start">
-                  <h4
-                    style={{
-                      fontFamily: "'M PLUS Code Latin', sans-serif",
-                    }}
-                  >
-                    <a href="https://www.linkedin.com/in/daniela-souza-gomes/">
-                      {getIconsByName("io", "IoLogoLinkedin")}
-                    </a>
-                  </h4>
-                  <div className="verticalLineBottom">
-                    Daniela S. Gomes{" "}
-                    <span className="text-xs">
-                      {translations.teamlanguage[language][2]}
-                    </span>
-                  </div>
-                </h3>
-
-                <h6 className="text-end">
-                  {translations.teamaddress[language][2]} -{" "}
-                  {translations.teamcountry[language][2]}
-                </h6>
-                <h3 className="text-start">
-                  <h4
-                    style={{
-                      fontFamily: "'M PLUS Code Latin', sans-serif",
-                    }}
-                  >
-                    <a href="https://www.linkedin.com/in/lucas-abreu-417680238/">
-                      {getIconsByName("io", "IoLogoLinkedin")}
-                    </a>
-                  </h4>
-                  <div className="verticalLineBottom">
-                    Lucas M. Abreu{" "}
-                    <span className="text-xs">
-                      {translations.teamlanguage[language][3]}
-                    </span>
-                  </div>
-                </h3>
-
-                <h6 className="text-end">
-                  {translations.teamaddress[language][3]} -{" "}
-                  {translations.teamcountry[language][3]}
-                </h6>
-              </Container>
-            </Col> */}
-            </Col>
-
+            <Col md={3}></Col>
             <Col
               xs={12}
               md={6}
@@ -153,17 +76,15 @@ export default function Contacts() {
                   {translations.contactmm[language]}
                 </h5>
                 <br />
-                <Form onSubmit={undefined /* this.handleSubmit */}>
+                <Form>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Control
                       type="text"
                       placeholder={translations.contactilename[language]}
-                      value={"" /* this.emailName */}
-                      onChange={
-                        (
-                          v
-                        ) => {} /* this.setState({ emailName: v.target.value }) */
-                      }
+                      value={emailName}
+                      onChange={(v) => {
+                        setEmailName(v.target.value);
+                      }}
                     />
                     <Form.Text className="text-muted"></Form.Text>
                   </Form.Group>
@@ -171,12 +92,10 @@ export default function Contacts() {
                     <Form.Control
                       type="email"
                       placeholder={translations.contactilemail[language]}
-                      value={"" /* this.emailFrom */}
-                      onChange={
-                        (
-                          v
-                        ) => {} /* this.setState({ emailFrom: v.target.value }) */
-                      }
+                      value={emailFrom}
+                      onChange={(v) => {
+                        setEmailFrom(v.target.value);
+                      }}
                     />
                     <Form.Text className="text-muted">
                       <h6 className="text-gray-500">
@@ -192,24 +111,34 @@ export default function Contacts() {
                       as="textarea"
                       rows={3}
                       placeholder={translations.contactilemessage[language]}
-                      value={"" /* this.emailBody */}
-                      onChange={
-                        (
-                          v
-                        ) => {} /* this.setState({ emailBody: v.target.value }) */
-                      }
+                      value={emailBody}
+                      onChange={(v) => {
+                        setEmailBody(v.target.value);
+                      }}
                     />
                   </Form.Group>
                   <div className="flex justify-center">
-                    <Button
-                      className="!flex items-center !font-thin"
-                      variant="secondary"
-                      type="submit"
-                    >
-                      {getIconsByName("fa", "FaPaperPlane")} &nbsp;{" "}
-                      {translations.btnsendemail[language]}
-                    </Button>
+                    {!emailLoading ? (
+                      <Button
+                        className="!flex items-center !font-thin"
+                        variant="secondary"
+                        type="submit"
+                        onClick={handleSubmit}
+                      >
+                        {getIconsByName("fa", "FaPaperPlane")} &nbsp;{" "}
+                        {translations.btnsendemail[language]}
+                      </Button>
+                    ) : (
+                      <>{translations.loading[language]}</>
+                    )}
                   </div>
+                  {thankFulMessage ? (
+                    <div className="flex justify-center">
+                      {translations.thankfulMessage[language]}
+                    </div>
+                  ) : (
+                    <></>
+                  )}
                 </Form>
               </Container>
             </Col>
