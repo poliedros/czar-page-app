@@ -484,5 +484,15 @@
     "en": "Solving your problem through software",
     "es": "Resolviendo su problema a través del software",
     "pt": "Solucionando seu problema através de software"
+  },
+  "loading": {
+    "en": "Loading",
+    "es": "Cargando",
+    "pt": "Carregando"
+  },
+  "thankfulMessage": {
+    "en": "Thank you. CZAR+ will be in touch soon.",
+    "es": "Gracias. Nos veremos pronto.",
+    "pt": "Obrigado. CZAR+ entrará em contato em breve."
   }
 }

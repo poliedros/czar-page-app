@@ -12,6 +12,7 @@
     "bootstrap": "^5.2.0",
     "bootswatch": "^5.2.0",
     "next": "12.2.5",
+    "nodemailer": "^6.9.1",
     "react": "18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "18.2.0",
@@ -19,6 +20,7 @@
   },
   "devDependencies": {
     "@types/node": "18.7.13",
+    "@types/nodemailer": "^6.4.7",
     "@types/react": "18.0.17",
     "@types/react-dom": "18.0.6",
     "autoprefixer": "^10.4.8",
