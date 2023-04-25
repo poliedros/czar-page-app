@@ -22,6 +22,11 @@ export default function Start() {
   const language = useLanguage();
   const toggleLanguage = useLanguageUpdate();
 
+  const minute = 1000 * 60;
+  const hour = minute * 60;
+  const day = hour * 24;
+  const year = day * 365;
+
   return (
     <>
       <div className="App" id="start">
@@ -81,7 +86,9 @@ export default function Start() {
             paddingRight: "24px",
           }}
         >
-          <span className="bg-green-700 p-[5px]">2023</span>
+          <span className="bg-green-700 p-[5px]">
+            {1970 + Math.round(Date.now() / year)}
+          </span>
         </h6>
       </Container>
       <Offcanvas

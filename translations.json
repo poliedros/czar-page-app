@@ -14,9 +14,9 @@
     "pt": "Te desejamos Boas-Vindas!"
   },
   "greetingmsg": {
-    "en": "Our software factory startup is focused on delivering high-quality, scalable and reliable software solutions \nfor businesses across various industries. We believe that by providing a dedicated team of \nexperienced software developers, we can help our clients accelerate their digital transformation and achieve their business goals.",
-    "es": "¡Bienvenido a nuestra fábrica de software startup! Somos un equipo de expertos en tecnología apasionados por transformar \ntus ideas en software de calidad. Utilizamos metodologías ágiles para garantizar la eficiencia y transparencia en todo \nel proceso de desarrollo, desde la planificación hasta la entrega final.",
-    "pt": "Bem-vindo à nossa fábrica de software startup! Somos uma equipe apaixonada por tecnologia e estamos aqui para transformar \na sua ideia em um software de qualidade. Utilizamos metodologias ágeis para garantir a eficiência e transparência em todo \no processo de desenvolvimento, desde o planejamento até a entrega final."
+    "en": "Our software factory startup is focused on delivering high-quality,\nscalable and reliable software solutions for businesses across various industries",
+    "es": "¡Bienvenido a nuestra fábrica de software startup!",
+    "pt": "Essa é a nossa fábrica de software startup!"
   },
 
   "navbar": {
@@ -28,7 +28,7 @@
     "greetings": {
       "en": "Greetings",
       "es": "Saludos",
-      "pt": "Bem-vindo"
+      "pt": "Boas-vindas"
     },
     "services": {
       "en": "Services",
@@ -476,9 +476,9 @@
     "pt": "Bem-vindo à CZAR+, uma startup de software factory que se especializa na criação de produtos e serviços de software de alta qualidade para clientes. Nosso modelo de produção em linha de montagem para o desenvolvimento de software nos permite entregar produtos de software de maneira rápida, confiável e com ótimo custo-benefício."
   },
   "sectiongreetings": {
-    "en": "We are looking for people or companies interested in simple and focused projects or services to solve problems for companies, organizations or communities.",
-    "es": "Buscamos personas o empresas interesadas en proyectos o servicios sencillos y enfocados a solucionar problemas de empresas, organizaciones o comunidades.",
-    "pt": "Procuramos pessoas ou empresas interessadas em projetos ou serviços simples e focados para resolver problemas para empresas, organizações ou comunidades."
+    "en": "We believe that by providing a dedicated team of experienced software developers,\nwe can help our clients accelerate their digital transformation and achieve their business goals.",
+    "es": "Somos un equipo de expertos en tecnología apasionados por transformar \ntus ideas en software de calidad. Utilizamos metodologías ágiles para garantizar la eficiencia y transparencia en todo \nel proceso de desarrollo, desde la planificación hasta la entrega final.",
+    "pt": "Somos uma equipe apaixonada por tecnologia e estamos aqui para transformar \na sua ideia em um software de qualidade. Utilizamos metodologias ágeis para garantir a eficiência e transparência em todo \no processo de desenvolvimento, desde o planejamento até a entrega final."
   },
   "webpagetitle": {
     "en": "Solving your problem through software",

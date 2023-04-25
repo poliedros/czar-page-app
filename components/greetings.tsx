@@ -30,6 +30,9 @@ export default function Greetings() {
               >
                 {translations("greetingmsg", language)}
               </h5>
+              <h6 style={{ fontFamily: "'Source Sans Pro', sans-serif" }}>
+                {translations("sectiongreetings", language)}
+              </h6>
             </Col>
             <Col md={2}></Col>
           </Row>

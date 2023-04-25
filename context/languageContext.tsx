@@ -42,28 +42,27 @@ export const LanguageContext = React.createContext<Languages>("en");
 const LanguageUpdateContext = React.createContext({});
 
 export function useLanguage() {
-    return useContext(LanguageContext);
+  return useContext(LanguageContext);
 }
 
 export function useLanguageUpdate() {
-    return useContext(LanguageUpdateContext);
+  return useContext(LanguageUpdateContext);
 }
 
-export function LanguageProvider({ children }: { children: any }) { //
-    const [language, setLanguage] = useState<Languages>("en");
+export function LanguageProvider({ children }: { children: any }) {
+  //
+  const [language, setLanguage] = useState<Languages>("pt");
 
-    function toggleLanguage(lang?: Languages) {
-        if(lang)
-            setLanguage(lang);
-        else
-            setLanguage("en");
-    }
+  function toggleLanguage(lang?: Languages) {
+    if (lang) setLanguage(lang);
+    else setLanguage("en");
+  }
 
-    return (
-        <LanguageContext.Provider value={language}>
-            <LanguageUpdateContext.Provider value={toggleLanguage}>
-                {children}
-            </LanguageUpdateContext.Provider>
-        </LanguageContext.Provider>
-    );
+  return (
+    <LanguageContext.Provider value={language}>
+      <LanguageUpdateContext.Provider value={toggleLanguage}>
+        {children}
+      </LanguageUpdateContext.Provider>
+    </LanguageContext.Provider>
+  );
 }
