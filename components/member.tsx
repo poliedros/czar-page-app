@@ -21,7 +21,7 @@ export default function MemberCzar({ data }: { data: MemberData }) {
     <>
       <Col
         xs={12}
-        md={6}
+        // md={6}
         className="bg-no-repeat bg-center bg-cover flex flex-col justify-center text-left py-1"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${data.image})`,
