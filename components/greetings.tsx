@@ -23,7 +23,7 @@ export default function Greetings() {
                 {translations("greetingst", language)}
               </h1>{" "}
               <h5
-                className="whitespace-pre"
+                // className="whitespace-pre"
                 style={{
                   fontFamily: "'Source Sans Pro', sans-serif",
                 }}
