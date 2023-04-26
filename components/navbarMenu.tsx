@@ -49,6 +49,9 @@ export default function NavbarCzar() {
             <Nav.Link href="#contacts" className="slide-contacts !text-xs">
               {translations.navbar.contacts[language]}
             </Nav.Link>
+            <Nav.Link href="#team" className="slide-contacts !text-xs">
+              {translations.navbar.team[language]}
+            </Nav.Link>
             <Nav.Link href="#about" className="slide-about !text-xs">
               {translations.navbar.about[language]}
             </Nav.Link>
@@ -103,12 +106,12 @@ export default function NavbarCzar() {
                 <Nav.Link href="#about">
                   {translations.navbar.about[language]}
                 </Nav.Link>
-                <Nav.Link href="#drafts">
+                {/* <Nav.Link href="#drafts">
                   {translations.navbar.drafts[language]}
                 </Nav.Link>
                 <Nav.Link href="#concepts">
                   {translations.navbar.concepts[language]}
-                </Nav.Link>
+                </Nav.Link> */}
               </Nav>
             </Container>
           </Navbar>
