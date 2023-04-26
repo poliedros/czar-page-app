@@ -47,7 +47,7 @@ export default function Team() {
                   height: "70vh",
                 }}
               >
-                <MemberCzar
+                {/* <MemberCzar
                   data={{
                     name: "Carlos Zansávio",
                     image:
@@ -61,7 +61,7 @@ export default function Team() {
                     pos: 1,
                     language: language,
                   }}
-                />
+                /> */}
                 <MemberCzar
                   data={{
                     name: "Anderson Ribeiro",
@@ -112,7 +112,7 @@ export default function Team() {
                   height: "70vh",
                 }}
               >
-                <MemberCzar
+                {/* <MemberCzar
                   data={{
                     name: "Daniela Gomes",
                     image:
@@ -127,9 +127,9 @@ export default function Team() {
                     pos: 2,
                     language: language,
                   }}
-                />
-
-                <MemberCzar
+                /> */}
+                <Col>{translations("allMembers", language)}</Col>
+                {/* <MemberCzar
                   data={{
                     name: "Lucas Abreu",
                     image:
@@ -144,7 +144,7 @@ export default function Team() {
                     pos: 3,
                     language: language,
                   }}
-                />
+                /> */}
               </Row>
             </Col>
           </Row>

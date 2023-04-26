@@ -499,5 +499,10 @@
     "en": "Examples",
     "es": "Ejemplos",
     "pt": "Exemplos"
+  },
+  "allMember": {
+    "en": "All Members",
+    "es": "Los Miembros",
+    "pt": "Os Membros"
   }
 }
