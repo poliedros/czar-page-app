@@ -40,16 +40,10 @@ export default function NavbarTranslations() {
     <>
       <Navbar
         variant="dark"
-        className="!fixed right-0 top-12 text-end" /* style={{ position: "fixed", right: "0", top: "3rem", textAlign: "end" }} */
+        className="!fixed right-0 top-12 text-end z-[5]" /* style={{ position: "fixed", right: "0", top: "3rem", textAlign: "end" }} */
       >
         <Container>
-          <Nav
-            className="unselectable me-auto navmedia !flex-col"
-            style={{
-              fontFamily: "'M PLUS Code Latin', sans-serif",
-              /* flexDirection: "column", */
-            }}
-          >
+          <Nav className="unselectable me-auto navmedia !flex-col font-['M_PLUS_Code_Latin']">
             <div className="text-white">{getIcons("io5", "ilanguage")}</div>
             {/* <IoLanguageSharp style={{ color: "white" }} /> */}
             <br />
@@ -119,13 +113,7 @@ export default function NavbarTranslations() {
             className="text-center" /* style={{ textAlign: "center" }} */
           >
             <Container>
-              <Nav
-                className="me-auto !flex-col"
-                style={{
-                  /* flexDirection: "column", */ fontFamily:
-                    "'M PLUS Code Latin', sans-serif",
-                }}
-              >
+              <Nav className="me-auto !flex-col font-['M_PLUS_Code_Latin']">
                 <Nav.Link
                   onClick={
                     () => {

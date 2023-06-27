@@ -40,7 +40,7 @@ export default function CardCzar({ preview }: any) {
                   </span>
                 </div>
                 <div
-                  className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
+                  className="card-cont-scroll absolute bottom-0 right-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
                   style={{
                     fontFamily: "'Source Sans Pro', sans-serif",
                   }}
@@ -50,10 +50,7 @@ export default function CardCzar({ preview }: any) {
                       fontFamily: "'Ubuntu Condensed', sans-serif",
                     }}
                   >
-                    {translations(
-                      preview.type + "t",
-                      preview.language
-                    )}
+                    {translations(preview.type + "t", preview.language)}
                   </h1>
                   <h6
                     className="text-[#e2e8f0] drop-shadow-[1px_1px_2px_black]"
@@ -62,14 +59,13 @@ export default function CardCzar({ preview }: any) {
                     }}
                   >
                     {preview.message}
-                    <div className="flex justify-end">{preview.icon2 !== "" ? getIconsByName("ri", preview.icon2) : null}</div>
+                    <div className="flex justify-end">
+                      {preview.icon2 !== ""
+                        ? getIconsByName("ri", preview.icon2)
+                        : null}
+                    </div>
                   </h6>
-                  <h5>
-                    {translations(
-                      preview.type + "st",
-                      preview.language
-                    )}
-                  </h5>
+                  <h5>{translations(preview.type + "st", preview.language)}</h5>
                   {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
                   {/* <div className="adown flex justify-center invisible"><span className="backdrop-blur-sm z-10 p-1">{ getIconsByName("io5", "IoChevronDown") }</span></div> */}
                 </div>
@@ -97,7 +93,7 @@ export default function CardCzar({ preview }: any) {
                 </span>
               </div>
               <div
-                className="card-cont-scroll absolute bottom-0 left-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
+                className="card-cont-scroll absolute bottom-0 right-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
                 style={{
                   fontFamily: "'Source Sans Pro', sans-serif",
                 }}
@@ -107,10 +103,7 @@ export default function CardCzar({ preview }: any) {
                     fontFamily: "'Ubuntu Condensed', sans-serif",
                   }}
                 >
-                  {translations(
-                    preview.type + "t",
-                    preview.language
-                  )}
+                  {translations(preview.type + "t", preview.language)}
                 </h1>
                 {/* <h6
                                 className="text-[#e2e8f0] drop-shadow-[1px_1px_2px_black]"
@@ -122,18 +115,8 @@ export default function CardCzar({ preview }: any) {
                                 {preview.message}
                                 {/* <GiPaintBrush /> /}
                             </h6> */}
-                <h4>
-                  {translations(
-                    preview.type + "st",
-                    preview.language
-                  )}
-                </h4>
-                <h6>
-                  {translations(
-                    preview.type + "tmsg",
-                    preview.language
-                  )}
-                </h6>
+                <h4>{translations(preview.type + "st", preview.language)}</h4>
+                <h6>{translations(preview.type + "tmsg", preview.language)}</h6>
                 {/* <h6><a href="">for your business</a><br /><a href="">for your code</a></h6> */}
               </div>
             </div>

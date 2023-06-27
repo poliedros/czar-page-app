@@ -25,7 +25,7 @@ export default function NavbarCzar() {
     <>
       <Navbar
         variant="dark"
-        className="!fixed bottom-[3rem] text-start" /* style={{ position: "fixed", bottom: "3rem", textAlign: "start" }} */
+        className="!fixed bottom-[5rem] text-start z-[5]" /* style={{ position: "fixed", bottom: "3rem", textAlign: "start" }} */
       >
         <Container>
           <Nav
@@ -37,9 +37,9 @@ export default function NavbarCzar() {
             <Nav.Link href="#start" className="slide-start !text-xs">
               {translations.navbar.start[language]}
             </Nav.Link>
-            <Nav.Link href="#greetings" className="slide-greetings !text-xs">
+            {/* <Nav.Link href="#greetings" className="slide-greetings !text-xs">
               {translations.navbar.greetings[language]}
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link href="#services" className="slide-services !text-xs">
               {translations.navbar.services[language]}
             </Nav.Link>
@@ -49,12 +49,12 @@ export default function NavbarCzar() {
             <Nav.Link href="#contacts" className="slide-contacts !text-xs">
               {translations.navbar.contacts[language]}
             </Nav.Link>
-            <Nav.Link href="#team" className="slide-contacts !text-xs">
+            {/* <Nav.Link href="#team" className="slide-contacts !text-xs">
               {translations.navbar.team[language]}
             </Nav.Link>
             <Nav.Link href="#about" className="slide-about !text-xs">
               {translations.navbar.about[language]}
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </Container>
       </Navbar>
@@ -88,24 +88,24 @@ export default function NavbarCzar() {
                 <Nav.Link href="#start">
                   {translations.navbar.start[language]}
                 </Nav.Link>
-                <Nav.Link href="#greetings">
+                {/* <Nav.Link href="#greetings">
                   {translations.navbar.greetings[language]}
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link href="#services">
                   {translations.navbar.services[language]}
                 </Nav.Link>
                 <Nav.Link href="#projects">
                   {translations.navbar.projects[language]}
                 </Nav.Link>
-                <Nav.Link href="#team">
+                {/* <Nav.Link href="#team">
                   {translations.navbar.team[language]}
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link href="#contacts">
                   {translations.navbar.contacts[language]}
                 </Nav.Link>
-                <Nav.Link href="#about">
+                {/* <Nav.Link href="#about">
                   {translations.navbar.about[language]}
-                </Nav.Link>
+                </Nav.Link> */}
                 {/* <Nav.Link href="#drafts">
                   {translations.navbar.drafts[language]}
                 </Nav.Link>
