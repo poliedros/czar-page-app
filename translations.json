@@ -607,7 +607,7 @@
       "Segurança",
       "Publicidade Digital",
       "Monitoramento",
-      "Exibição Gráfica",
+      "Análise de dados",
       "Suporte Técnico",
       "Variedade de Recursos",
       "Análise de Performance"
@@ -626,31 +626,31 @@
     ],
     "pt": [
       "Arte e Design",
-      "Hosting",
+      "Hospedagem de sites e sistemas",
       "Identidade Visual",
       "Segurança",
       "Publicidade Digital",
       "Monitoramento",
-      "Exibição Gráfica",
+      "Análise de dados",
       "Suporte Técnico",
-      "Variedade de Recursos",
+      "Aplicativos",
       "Análise de Performance"
     ]
   },
   "mainServicesMessage": {
     "en": "Densevolvemos projetos web como páginas/sites, aplicativos ou similares",
     "es": "Densevolvemos projetos web como páginas/sites, aplicativos ou similares",
-    "pt": "Densevolvemos projetos web como páginas/sites, aplicativos ou similares"
+    "pt": "Densevolvemos projetos de TI como sites, aplicativos ou similares."
   },
   "mainServicesSubMessage": {
     "en": "Temos profissionais qualificados e infraestrutura própria",
     "es": "Temos profissionais qualificados e infraestrutura própria",
-    "pt": "Temos profissionais qualificados e infraestrutura própria"
+    "pt": "Temos profissionais qualificados e infraestrutura própria."
   },
   "mainServicesUnderMessage": {
     "en": "Tenha sua página rodando em dias, ou seu projeto funcionando em semanas ou meses",
     "es": "Tenha sua página rodando em dias, ou seu projeto funcionando em semanas ou meses",
-    "pt": "Tenha sua página rodando em dias, ou seu projeto funcionando em semanas ou meses"
+    "pt": "Tenha sua página rodando em dias, ou seu projeto funcionando 24/7!"
   },
   "otherServices": {
     "en": "Outros Serviços",

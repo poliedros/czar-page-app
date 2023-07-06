@@ -17,16 +17,17 @@ export default function Services() {
       <div className="App-header" id="services">
         <Container>
           <Row className="flex justify-center items-center !my-24">
-            <h3
+            {/* <h3
               className="unselectable uppercase tracking-[.3rem] my-6"
               style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}
             >
               {translations.servicemt[language]}
-            </h3>
+            </h3> */}
             <div className="border-white border py-3 !mt-3 !w-[90%]">
               <h5 className="-mt-7 uppercase font-['Ubuntu_Condensed'] tracking-widest">
                 <mark className="bg-[#282C34] text-white">
-                  {translations.mainServices[language]}
+                  {/* {translations.mainServices[language]} */}
+                  {translations.servicemt[language]}
                 </mark>
               </h5>
               <h5 className="font-thin my-6">
@@ -52,12 +53,6 @@ export default function Services() {
                     {IconsByName("ri", "RiShoppingBag3Fill", "40px", "white")}
                   </h5>
                   <h5 className="flex items-center m-3">
-                    {/* {IconsByName(
-                      "hi",
-                      "HiPresentationChartBar",
-                      "24px",
-                      "white"
-                    )} */}
                     {translations.servicesTopics[language][6]} &nbsp;{" "}
                     {IconsByName("md", "MdOutlineAreaChart", "40px", "white")}
                   </h5>
@@ -67,15 +62,8 @@ export default function Services() {
                   </h5>
                 </Col>
                 <Col className="flex flex-col">
-                  <h5 className="flex items-center m-3 hover:text-[#29fc16bf]">
-                    <div>
-                      {IconsByName(
-                        "md",
-                        "MdOutlineWeb",
-                        "40px",
-                        "rgba(41,252,22,0.75)"
-                      )}
-                    </div>{" "}
+                  <h5 className="flex items-center m-3">
+                    <div>{IconsByName("md", "MdOutlineWeb", "40px")}</div>{" "}
                     &nbsp; {translations.servicesTopics[language][1]}
                   </h5>
                   <h5 className="flex items-center m-3">
@@ -150,78 +138,6 @@ export default function Services() {
                   }}
                 />
               </Col>
-              <h6 className="font-normal flex flex-col md:flex-row items-center justify-center mt-6 uppercase tracking-widest">
-                <div className="my-2 md:m-0">
-                  {IconsByName(
-                    "bs",
-                    "BsCalendar2CheckFill",
-                    "30px",
-                    "white",
-                    "0 1rem 0 1rem"
-                  )}{" "}
-                </div>
-                {translations.mainServicesUnderMessage[language]}
-              </h6>
-            </div>
-            <div className="border-white border p-3 !mt-10 !w-[90%]">
-              <h5 className="-mt-7 uppercase font-['Ubuntu_Condensed'] tracking-widest">
-                <mark className="bg-[#282C34] text-white">
-                  {translations.otherServices[language]}
-                </mark>
-              </h5>
-              <h6 className="font-thin my-6">
-                {translations.otherServicesMessage[language]}
-              </h6>
-              <Col
-                md={12}
-                // xs={12}
-                // lg={4}
-                className="flex items-center justify-center"
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  // margin: "1rem 0 1rem 0",
-                }}
-              >
-                <CapCard
-                  preview={{
-                    state: "Email",
-                    icon: "MdEmail",
-                    iconType: "md",
-                    type: "service",
-                    id: "2",
-                    pos: "0",
-                    // message: "QWERTYIOP",
-                    icon2: "",
-                    bgImage: "first",
-                    artist: "lucasgeorgewendtfotografia.blogspot.com",
-                    language: language,
-                  }}
-                />
-              </Col>
-              <Col
-                md={12}
-                // xs={12}
-                // lg={4}
-                className="flex items-center justify-center"
-              >
-                <CapCard
-                  preview={{
-                    state: "Cloud",
-                    icon: "RiCloudFill",
-                    iconType: "ri",
-                    type: "service",
-                    id: "3",
-                    pos: "1",
-                    // message: "Cumulonimbus",
-                    icon2: "",
-                    bgImage: "second",
-                    artist: "instagram.com/ibam_photovideo",
-                    language: language,
-                  }}
-                />
-              </Col>
               <Col
                 md={12}
                 // xs={12}
@@ -244,6 +160,18 @@ export default function Services() {
                   }}
                 />
               </Col>
+              <h6 className="font-normal flex flex-col md:flex-row items-center justify-center mt-6 uppercase tracking-widest">
+                <div className="my-2 md:m-0">
+                  {IconsByName(
+                    "bs",
+                    "BsCalendar2CheckFill",
+                    "30px",
+                    "white",
+                    "0 1rem 0 1rem"
+                  )}{" "}
+                </div>
+                {translations.mainServicesUnderMessage[language]}
+              </h6>
             </div>
           </Row>
         </Container>
