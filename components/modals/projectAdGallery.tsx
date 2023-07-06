@@ -13,7 +13,7 @@ export default function ModalAdGallery({ language }: { language: Languages }) {
               {<IoGrid />}
               <br /> translations(projectt, language, 0)
             </h1>
-            <h3>translations(projectst, language, 0) </h3>
+            {/* <h3>translations(projectst, language, 0) </h3> */}
             <h5>
               {" "}
               translations(projecttmsg, language, 0)

@@ -1,5 +1,3 @@
-//import CardCzar from "./cardCzar";
-
 import { Container, Row, Col } from "react-bootstrap";
 
 import translations from "../translations.json";
@@ -17,17 +15,16 @@ export default function Services() {
       <div className="App-header" id="services">
         <Container>
           <Row className="flex justify-center items-center !my-24">
-            {/* <h3
+            <h3
               className="unselectable uppercase tracking-[.3rem] my-6"
               style={{ fontFamily: "'Ubuntu Condensed', sans-serif" }}
             >
               {translations.servicemt[language]}
-            </h3> */}
+            </h3>
             <div className="border-white border py-3 !mt-3 !w-[90%]">
               <h5 className="-mt-7 uppercase font-['Ubuntu_Condensed'] tracking-widest">
                 <mark className="bg-[#282C34] text-white">
-                  {/* {translations.mainServices[language]} */}
-                  {translations.servicemt[language]}
+                  {translations.mainServices[language]}
                 </mark>
               </h5>
               <h5 className="font-thin my-6">
@@ -130,7 +127,7 @@ export default function Services() {
                     type: "service",
                     id: "1",
                     pos: "3",
-                    // message: "czar.dev",
+                    message: "",
                     icon2: "",
                     bgImage: "sixth",
                     artist: "kobu.agency",
@@ -150,9 +147,9 @@ export default function Services() {
                     icon: "RiRobotFill",
                     iconType: "ri",
                     type: "service",
-                    id: "4",
+                    id: "2",
                     pos: "2",
-                    // message: "Domo arigato, Mr. Roboto",
+                    message: "",
                     icon2: "",
                     bgImage: "third",
                     artist: "instagram.com/jem.sahagun",

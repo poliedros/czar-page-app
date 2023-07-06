@@ -155,7 +155,7 @@
     "pt": [
       "Estágio pre-",
       "Estágio pre-",
-      "Estágio ",
+      "Estágio β",
       "finalizado",
       "em desenvolvimento"
     ]
@@ -582,22 +582,22 @@
   "cisabMessage": {
     "en": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública Consórcio Intermunicipal de Saneamento Básico da Zona da Mata de Minas Gerais – CISAB Zona da Mata, que atualmente conta com 48 municípios associados.",
     "es": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública Consórcio Intermunicipal de Saneamento Básico da Zona da Mata de Minas Gerais – CISAB Zona da Mata, que atualmente conta com 48 municípios associados.",
-    "pt": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública Consórcio Intermunicipal de Saneamento Básico da Zona da Mata de Minas Gerais – CISAB Zona da Mata, que atualmente conta com 48 municípios associados."
+    "pt": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública CISAB Zona da Mata, sediada na cidade de Viçosa, em Minas Gerais, que atualmente conta com 48 municípios associados."
   },
   "ramosMessage": {
     "en": "Cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar localizado na cidade de São João Del-Rei Minas Gerais. Fluxo médio de visitas passando das centenas nos fins de semana.",
     "es": "Cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar localizado na cidade de São João Del-Rei Minas Gerais. Fluxo médio de visitas passando das centenas nos fins de semana.",
-    "pt": "Cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar localizado na cidade de São João Del-Rei Minas Gerais. Fluxo médio de visitas passando das centenas nos fins de semana."
+    "pt": "Um cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar, localizado na cidade de São João Del Rei, em Minas Gerais. O fluxo médio de visitas supera centenas nos fins de semana."
   },
   "opcaoMessage": {
     "en": "Reprodução digital de revista de publicidade local na região de São João Nepomuceno Minas Gerais. Distribuição atual em 4 diferentes municípios com mais de 50 propagandas do comercial local e anúncios de vendas.",
     "es": "Reprodução digital de revista de publicidade local na região de São João Nepomuceno Minas Gerais. Distribuição atual em 4 diferentes municípios com mais de 50 propagandas do comercial local e anúncios de vendas.",
-    "pt": "Reprodução digital de revista de publicidade local na região de São João Nepomuceno Minas Gerais. Distribuição atual em 4 diferentes municípios com mais de 50 propagandas do comercial local e anúncios de vendas."
+    "pt": "Reprodução digital da revista de publicidade local na região de São João Nepomuceno, em Minas Gerais. Atende atualmente 4 diferentes municípios, com mais de 50 propagandas do comércio local e anúncios de vendas."
   },
   "mainServices": {
     "en": "Projeto Digital",
     "es": "Projeto Digital",
-    "pt": "Projeto Digital"
+    "pt": "O que oferecemos"
   },
   "servicesTopics": {
     "en": [
