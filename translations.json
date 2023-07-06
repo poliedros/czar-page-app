@@ -384,7 +384,7 @@
   "btnok": {
     "en": "OK",
     "es": "Dale",
-    "pt": "Certo"
+    "pt": "Ok"
   },
   "btnsendemail": {
     "en": "Send Email",
@@ -417,7 +417,7 @@
   "modalHostDomainContent": {
     "en": "We provide the infrastructure needed to keep your application up and running.",
     "es": "Proporcionamos la infraestructura necesaria para mantener su aplicación en funcionamiento.",
-    "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável"
+    "pt": "Oferecemos a infraestrutura necessária para manter sua aplicação de pé e saudável."
   },
 
   "servicemodalt": {
@@ -517,7 +517,7 @@
   "thankfulMessage": {
     "en": "Thank you. CZAR+ will be in touch soon.",
     "es": "Gracias. Nos veremos pronto.",
-    "pt": "Obrigado. CZAR+ entrará em contato em breve."
+    "pt": "Obrigado. A CZAR+ entrará em contato em breve."
   },
   "examples": {
     "en": "Examples",
@@ -569,9 +569,9 @@
       "Criação de Aplicativos",
       "Elaboração de Projetos de TI",
       "Construção de Programas Personalizados",
-      "Análises de Publicidade Online",
-      "Estruturação de Programas",
-      "Hospedagem em Data Center"
+      "Publicidade Online",
+      "Análise de Dados",
+      "Hospedagem de Sites e Sistemas"
     ]
   },
   "seeLink": {
@@ -678,11 +678,11 @@
       "Divulgação e Publicidade Online"
     ],
     "pt": [
-      "Codificação com diferentes Linguages",
-      "Utilização de Frameworks e Recursos",
-      "Consultoria de Arte e Layout",
-      "Variedade de Recursos Visuais",
-      "Divulgação e Publicidade Online"
+      "- Projeto multiplataforma",
+      "- Estilos e animações",
+      "- Consultoria de arte e layout",
+      "- Variedade de recursos visuais",
+      "- Divulgação e publicidade online"
     ]
   },
   "firstServiceTooltip": {
@@ -728,13 +728,11 @@
       "Suporte Técnico"
     ],
     "pt": [
-      "Hosting com infraestrutura própria",
-      "Domínio próprio",
-      "Uso de Diferentes Bancos de Dados",
-      "Melhoramento de Performance",
-      "Segurança 24/7",
-      "Monitoramento 24/7",
-      "Suporte Técnico"
+      "- Hospedagem em infraestrutura própria",
+      "- Armazenamento confiável de dados",
+      "- Monitoramento de performance",
+      "- Segurança",
+      "- Suporte Técnico"
     ]
   },
   "secondServiceTooltip": {
@@ -764,6 +762,21 @@
       "Prevenção de hackeamento e quedas do sistema",
       "Fluxo de usuários e fornecimento de relatórios",
       "Para falhas, reclamações e sugestões"
+    ]
+  },
+  "modalRobotContent": {
+    "en": "",
+    "es": "",
+    "pt": "Possui um processo manual em sua empresa, que leva muito tempo para ser executado e que pode ser automatizado? A CZAR+ pode desenvolver um programa que irá te poupar tempo e esforço."
+  },
+  "robotMessages": {
+    "en": [],
+    "es": [],
+    "pt": [
+      "- Solução personalizada para seu negócio",
+      "- Tarefas agendadas",
+      "- Confiabilidade",
+      "- Monitoramento de tarefas"
     ]
   }
 }

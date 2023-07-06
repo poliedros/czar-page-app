@@ -69,13 +69,6 @@ export default function CapCard({ preview }: any) {
                         : null}
                     </div>
                   </h6>
-                  {/* <h5 className="!font-thin">
-                    {
-                      translations(preview.type + "st", preview.language)[
-                        preview.pos
-                      ]
-                    }
-                  </h5> */}
                 </div>
               </div>
             </div>
