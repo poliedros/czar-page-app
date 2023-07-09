@@ -79,21 +79,24 @@
       "Cloud Service",
       "Robot Service",
       "Host and Domain Service",
-      "Web Site Art/Design"
+      "Web Site Art/Design",
+      "Data Science Service"
     ],
     "es": [
       "Servicio de Email",
       "Servicio de Cloud",
       "Servicio de Robot",
       "Servicio de Host y Dominio",
-      "Diseño y Arte de Páginas Web"
+      "Diseño y Arte de Páginas Web",
+      "Servicio de ciencia de datos"
     ],
     "pt": [
       "Serviço de Email",
       "Serviço de Nuvem (Cloud)",
       "Serviço de Automação de Processos (Robô)",
       "Serviço de Host e Domínio",
-      "Arte e Design para Web Sites"
+      "Arte e Design para Web Sites",
+      "Serviço de Ciência de Dados"
     ]
   },
   "servicest": {
@@ -667,14 +670,14 @@
       "- Cross-platform project",
       "- Styles and animations",
       "- Art and layout consultancy",
-      "-Variety of visuals",
+      "- Variety of visuals",
       "- Disclosure and online advertising"
     ],
     "es": [
       "- Proyecto multiplataforma",
       "- Estilos y animaciones",
       "- Consultoría de arte y maquetación",
-      "-Variedad de imágenes",
+      "- Variedad de imágenes",
       "- Divulgación y publicidad en línea"
     ],
     "pt": [
@@ -770,19 +773,44 @@
       "- Customized solution for your business",
       "- Scheduled Tasks",
       "- Reliability",
-      "-Task Monitoring"
+      "- Task Monitoring"
     ],
     "es": [
       "- Solución personalizada para su negocio",
       "- Tareas programadas",
       "- Fiabilidad",
-      "-Supervisión de tareas"
+      "- Supervisión de tareas"
     ],
     "pt": [
       "- Solução personalizada para seu negócio",
       "- Tarefas agendadas",
       "- Confiabilidade",
       "- Monitoramento de tarefas"
+    ]
+  },
+  "modalDataScienceContent": {
+    "en": "Your company's most valuable information is your data. With them, it is possible to extract knowledge and make better decisions. CZAR+ offers a consulting and data analysis service. For a month, we were in charge of getting to know your business, working methods, processes and the like. At the end of this period, we deliver a complete report with analysis of the data and proposals for automation and digital improvements for your business. And of course, always treating the information with complete secrecy.",
+    "es": "La información más valiosa de su empresa son sus datos. Con ellos es posible extraer conocimiento y tomar mejores decisiones. CZAR+ ofrece un servicio de consultoría y análisis de datos. Durante un mes estuvimos a cargo de conocer su negocio, métodos de trabajo, procesos y demás. Al final de este período, entregamos un informe completo con análisis de los datos y propuestas de automatización y mejoras digitales para su negocio. Y por supuesto, siempre tratando la información con total sigilo.",
+    "pt": "A informação mais valiosa da sua empresa são seus dados. Com eles, é possível extrair conhecimento e tomar melhores decisões. A CZAR+ oferece um serviço de consultoria e análise de dados. Durante um mês, ficamos encarregados de conhecer o seu negócio, método de trabalho, processos e afins. Ao final desse período, entregamos um relatório completo com análises sobre os dados e propostas de automação e melhorias digitais para o seu negócio. E claro, sempre tratando as informações com completo sigilo."
+  },
+  "dataScienceMessages": {
+    "en": [
+      "- Know your data better.",
+      "- Make better decisions, ",
+      "- With secrecy and reliability",
+      "- Expert advice"
+    ],
+    "es": [
+      "- Conoce mejor tus datos.",
+      "- Tomar mejores decisiones",
+      "- Con secreto y confiabilidad",
+      "- Asesoramiento de expertos"
+    ],
+    "pt": [
+      "- Conheça melhor os seus dados.",
+      "- Tome melhores decisões, ",
+      "- Com sigilo e confiabilidade",
+      "- Consultoria especializada"
     ]
   }
 }
