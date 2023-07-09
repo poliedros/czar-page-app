@@ -49,23 +49,22 @@ export default function NavbarTranslations() {
             <br />
             <Nav.Link
               className="fade-in-rtrans !text-[0.5rem]"
-              style={{ fontSize: ".5rem" }}
+              /* style={{ fontSize: ".5rem" }} */
               onClick={() => toggleLanguage("en")}
             >
               EN
             </Nav.Link>
             <Nav.Link
               className="fade-in-rtrans !text-[0.5rem]"
-              style={{ fontSize: ".5rem" }}
+              /* style={{ fontSize: ".5rem" }} */
               onClick={() => toggleLanguage("es")}
             >
               ES
             </Nav.Link>
             <Nav.Link
               className="fade-in-rtrans !text-[0.5rem]"
-              /* style={{ fontSize: ".5rem" }} */ onClick={() =>
-                toggleLanguage("pt")
-              }
+              /* style={{ fontSize: ".5rem" }} */
+              onClick={() => toggleLanguage("pt")}
             >
               PT
             </Nav.Link>
