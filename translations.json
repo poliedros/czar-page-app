@@ -580,49 +580,49 @@
     "pt": "Confira no link"
   },
   "cisabMessage": {
-    "en": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública Consórcio Intermunicipal de Saneamento Básico da Zona da Mata de Minas Gerais – CISAB Zona da Mata, que atualmente conta com 48 municípios associados.",
-    "es": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública Consórcio Intermunicipal de Saneamento Básico da Zona da Mata de Minas Gerais – CISAB Zona da Mata, que atualmente conta com 48 municípios associados.",
+    "en": "A sales and product management platform requested by the public company CISAB Zona da Mata, based in the city of Viçosa, in Minas Gerais, which currently has 48 associated municipalities.",
+    "es": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública CISAB Zona da Mata, sediada na cidade de Viçosa, em Minas Gerais, que atualmente conta com 48 municípios associados.",
     "pt": "Uma plataforma de vendas e gestão de produtos requisitada pela empresa pública CISAB Zona da Mata, sediada na cidade de Viçosa, em Minas Gerais, que atualmente conta com 48 municípios associados."
   },
   "ramosMessage": {
-    "en": "Cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar localizado na cidade de São João Del-Rei Minas Gerais. Fluxo médio de visitas passando das centenas nos fins de semana.",
-    "es": "Cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar localizado na cidade de São João Del-Rei Minas Gerais. Fluxo médio de visitas passando das centenas nos fins de semana.",
+    "en": "A virtual menu, accessed by customers via QR Code, from Ramos Lounge Bar, located in the city of São João Del Rei, in Minas Gerais. The average flow of visits exceeds hundreds on weekends.",
+    "es": "Un menú virtual, al que acceden los clientes a través de QR Code, de Ramos Lounge Bar, ubicado en la ciudad de São João Del Rei, en Minas Gerais. El flujo medio de visitas supera las centenas los fines de semana.",
     "pt": "Um cardápio virtual, acessado pelos clientes via QR Code, do Ramos Lounge Bar, localizado na cidade de São João Del Rei, em Minas Gerais. O fluxo médio de visitas supera centenas nos fins de semana."
   },
   "opcaoMessage": {
-    "en": "Reprodução digital de revista de publicidade local na região de São João Nepomuceno Minas Gerais. Distribuição atual em 4 diferentes municípios com mais de 50 propagandas do comercial local e anúncios de vendas.",
-    "es": "Reprodução digital de revista de publicidade local na região de São João Nepomuceno Minas Gerais. Distribuição atual em 4 diferentes municípios com mais de 50 propagandas do comercial local e anúncios de vendas.",
+    "en": "Digital reproduction of the local advertising magazine in the region of São João Nepomuceno, in Minas Gerais. It currently serves 4 different municipalities, with more than 50 local trade advertisements and sales announcements.",
+    "es": "Reproducción digital de la revista de publicidad local de la región de São João Nepomuceno, en Minas Gerais. Actualmente atiende a 4 municipios diferentes, con más de 50 anuncios de comercio local y anuncios de venta.",
     "pt": "Reprodução digital da revista de publicidade local na região de São João Nepomuceno, em Minas Gerais. Atende atualmente 4 diferentes municípios, com mais de 50 propagandas do comércio local e anúncios de vendas."
   },
   "mainServices": {
-    "en": "Projeto Digital",
-    "es": "Projeto Digital",
+    "en": "What we offer",
+    "es": "Lo que ofrecemos",
     "pt": "O que oferecemos"
   },
   "servicesTopics": {
     "en": [
-      "Art & Design",
-      "Hosting",
-      "Identidade Visual",
-      "Segurança",
-      "Publicidade Digital",
-      "Monitoramento",
-      "Análise de dados",
-      "Suporte Técnico",
-      "Variedade de Recursos",
-      "Análise de Performance"
+      "Art and Design",
+      "Hosting sites and systems",
+      "Visual identity",
+      "Security",
+      "Digital Advertising",
+      "Monitoring",
+      "Data analysis",
+      "Technical support",
+      "Applications",
+      "Performance Analysis"
     ],
     "es": [
-      "Arte e Design",
-      "Hosting",
-      "Identidade Visual",
-      "Segurança",
-      "Publicidade Digital",
-      "Monitoramento",
-      "Exibição Gráfica",
-      "Suporte Técnico",
-      "Variedade de Recursos",
-      "Análise de Performance"
+      "Arte y Diseño",
+      "Alojamiento de sitios y sistemas",
+      "Identidad visual",
+      "Seguridad",
+      "Publicidad digital",
+      "Supervisión",
+      "Análisis de datos",
+      "Soporte técnico",
+      "Aplicaciones",
+      "Análisis de rendimiento"
     ],
     "pt": [
       "Arte e Design",
@@ -638,44 +638,44 @@
     ]
   },
   "mainServicesMessage": {
-    "en": "Densevolvemos projetos web como páginas/sites, aplicativos ou similares",
-    "es": "Densevolvemos projetos web como páginas/sites, aplicativos ou similares",
+    "en": "We develop IT projects such as websites, applications or similar.",
+    "es": "Desarrollamos proyectos informáticos como sitios web, aplicaciones o similares.",
     "pt": "Densevolvemos projetos de TI como sites, aplicativos ou similares."
   },
   "mainServicesSubMessage": {
-    "en": "Temos profissionais qualificados e infraestrutura própria",
-    "es": "Temos profissionais qualificados e infraestrutura própria",
+    "en": "We have qualified professionals and our own infrastructure.",
+    "es": "Contamos con profesionales calificados e infraestructura propia.",
     "pt": "Temos profissionais qualificados e infraestrutura própria."
   },
   "mainServicesUnderMessage": {
-    "en": "Tenha sua página rodando em dias, ou seu projeto funcionando em semanas ou meses",
-    "es": "Tenha sua página rodando em dias, ou seu projeto funcionando em semanas ou meses",
+    "en": "Have your page running in days, or your project running 24/7!",
+    "es": "¡Tenga su página funcionando en días, o su proyecto funcionando las 24 horas del día, los 7 días de la semana!",
     "pt": "Tenha sua página rodando em dias, ou seu projeto funcionando 24/7!"
   },
   "otherServices": {
-    "en": "Outros Serviços",
-    "es": "Outros Serviços",
+    "en": "Other services",
+    "es": "Otros servicios",
     "pt": "Outros Serviços"
   },
   "otherServicesMessage": {
-    "en": "Verifique o funcionamento de nossos serviços - Serviços podem fazer parte dos projetos",
-    "es": "Verifique o funcionamento de nossos serviços - Serviços podem fazer parte dos projetos",
+    "en": "Check how our services work - Services can be part of projects",
+    "es": "Compruebe cómo funcionan nuestros servicios - Los servicios pueden ser parte de los proyectos",
     "pt": "Verifique o funcionamento de nossos serviços - Serviços podem fazer parte dos projetos"
   },
   "firstServiceMessages": {
     "en": [
-      "Variaty of Coding Languages",
-      "Utilização de Frameworks e Recursos",
-      "Consultoria de Arte e Layout",
-      "Variedade de Recursos Visuais",
-      "Divulgação e Publicidade Online"
+      "- Cross-platform project",
+      "- Styles and animations",
+      "- Art and layout consultancy",
+      "-Variety of visuals",
+      "- Disclosure and online advertising"
     ],
     "es": [
-      "Codificação com diferentes Linguages",
-      "Utilização de Frameworks e Recursos",
-      "Consultoria de Arte e Layout",
-      "Variedade de Recursos Visuais",
-      "Divulgação e Publicidade Online"
+      "- Proyecto multiplataforma",
+      "- Estilos y animaciones",
+      "- Consultoría de arte y maquetación",
+      "-Variedad de imágenes",
+      "- Divulgación y publicidad en línea"
     ],
     "pt": [
       "- Projeto multiplataforma",
@@ -689,14 +689,14 @@
     "en": [
       "",
       "",
-      "Profissionais qualificados para orientar o projeto",
+      "Qualified professionals to guide the project",
       "d3chart.js e three.js",
       "opcional GoogleAnalytics"
     ],
     "es": [
       "",
       "",
-      "Profissionais qualificados para orientar o projeto",
+      "Profesionales cualificados para guiar el proyecto",
       "d3chart.js e three.js",
       "opcional GoogleAnalytics"
     ],
@@ -710,22 +710,18 @@
   },
   "secondServiceMessages": {
     "en": [
-      "Hosting com infraestrutura própria",
-      "Domínio próprio",
-      "Uso de Diferentes Bancos de Dados",
-      "Melhoramento de Performance",
-      "Segurança 24/7",
-      "Monitoramento 24/7",
-      "Suporte Técnico"
+      "- Hosting in own infrastructure",
+      "- Reliable data storage",
+      "- Performance monitoring",
+      "- Security",
+      "- Technical support"
     ],
     "es": [
-      "Hosting com infraestrutura própria",
-      "Domínio próprio",
-      "Uso de Diferentes Bancos de Dados",
-      "Melhoramento de Performance",
-      "Segurança 24/7",
-      "Monitoramento 24/7",
-      "Suporte Técnico"
+      "- Alojamiento en infraestructura propia",
+      "- Almacenamiento de datos confiable",
+      "- Supervisión del rendimiento",
+      "- Seguridad",
+      "- Soporte técnico"
     ],
     "pt": [
       "- Hospedagem em infraestrutura própria",
@@ -737,22 +733,22 @@
   },
   "secondServiceTooltip": {
     "en": [
-      "Data Center brasileiro ou fornecedor estadunidense",
-      "Domínio czar.dev está disponivel",
-      "ou outros bancos relacionais",
-      "Verificação da qualidade e desempenho",
-      "Prevenção de hackeamento e quedas do sistema",
-      "Fluxo de usuários e fornecimento de relatórios",
-      "Para falhas, reclamações e sugestões"
+      "Brazilian data center or US supplier",
+      "Domain czar.dev is available",
+      "or other relational banks",
+      "Quality and performance check",
+      "Hacking and System Crash Prevention",
+      "User Flow and Reporting",
+      "For faults, complaints and suggestions"
     ],
     "es": [
-      "Data Center brasileiro ou fornecedor estadunidense",
-      "Domínio czar.dev está disponivel",
-      "ou outros bancos relacionais",
-      "Verificação da qualidade e desempenho",
-      "Prevenção de hackeamento e quedas do sistema",
-      "Fluxo de usuários e fornecimento de relatórios",
-      "Para falhas, reclamações e sugestões"
+      "Centro de datos brasileño o proveedor estadounidense",
+      "El dominio czar.dev está disponible",
+      "u otros bancos relacionales",
+      "Control de calidad y rendimiento",
+      "Prevención de piratería y fallas del sistema",
+      "Flujo de usuarios e informes",
+      "Para averías, quejas y sugerencias"
     ],
     "pt": [
       "Data Center brasileiro ou fornecedor estadunidense",
@@ -765,13 +761,23 @@
     ]
   },
   "modalRobotContent": {
-    "en": "",
-    "es": "",
+    "en": "Do you have a manual process in your company that takes a long time to run and can be automated? CZAR+ can develop a program that will save you time and effort.",
+    "es": "¿Tiene un proceso manual en su empresa que tarda mucho tiempo en ejecutarse y puede automatizarse? CZAR+ puede desarrollar un programa que le ahorrará tiempo y esfuerzo.",
     "pt": "Possui um processo manual em sua empresa, que leva muito tempo para ser executado e que pode ser automatizado? A CZAR+ pode desenvolver um programa que irá te poupar tempo e esforço."
   },
   "robotMessages": {
-    "en": [],
-    "es": [],
+    "en": [
+      "- Customized solution for your business",
+      "- Scheduled Tasks",
+      "- Reliability",
+      "-Task Monitoring"
+    ],
+    "es": [
+      "- Solución personalizada para su negocio",
+      "- Tareas programadas",
+      "- Fiabilidad",
+      "-Supervisión de tareas"
+    ],
     "pt": [
       "- Solução personalizada para seu negócio",
       "- Tarefas agendadas",

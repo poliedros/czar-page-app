@@ -108,7 +108,7 @@ export default function Services() {
                     // icon2: "RiArtboardFill",
                     icon2: "",
                     bgImage: "seventh",
-                    artist: "jacksonsophat.com",
+                    artist: "Rumman Amin",
                     language: language,
                   }}
                 />
