@@ -162,6 +162,13 @@
     background-position: 100% 0%;
 }
 
+.Zodiac .modal-content {
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0.25)), url('/zodiacBg.jpeg');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: 100% 0%;
+}
+
 .btn-close {
     border-radius: 100% !important;
 }
@@ -259,17 +266,19 @@
 }
 
 .image-mt.sixth {
-    background: url("https://images.unsplash.com/photo-1560472355-109703aa3edc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")
+    background: url("https://images.unsplash.com/photo-1590595906931-81f04f0ccebb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80")
         no-repeat top;
     background-size: cover;
+    background-position: center;
 }
 
 .image-mt.seventh {
     /* background: url("https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80")
         no-repeat center; */
-    background: url("https://images.unsplash.com/photo-1544474560-5b2a788d024a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80")
+    background: url("https://images.unsplash.com/photo-1576153192396-180ecef2a715?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80")
         no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .image-mt.eighth {
@@ -286,6 +295,18 @@
 
 .image-mt.tenth {
   background: url("/cisabMain.jpg")
+      no-repeat center;
+  background-size: cover;
+}
+
+.image-mt.eleventh {
+  background: url("/zodiac.jpeg")
+      no-repeat center;
+  background-size: cover;
+}
+
+.image-mt.twelfth {
+  background: url("https://images.unsplash.com/photo-1588600878108-578307a3cc9d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=876&q=80")
       no-repeat center;
   background-size: cover;
 }
@@ -767,6 +788,10 @@
   }
    */
 
+/* .tooltip-inner .trTt {
+  background-color: transparent !important;
+} */
+
   .slide-in-bck-tr {
     -webkit-animation: slide-in-bck-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s infinite both;
             animation: slide-in-bck-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) 3s infinite both;
@@ -919,9 +944,147 @@
     }
   }
 
-  .puff-in-bottom {
+  .puff-in-bottom-05 {
+    -webkit-animation: puff-in-bottom .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+            animation: puff-in-bottom .5s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+  }
+
+  @-webkit-keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .puff-in-bottom-1 {
     -webkit-animation: puff-in-bottom 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
             animation: puff-in-bottom 1s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+  }
+
+  @-webkit-keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .puff-in-bottom-15 {
+    -webkit-animation: puff-in-bottom 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+            animation: puff-in-bottom 1.5s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+  }
+
+  @-webkit-keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes puff-in-bottom {
+    0% {
+      -webkit-transform: scale(3);
+              transform: scale(3);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(4px);
+              filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+      -webkit-transform-origin: 50% 100%;
+              transform-origin: 50% 100%;
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  .puff-in-bottom-2 {
+    -webkit-animation: puff-in-bottom 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
+            animation: puff-in-bottom 2s cubic-bezier(0.470, 0.000, 0.745, 0.715) .7s both;
   }
 
   @-webkit-keyframes puff-in-bottom {

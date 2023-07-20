@@ -39,7 +39,7 @@ export default function Projects() {
                       icon: "/cisabLogo.svg",
                       iconType: "image",
                       type: "project",
-                      id: "3",
+                      id: "4",
                       pos: "2",
                       message: "",
                       icon2: "",
@@ -61,7 +61,7 @@ export default function Projects() {
                       icon: "/ramosLogo.svg",
                       iconType: "image",
                       type: "project",
-                      id: "4",
+                      id: "5",
                       pos: "3",
                       message: "",
                       icon2: "",
@@ -83,11 +83,33 @@ export default function Projects() {
                       icon: "/opLogo.svg",
                       iconType: "image",
                       type: "project",
-                      id: "5",
+                      id: "6",
                       pos: "4",
                       message: "",
                       icon2: "",
                       bgImage: "eighth",
+                      artist: "",
+                      language: language,
+                    }}
+                  />
+                </Col>
+                <Col
+                  md={6}
+                  xs={12}
+                  // md={6}
+                  className="flex items-center justify-center pr-6"
+                >
+                  <CapCard
+                    preview={{
+                      state: "Zodiac",
+                      icon: "/zodiacLogo.png",
+                      iconType: "image",
+                      type: "project",
+                      id: "7",
+                      pos: "5",
+                      message: "",
+                      icon2: "",
+                      bgImage: "eleventh",
                       artist: "",
                       language: language,
                     }}

@@ -29,11 +29,13 @@ export default function CapModal({
     | "Cloud"
     | "Email"
     | "Robot"
+    | "DataScience"
     | "AdGallery"
     | "BusinessSales"
     | "Cisab"
     | "Ramos"
-    | "Infop";
+    | "Infop"
+    | "Zodiac";
   title: any;
 }) {
   const language = useLanguage();
@@ -48,70 +50,306 @@ export default function CapModal({
   var states = {
     ArtDesign: (
       <div>
-        <Row>
-          <Row className="mb-4">
+        <Row className="flex flex-col md:flex-row">
+          <Col>
+            <Col className="my-12 mx-3">
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex bg-[#29fc1640] items-center rounded-full">
+                      {IconsByName(
+                        "si",
+                        "SiJavascript",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiTypescript",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiPython",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiCss3",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[0]}
+                </h5>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex bg-[#29fc1640] items-center rounded-full">
+                      {IconsByName(
+                        "si",
+                        "SiNextdotjs",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiReact",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {/* {IconsByName(
+                      "si",
+                      "SiAngular",
+                      "24px",
+                      "black",
+                      "0 10 0 10"
+                    )}{" "}
+                    {IconsByName(
+                      "si",
+                      "SiVuedotjs",
+                      "24px",
+                      "black",
+                      "0 10 0 10"
+                    )}{" "} */}
+                      {IconsByName(
+                        "si",
+                        "SiBootstrap",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiTailwindcss",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[1]}
+                </h5>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex bg-[#29fc1640] rounded-full">
+                      {translations("firstServiceTooltip", language)[2]}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[2]}
+                </h5>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex items-center bg-[#29fc1640] rounded-full">
+                      {translations("firstServiceTooltip", language)[3]}
+                      {IconsByName(
+                        "si",
+                        "SiD3Dotjs",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiThreedotjs",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[3]}
+                </h5>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex items-center bg-[#29fc1640] pr-[10px] rounded-full">
+                      {IconsByName(
+                        "ri",
+                        "RiGoogleFill",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {translations("firstServiceTooltip", language)[4]}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[4]}
+                </h5>
+              </OverlayTrigger>
+            </Col>
+          </Col>
+          <Col className="flex items-end mb-4">
             <h5 className="font-thin">
               {translations("modalArtDesignContent", language)}
             </h5>
-          </Row>
-          <Row>
-            <Col className="my-12 mx-3">
-              <h5 className="font-normal">
-                {translations("firstServiceMessages", language)[0]}
-              </h5>
-
-              <h5 className="font-normal">
-                {translations("firstServiceMessages", language)[1]}
-              </h5>
-
-              <h5 className="font-normal">
-                {translations("firstServiceMessages", language)[2]}
-              </h5>
-
-              <h5 className="font-normal">
-                {translations("firstServiceMessages", language)[3]}
-              </h5>
-
-              <h5 className="font-normal">
-                {translations("firstServiceMessages", language)[4]}
-              </h5>
-            </Col>
-          </Row>
+          </Col>
         </Row>
       </div>
     ),
     HostDomain: (
-      <Row>
-        <Row className="mb-4">
+      <Row className="flex flex-col md:flex-row">
+        <Col>
+          <Col className="my-12 mx-3">
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[0]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[0]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[1]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[1]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] items-center rounded-full">
+                    {IconsByName(
+                      "si",
+                      "SiMongodb",
+                      "24px",
+                      "black",
+                      "0 10 0 10"
+                    )}{" "}
+                    {translations("secondServiceTooltip", language)[2]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[2]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[3]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[3]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[4]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[4]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[5]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[5]}
+              </h5>
+            </OverlayTrigger>
+            <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[6]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[6]}
+              </h5>
+            </OverlayTrigger>
+          </Col>
+        </Col>
+        <Col className="flex items-end mb-4">
           <h5 className="font-thin">
             {translations("modalHostDomainContent", language)}
           </h5>
-        </Row>
-        <Row>
-          <Col className="my-12 mx-3">
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[0]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[1]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[2]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[3]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[4]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[5]}
-            </h5>
-            <h5 className="font-normal">
-              {translations("secondServiceMessages", language)[6]}
-            </h5>
-          </Col>
-        </Row>
+        </Col>
       </Row>
     ),
     Cloud: (
@@ -210,28 +448,28 @@ export default function CapModal({
       </Row>
     ),
     Robot: (
-      <Row>
-        <Row className="mb-4">
-          <h5 className="font-thin">
-            {translations("modalRobotContent", language)}
-          </h5>
-        </Row>
-        <Row>
+      <Row className="flex flex-col md:flex-row">
+        <Col>
           <Col className="my-12 mx-3">
-            <h5 className="font-normal">
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
               {translations("robotMessages", language)[0]}
             </h5>
-            <h5 className="font-normal">
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
               {translations("robotMessages", language)[1]}
             </h5>
-            <h5 className="font-normal">
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
               {translations("robotMessages", language)[2]}
             </h5>
-            <h5 className="font-normal">
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
               {translations("robotMessages", language)[3]}
             </h5>
           </Col>
-        </Row>
+        </Col>
+        <Col className="flex items-end mb-4">
+          <h5 className="font-thin">
+            {translations("modalRobotContent", language)}
+          </h5>
+        </Col>
       </Row>
     ),
     RobotOld: (
@@ -337,7 +575,7 @@ export default function CapModal({
           </h5>
           <h5 className="font-thin">
             {translations("seeLink", language)}:{" "}
-            <a href="https://inop.czar.dev/" className="text-xl">
+            <a href="https://infop.czar.dev/" className="text-xl">
               Informativo OPÇÃO
             </a>
           </h5>
@@ -346,6 +584,51 @@ export default function CapModal({
           </h5>
         </Col>
         <Col></Col>
+      </Row>
+    ),
+    Zodiac: (
+      <Row>
+        <Col className="bg-white p-3 opacity-80" sm={6}>
+          {/* <h4>{translations("comingsoon", language)}</h4> */}
+          <h5 className="font-thin mb-6">
+            {translations("zodiacMessage", language)}
+          </h5>
+          <h5 className="font-thin">
+            {translations("seeLink", language)}:{" "}
+            <a href="https://zodiac.czar.dev/" className="text-xl">
+              Zodiac House Club
+            </a>
+          </h5>
+          <h5 className="font-thin mt-3">
+            <b className="mt-6">{translations("brazil", language)}</b>
+          </h5>
+        </Col>
+        <Col></Col>
+      </Row>
+    ),
+    DataScience: (
+      <Row className="flex flex-col md:flex-row">
+        <Col>
+          <Col className="my-12 mx-3">
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+              {translations("dataScienceMessages", language)[0]}
+            </h5>
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+              {translations("dataScienceMessages", language)[1]}
+            </h5>
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+              {translations("dataScienceMessages", language)[2]}
+            </h5>
+            <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+              {translations("dataScienceMessages", language)[3]}
+            </h5>
+          </Col>
+        </Col>
+        <Col className="flex items-end mb-4">
+          <h5 className="font-thin">
+            {translations("modalDataScienceContent", language)}
+          </h5>
+        </Col>
       </Row>
     ),
   };
@@ -361,6 +644,8 @@ export default function CapModal({
     Cisab: {},
     Ramos: {},
     Infop: {},
+    Zodiac: {},
+    DataScience: { iconType: "md", icon: "MdDocumentScanner" },
   };
 
   return (
@@ -392,7 +677,10 @@ export default function CapModal({
               }}
             >
               <div className="flex items-center">
-                {state !== "Cisab" && state !== "Ramos" && state !== "Infop" ? (
+                {state !== "Cisab" &&
+                state !== "Ramos" &&
+                state !== "Infop" &&
+                state !== "Zodiac" ? (
                   getIconsByName(
                     statesIcon[state].iconType,
                     statesIcon[state].icon,
@@ -405,7 +693,9 @@ export default function CapModal({
                         ? "/opLogo.svg"
                         : state === "Ramos"
                         ? "/ramosLogo.svg"
-                        : "/cisabLogo.svg"
+                        : state === "Cisab"
+                        ? "/cisabLogo.svg"
+                        : "/zodiacLogo.png"
                     }
                     alt=""
                     width="32"

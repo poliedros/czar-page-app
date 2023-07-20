@@ -155,7 +155,7 @@ export default function Contacts() {
               Sede: São João Del-Rei | Minas Gerais | Brazil
             </h6> */}
         <Col
-          className="!h-[500px] grayscale bg-cover opacity-40"
+          className="!h-[500px] grayscale bg-cover opacity-50"
           style={{
             // backgroundImage: "linear-gradient(red, yellow, green)",
             backgroundImage:
@@ -180,7 +180,7 @@ export default function Contacts() {
           </div>
         </Col>
         <Col
-          className="!h-[500px] grayscale bg-cover opacity-40" //bg-gradient-to-r from-pink-500 to-violet-500 bg-[url('https://images.unsplash.com/photo-1682434660476-bcdbdeeeebbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80')]
+          className="!h-[500px] grayscale bg-cover opacity-50" //bg-gradient-to-r from-pink-500 to-violet-500 bg-[url('https://images.unsplash.com/photo-1682434660476-bcdbdeeeebbe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80')]
           style={{
             // backgroundImage: "linear-gradient(red, yellow, green)",
             backgroundImage:
