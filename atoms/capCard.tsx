@@ -69,13 +69,6 @@ export default function CapCard({ preview }: any) {
                         : null}
                     </div>
                   </h6>
-                  {/* <h5 className="!font-thin">
-                    {
-                      translations(preview.type + "st", preview.language)[
-                        preview.pos
-                      ]
-                    }
-                  </h5> */}
                 </div>
               </div>
             </div>
@@ -91,16 +84,19 @@ export default function CapCard({ preview }: any) {
                 ) : (
                   getIconsByName(preview.iconType, preview.icon, "", "32px")
                 )}
-                {/* {getIconsByName(preview.iconType, preview.icon, "", "32px")} */}
               </div>
-              <div className="photografer fixed text-end top-0 -right-6 invisible">
-                <span
-                  className="bg-black p-1 mt-1 text-[.5rem] unselectable"
-                  style={{ writingMode: "vertical-rl" }}
-                >
-                  {preview.artist}
-                </span>
-              </div>
+              {preview.artist !== "" ? (
+                <div className="photografer fixed text-end top-0 -right-6 invisible">
+                  <span
+                    className="bg-black p-1 mt-1 text-[.5rem] unselectable"
+                    style={{ writingMode: "vertical-rl" }}
+                  >
+                    {preview.artist}
+                  </span>
+                </div>
+              ) : (
+                <></>
+              )}
               <div
                 className="card-cont-scroll absolute bottom-0 right-0 text text-end p-4 max-h-[50vh] overflow-auto unselectable"
                 style={{
@@ -119,11 +115,6 @@ export default function CapCard({ preview }: any) {
                   }
                 </h1>
                 <h6 className="text-stone-300">
-                  {
-                    translations(preview.type + "st", preview.language)[
-                      preview.pos
-                    ]
-                  }
                   <span
                     className={
                       preview.pos === "0" || preview.pos === "1" ? "" : "hidden"
@@ -131,17 +122,7 @@ export default function CapCard({ preview }: any) {
                   >
                     &alpha;
                   </span>{" "}
-                  <span className={preview.pos === "2" ? "" : "hidden"}>
-                    &beta;
-                  </span>
                 </h6>
-                {/* <h6>
-                  {
-                    translations(preview.type + "tmsg", preview.language)[
-                      preview.pos
-                    ]
-                  }
-                </h6> */}
               </div>
             </div>
           </div>
