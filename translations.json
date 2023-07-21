@@ -621,7 +621,7 @@
   "zodiacMessage": {
     "en": "It's a virtual menu of the new House Club in town, from São João Del Rei, in Minas Gerais State, Brazil. This page is a practical way to check the drinks and portions for clients where ever they are.",
     "es": "Cardápio online de la nueva House Club de São João Del Rei, en Minas Gerais. Los clientes acceden a la página en cualquier lugar del club, asi pueden fijarte de los precios mientras disfrutan la diversión.",
-    "pt": "Cardápio virtual da nova House Club na cidade de São João Del Rei, em Minas Gerais. Uma opção para que os clientes possam verificar os items do club a partir de qualquer lugar do estabelicimento."
+    "pt": "Cardápio virtual da nova House Club na cidade de São João Del Rei, em Minas Gerais. Uma opção para que os clientes possam verificar os items do club a partir de qualquer lugar do estabelecimento."
   },
   "mainServices": {
     "en": "IT Projects",
@@ -636,9 +636,9 @@
       "Security",
       "Digital Advertising",
       "Monitoring",
-      "Graphic Resouces",
+      "Data Visualization Panel",
       "Technical Support",
-      "Several Features",
+      "Animations and 3D",
       "Performance Analysis"
     ],
     "es": [
@@ -648,9 +648,9 @@
       "Seguridad",
       "Publicidad Digital",
       "Monitoreo",
-      "Recursos Gráficos",
+      "Panel de Visualización de Datos",
       "Soporte Técnico",
-      "Diversidad de Recursos",
+      "Animaciones y 3D",
       "Análisis de Rendimiento"
     ],
     "pt": [
@@ -660,9 +660,9 @@
       "Segurança",
       "Publicidade Digital",
       "Monitoramento",
-      "Recursos Gráficos Avançados",
+      "Painel de Visualização de Dados",
       "Suporte Técnico",
-      "Diferentes Recursos",
+      "Animações e 3D",
       "Análise de Performance"
     ]
   },
@@ -762,7 +762,7 @@
   },
   "secondServiceTooltip": {
     "en": [
-      "Brazilian data center or US supplier",
+      "Own Data Center or foreign supplier",
       "Domain czar.dev is available",
       "or other relational banks",
       "Quality and performance check",
@@ -771,7 +771,7 @@
       "For faults, complaints and suggestions"
     ],
     "es": [
-      "Centro de datos brasileño o proveedor estadounidense",
+      "Centro de datos propio o proveedor extranjero",
       "El dominio czar.dev está disponible",
       "u otros bancos relacionales",
       "Control de calidad y rendimiento",
@@ -780,7 +780,7 @@
       "Para averías, quejas y sugerencias"
     ],
     "pt": [
-      "Data Center brasileiro ou fornecedor estadunidense",
+      "Data Center próprio ou fornecedor estrangeiro",
       "Domínio czar.dev está disponivel",
       "ou outros bancos relacionais",
       "Verificação da qualidade e desempenho",

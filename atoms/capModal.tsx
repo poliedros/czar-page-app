@@ -61,48 +61,6 @@ export default function CapModal({
                     <mark className="flex bg-[#29fc1640] items-center rounded-full">
                       {IconsByName(
                         "si",
-                        "SiJavascript",
-                        "24px",
-                        "black",
-                        "0 10 0 10"
-                      )}{" "}
-                      {IconsByName(
-                        "si",
-                        "SiTypescript",
-                        "24px",
-                        "black",
-                        "0 10 0 10"
-                      )}{" "}
-                      {IconsByName(
-                        "si",
-                        "SiPython",
-                        "24px",
-                        "black",
-                        "0 10 0 10"
-                      )}{" "}
-                      {IconsByName(
-                        "si",
-                        "SiCss3",
-                        "24px",
-                        "black",
-                        "0 10 0 10"
-                      )}{" "}
-                    </mark>
-                  </Tooltip>
-                }
-              >
-                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
-                  {translations("firstServiceMessages", language)[0]}
-                </h5>
-              </OverlayTrigger>
-              <OverlayTrigger
-                placement="bottom"
-                delay={{ show: 250, hide: 400 }}
-                overlay={
-                  <Tooltip id="button-tooltip">
-                    <mark className="flex bg-[#29fc1640] items-center rounded-full">
-                      {IconsByName(
-                        "si",
                         "SiNextdotjs",
                         "24px",
                         "black",
@@ -139,6 +97,48 @@ export default function CapModal({
                       {IconsByName(
                         "si",
                         "SiTailwindcss",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                    </mark>
+                  </Tooltip>
+                }
+              >
+                <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                  {translations("firstServiceMessages", language)[0]}
+                </h5>
+              </OverlayTrigger>
+              <OverlayTrigger
+                placement="bottom"
+                delay={{ show: 250, hide: 400 }}
+                overlay={
+                  <Tooltip id="button-tooltip">
+                    <mark className="flex bg-[#29fc1640] items-center rounded-full">
+                      {IconsByName(
+                        "si",
+                        "SiJavascript",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiTypescript",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiPython",
+                        "24px",
+                        "black",
+                        "0 10 0 10"
+                      )}{" "}
+                      {IconsByName(
+                        "si",
+                        "SiCss3",
                         "24px",
                         "black",
                         "0 10 0 10"
@@ -267,14 +267,14 @@ export default function CapModal({
               overlay={
                 <Tooltip id="button-tooltip">
                   <mark className="flex bg-[#29fc1640] items-center rounded-full">
-                    {IconsByName(
+                    {/* {IconsByName(
                       "si",
                       "SiMongodb",
                       "24px",
                       "black",
                       "0 10 0 10"
-                    )}{" "}
-                    {translations("secondServiceTooltip", language)[2]}
+                    )}{" "} */}
+                    {translations("secondServiceTooltip", language)[3]}
                   </mark>
                 </Tooltip>
               }
@@ -289,7 +289,7 @@ export default function CapModal({
               overlay={
                 <Tooltip id="button-tooltip">
                   <mark className="flex bg-[#29fc1640] rounded-full">
-                    {translations("secondServiceTooltip", language)[3]}
+                    {translations("secondServiceTooltip", language)[4]}
                   </mark>
                 </Tooltip>
               }
@@ -298,7 +298,7 @@ export default function CapModal({
                 {translations("secondServiceMessages", language)[3]}
               </h5>
             </OverlayTrigger>
-            <OverlayTrigger
+            {/* <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 400 }}
               overlay={
@@ -308,26 +308,7 @@ export default function CapModal({
                   </mark>
                 </Tooltip>
               }
-            >
-              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
-                {translations("secondServiceMessages", language)[4]}
-              </h5>
-            </OverlayTrigger>
-            <OverlayTrigger
-              placement="bottom"
-              delay={{ show: 250, hide: 400 }}
-              overlay={
-                <Tooltip id="button-tooltip">
-                  <mark className="flex bg-[#29fc1640] rounded-full">
-                    {translations("secondServiceTooltip", language)[5]}
-                  </mark>
-                </Tooltip>
-              }
-            >
-              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
-                {translations("secondServiceMessages", language)[5]}
-              </h5>
-            </OverlayTrigger>
+            > */}
             <OverlayTrigger
               placement="bottom"
               delay={{ show: 250, hide: 400 }}
@@ -340,9 +321,28 @@ export default function CapModal({
               }
             >
               <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
-                {translations("secondServiceMessages", language)[6]}
+                {translations("secondServiceMessages", language)[4]}
               </h5>
             </OverlayTrigger>
+            {/* <OverlayTrigger
+              placement="bottom"
+              delay={{ show: 250, hide: 400 }}
+              overlay={
+                <Tooltip id="button-tooltip">
+                  <mark className="flex bg-[#29fc1640] rounded-full">
+                    {translations("secondServiceTooltip", language)[6]}
+                  </mark>
+                </Tooltip>
+              }
+            >
+              <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+                {translations("secondServiceMessages", language)[5]}
+              </h5>
+            </OverlayTrigger> */}
+
+            {/* <h5 className="font-normal hover:underline hover:decoration-[#29FC16] hover:decoration-[3px]">
+              {translations("secondServiceMessages", language)[6]}
+            </h5> */}
           </Col>
         </Col>
         <Col className="flex items-end mb-4">
