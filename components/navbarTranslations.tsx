@@ -74,7 +74,7 @@ export default function NavbarTranslations() {
 
       <Button
         variant="light"
-        className="navbuttonmedia fixed bottom-[4.5rem] left-2/4 translate-x-1/4 !rounded-full !px-[6px] w-[30px] h-[30px] z-[1]" /* style={{ position: "fixed",
+        className="navbuttonmedia fixed bottom-1/4 left-2/4 translate-x-1/4 !rounded-full !px-[6px] w-[30px] h-[30px] z-[1]" /* style={{ position: "fixed",
                                       bottom: "4.5rem",
                                       left: "50%",
                                       transform: "translateX(25%)",

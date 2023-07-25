@@ -61,7 +61,7 @@ export default function NavbarCzar() {
 
       <Button
         variant="dark"
-        className="navbuttonmedia fixed bottom-[4.5rem] left-2/4 translate-x-[-125%] !rounded-full !px-[6px] w-[30px] h-[30px] z-[1]"
+        className="navbuttonmedia fixed bottom-1/4 left-2/4 translate-x-[-125%] !rounded-full !px-[6px] w-[30px] h-[30px] z-[1]"
         onClick={handleShowMOC}
       >
         <div className="w-[24px] h-[24px]">{getIcons("im", "imenu")}</div>
@@ -85,22 +85,42 @@ export default function NavbarCzar() {
                   fontFamily: "'M PLUS Code Latin', sans-serif",
                 }}
               >
-                <Nav.Link href="#start">
+                <Nav.Link
+                  href="#start"
+                  onClick={() => {
+                    setShowMOC(false);
+                  }}
+                >
                   {translations.navbar.start[language]}
                 </Nav.Link>
                 {/* <Nav.Link href="#greetings">
                   {translations.navbar.greetings[language]}
                 </Nav.Link> */}
-                <Nav.Link href="#services">
+                <Nav.Link
+                  href="#services"
+                  onClick={() => {
+                    setShowMOC(false);
+                  }}
+                >
                   {translations.navbar.services[language]}
                 </Nav.Link>
-                <Nav.Link href="#projects">
+                <Nav.Link
+                  href="#projects"
+                  onClick={() => {
+                    setShowMOC(false);
+                  }}
+                >
                   {translations.navbar.projects[language]}
                 </Nav.Link>
                 {/* <Nav.Link href="#team">
                   {translations.navbar.team[language]}
                 </Nav.Link> */}
-                <Nav.Link href="#contacts">
+                <Nav.Link
+                  href="#contacts"
+                  onClick={() => {
+                    setShowMOC(false);
+                  }}
+                >
                   {translations.navbar.contacts[language]}
                 </Nav.Link>
                 {/* <Nav.Link href="#about">

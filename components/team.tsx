@@ -85,9 +85,7 @@ export default function Team() {
                   </Button>
                   <img
                     className="!w-auto !h-[150px] !rounded-full"
-                    src={
-                      "https://media.licdn.com/dms/image/C4D03AQHy7GiX0EUVXA/profile-displayphoto-shrink_800_800/0/1517736705680?e=1687996800&v=beta&t=ZgLqzVvcX1T0ouxqkNm6kdB1G-uZvKCh0owFCbmazAc"
-                    }
+                    src={"./amr.jpeg"}
                   />
                   <img
                     className="!w-auto !h-[75px] !rounded-full -ml-6 drop-shadow-lg"

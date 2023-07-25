@@ -114,7 +114,12 @@ export default function CapCard({ preview }: any) {
                     ]
                   }
                 </h1>
-                <h6 className="text-stone-300">
+                {/* <h6 className="text-stone-300">
+                  {
+                    translations(preview.type + "st", preview.language)[
+                      preview.pos
+                    ]
+                  }
                   <span
                     className={
                       preview.pos === "0" || preview.pos === "1" ? "" : "hidden"
@@ -122,7 +127,10 @@ export default function CapCard({ preview }: any) {
                   >
                     &alpha;
                   </span>{" "}
-                </h6>
+                  <span className={preview.pos === "2" ? "" : "hidden"}>
+                    &beta;
+                  </span>{" "}
+                </h6> */}
               </div>
             </div>
           </div>

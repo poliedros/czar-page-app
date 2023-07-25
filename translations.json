@@ -105,21 +105,24 @@
       "Our practical and easy-to-use cloud system to meet your business demands",
       "Automated process designed to meet your research or information gathering demands, it can work 24/7",
       "Have a domain make your business seems professional and helps to show yourself to customers",
-      "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention"
+      "Publicize your brand or business is fundamental, we create attractive pages to hold customers attention",
+      ""
     ],
     "es": [
       "A precios convenientes te brindamos una hierramienta para gerenciar tus email o de tu empresa",
       "Uno servicio simples e intuitivo para atender las demandas de tu compañia",
       "Procesos customizados que pueden ser definidos para rodar 24x7 para obtener informaciones o hacer consultas para tu negócio",
       "Tener uno dominio para su negócio lo hace profesional para que sus clientes te puedan contactarlo y veriicar sus actualizaciones",
-      "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes"
+      "Lo más importante es difundir tu marca y nosotros podemos ayudarte creado layout atractivos para capiturar la atención de tus clientes",
+      ""
     ],
     "pt": [
       "Gerenciar seus emails ou da sua empresa de forma fácil e a um preço muito comodo",
       "Com nosso sistema de cloud gerencie seus arquivos sem complicações e sem preocupações",
       "Robôs desenhados segundo as suas necessidades, tanto para pesquisar quanto para obter informações, com servidores funcionando 24 horas e 7 dias na semana",
       "Para que o seu negócio seja considerado profissional você deve ter um domínio que ajuda a manter atualizado seus clientes sobre seus produtos",
-      "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes"
+      "Divulgar a sua marca ou negócio é fundamental, páginas atraentes como as que criamos vão prender a atenção dos seus clientes",
+      ""
     ]
   },
 
@@ -135,32 +138,50 @@
       "Personal App for Business Sales",
       "CISAB",
       "Ramos",
-      "OPÇÃO"
+      "OPÇÃO",
+      "Zodiac"
     ],
     "es": [
       "Aplicación de Exhibición de Anuncios",
       "Aplicación Personal para Ventas y Entregas",
       "CISAB",
       "Ramos",
-      "OPÇÃO"
+      "OPÇÃO",
+      "Zodiac"
     ],
     "pt": [
       "Aplicativo Galeria de Anúncios",
       "Aplicativo de Vendas Personalizado",
       "CISAB",
       "Ramos",
-      "OPÇÃO"
+      "OPÇÃO",
+      "Zodiac"
     ]
   },
   "projectst": {
-    "en": ["stage pre-", "stage pre-", "stage ", "finallized", "on going"],
-    "es": ["Etapa Pre ", "Etapa Pre ", "Etapa ", "terminado", "desarrollando"],
+    "en": [
+      "stage pre-",
+      "stage pre-",
+      "stage ",
+      "finallized",
+      "on going",
+      "finallized"
+    ],
+    "es": [
+      "Etapa Pre ",
+      "Etapa Pre ",
+      "Etapa ",
+      "terminado",
+      "desarrollando",
+      "terminado"
+    ],
     "pt": [
       "Estágio pre-",
       "Estágio pre-",
-      "Estágio β",
+      "Estágio ",
       "finalizado",
-      "em desenvolvimento"
+      "em desenvolvimento",
+      "finalizado"
     ]
   },
   "projecttmsg": {
@@ -387,7 +408,7 @@
   "btnok": {
     "en": "OK",
     "es": "Dale",
-    "pt": "Ok"
+    "pt": "Certo"
   },
   "btnsendemail": {
     "en": "Send Email",
@@ -550,31 +571,31 @@
   },
   "startMessages": {
     "en": [
-      "Desenvolvimento de Web Sites",
-      "Criação de Aplicativos",
-      "Elaboração de Projetos de TI",
-      "Construção de Programas Personalizados",
-      "Online Publicity Analyses",
-      "Software Developing",
+      "Build Web Pages",
+      "App Development",
+      "Structuring of IT Projects",
+      "Creation of Personal Projects",
+      "Online Advertising Analyses",
+      "Data Science Reports",
       "Hosting in Owner Data Center"
     ],
     "es": [
-      "Desenvolvimento de Web Sites",
-      "Criação de Aplicativos",
-      "Elaboração de Projetos de TI",
-      "Construção de Programas Personalizados",
-      "Análises de Publicidade Online",
-      "Estruturação de Programas",
+      "Desarrollo de Páginas Web",
+      "Creación de Aplicaciones",
+      "Elaboración de Proyectos de Tecnología",
+      "Estructuración de Software Personal",
+      "Análisis de Publicidad Online",
+      "Consultoría con Data Science",
       "Hospedagem em Data Center"
     ],
     "pt": [
-      "Desenvolvimento de Web Sites",
+      "Desenvolvimento de Sites",
       "Criação de Aplicativos",
       "Elaboração de Projetos de TI",
       "Construção de Programas Personalizados",
       "Publicidade Online",
-      "Análise de Dados",
-      "Hospedagem de Sites e Sistemas"
+      "Consultoria com Ciência de Dados",
+      "Hospedagem em Data Center próprio"
     ]
   },
   "seeLink": {
@@ -597,67 +618,72 @@
     "es": "Reproducción digital de la revista de publicidad local de la región de São João Nepomuceno, en Minas Gerais. Actualmente atiende a 4 municipios diferentes, con más de 50 anuncios de comercio local y anuncios de venta.",
     "pt": "Reprodução digital da revista de publicidade local na região de São João Nepomuceno, em Minas Gerais. Atende atualmente 4 diferentes municípios, com mais de 50 propagandas do comércio local e anúncios de vendas."
   },
+  "zodiacMessage": {
+    "en": "It's a virtual menu of the new House Club in town, from São João Del Rei, in Minas Gerais State, Brazil. This page is a practical way to check the drinks and portions for clients where ever they are.",
+    "es": "Cardápio online de la nueva House Club de São João Del Rei, en Minas Gerais. Los clientes acceden a la página en cualquier lugar del club, asi pueden fijarte de los precios mientras disfrutan la diversión.",
+    "pt": "Cardápio virtual da nova House Club na cidade de São João Del Rei, em Minas Gerais. Uma opção para que os clientes possam verificar os items do club a partir de qualquer lugar do estabelecimento."
+  },
   "mainServices": {
-    "en": "What we offer",
-    "es": "Lo que ofrecemos",
-    "pt": "O que oferecemos"
+    "en": "IT Projects",
+    "es": "Proyectos en Tecnología",
+    "pt": "Projetos em TI"
   },
   "servicesTopics": {
     "en": [
       "Art and Design",
-      "Hosting sites and systems",
-      "Visual identity",
+      "Hosting Websites or Apps",
+      "Visual Identity",
       "Security",
       "Digital Advertising",
       "Monitoring",
-      "Data analysis",
-      "Technical support",
-      "Applications",
+      "Data Visualization Panel",
+      "Technical Support",
+      "Animations and 3D",
       "Performance Analysis"
     ],
     "es": [
       "Arte y Diseño",
-      "Alojamiento de sitios y sistemas",
-      "Identidad visual",
+      "Alojamiento - Sitios o Sistemas",
+      "Identidad Visual",
       "Seguridad",
-      "Publicidad digital",
-      "Supervisión",
-      "Análisis de datos",
-      "Soporte técnico",
-      "Aplicaciones",
-      "Análisis de rendimiento"
+      "Publicidad Digital",
+      "Monitoreo",
+      "Panel de Visualización de Datos",
+      "Soporte Técnico",
+      "Animaciones y 3D",
+      "Análisis de Rendimiento"
     ],
     "pt": [
       "Arte e Design",
-      "Hospedagem de sites e sistemas",
+      "Hospedagem - Sites ou Sistemas",
       "Identidade Visual",
       "Segurança",
       "Publicidade Digital",
       "Monitoramento",
-      "Análise de dados",
+      "Painel de Visualização de Dados",
       "Suporte Técnico",
-      "Aplicativos",
+      "Animações e 3D",
       "Análise de Performance"
     ]
   },
   "mainServicesMessage": {
-    "en": "We develop IT projects such as websites, applications or similar.",
-    "es": "Desarrollamos proyectos informáticos como sitios web, aplicaciones o similares.",
-    "pt": "Densevolvemos projetos de TI como sites, aplicativos ou similares."
+    "en": "We develop IT projects such as websites, applications or similar",
+    "es": "Desarrollamos proyectos informáticos como sitios web, aplicaciones o similares",
+    "pt": "Densevolvemos projetos de TI como sites, aplicativos ou similares"
   },
   "mainServicesSubMessage": {
-    "en": "We have qualified professionals and our own infrastructure.",
-    "es": "Contamos con profesionales calificados e infraestructura propia.",
-    "pt": "Temos profissionais qualificados e infraestrutura própria."
+    "en": "We have qualified professionals and our own infrastructure",
+    "es": "Contamos con profesionales calificados e infraestructura propia",
+    "pt": "Temos profissionais qualificados e infraestrutura própria"
   },
   "mainServicesUnderMessage": {
-    "en": "Have your page running in days, or your project running 24/7!",
-    "es": "¡Tenga su página funcionando en días, o su proyecto funcionando las 24 horas del día, los 7 días de la semana!",
-    "pt": "Tenha sua página rodando em dias, ou seu projeto funcionando 24/7!"
+    "en": "Have your page running in days, or your project working in a couple of weeks or months",
+    "es": "Tenga tu página funcionando en días, o su proyecto funcionando en semanas o meses",
+    "pt": "Tenha sua página rodando em dias, ou seu projeto em semanas ou meses"
   },
   "otherServices": {
-    "en": "Other services",
-    "es": "Otros servicios",
+    "en": "Other Services",
+    "es": "Otros Servicios",
     "pt": "Outros Serviços"
   },
   "otherServicesMessage": {
@@ -667,25 +693,25 @@
   },
   "firstServiceMessages": {
     "en": [
-      "- Cross-platform project",
-      "- Styles and animations",
-      "- Art and layout consultancy",
-      "- Variety of visuals",
-      "- Disclosure and online advertising"
+      "Cross-platform project",
+      "Styles and animations",
+      "Art and layout consultancy",
+      "Variety of visuals",
+      "Disclosure and online advertising"
     ],
     "es": [
-      "- Proyecto multiplataforma",
-      "- Estilos y animaciones",
-      "- Consultoría de arte y maquetación",
-      "- Variedad de imágenes",
-      "- Divulgación y publicidad en línea"
+      "Proyecto multiplataforma",
+      "Estilos y animaciones",
+      "Consultoría de arte y maquetación",
+      "Variedad de imágenes",
+      "Divulgación y publicidad en línea"
     ],
     "pt": [
-      "- Projeto multiplataforma",
-      "- Estilos e animações",
-      "- Consultoria de arte e layout",
-      "- Variedade de recursos visuais",
-      "- Divulgação e publicidade online"
+      "Projeto multiplataforma",
+      "Estilos e animações",
+      "Consultoria de arte e layout",
+      "Variedade de recursos visuais",
+      "Divulgação e publicidade online"
     ]
   },
   "firstServiceTooltip": {
@@ -713,30 +739,30 @@
   },
   "secondServiceMessages": {
     "en": [
-      "- Hosting in own infrastructure",
-      "- Reliable data storage",
-      "- Performance monitoring",
-      "- Security",
-      "- Technical support"
+      "Hosting in own infrastructure",
+      "Reliable data storage",
+      "Performance monitoring",
+      "Security",
+      "Technical support"
     ],
     "es": [
-      "- Alojamiento en infraestructura propia",
-      "- Almacenamiento de datos confiable",
-      "- Supervisión del rendimiento",
-      "- Seguridad",
-      "- Soporte técnico"
+      "Alojamiento en infraestructura propia",
+      "Almacenamiento de datos confiable",
+      "Supervisión del rendimiento",
+      "Seguridad",
+      "Soporte técnico"
     ],
     "pt": [
-      "- Hospedagem em infraestrutura própria",
-      "- Armazenamento confiável de dados",
-      "- Monitoramento de performance",
-      "- Segurança",
-      "- Suporte Técnico"
+      "Hospedagem em infraestrutura própria",
+      "Armazenamento confiável de dados",
+      "Monitoramento de performance",
+      "Segurança",
+      "Suporte Técnico"
     ]
   },
   "secondServiceTooltip": {
     "en": [
-      "Brazilian data center or US supplier",
+      "Own Data Center or foreign supplier",
       "Domain czar.dev is available",
       "or other relational banks",
       "Quality and performance check",
@@ -745,7 +771,7 @@
       "For faults, complaints and suggestions"
     ],
     "es": [
-      "Centro de datos brasileño o proveedor estadounidense",
+      "Centro de datos propio o proveedor extranjero",
       "El dominio czar.dev está disponible",
       "u otros bancos relacionales",
       "Control de calidad y rendimiento",
@@ -754,7 +780,7 @@
       "Para averías, quejas y sugerencias"
     ],
     "pt": [
-      "Data Center brasileiro ou fornecedor estadunidense",
+      "Data Center próprio ou fornecedor estrangeiro",
       "Domínio czar.dev está disponivel",
       "ou outros bancos relacionais",
       "Verificação da qualidade e desempenho",
@@ -770,22 +796,22 @@
   },
   "robotMessages": {
     "en": [
-      "- Customized solution for your business",
-      "- Scheduled Tasks",
-      "- Reliability",
-      "- Task Monitoring"
+      "Customized solution for your business",
+      "Scheduled Tasks",
+      "Reliability",
+      "Task Monitoring"
     ],
     "es": [
-      "- Solución personalizada para su negocio",
-      "- Tareas programadas",
-      "- Fiabilidad",
-      "- Supervisión de tareas"
+      "Solución personalizada para su negocio",
+      "Tareas programadas",
+      "Fiabilidad",
+      "Supervisión de tareas"
     ],
     "pt": [
-      "- Solução personalizada para seu negócio",
-      "- Tarefas agendadas",
-      "- Confiabilidade",
-      "- Monitoramento de tarefas"
+      "Solução personalizada para seu negócio",
+      "Tarefas agendadas",
+      "Confiabilidade",
+      "Monitoramento de tarefas"
     ]
   },
   "modalDataScienceContent": {
@@ -795,22 +821,22 @@
   },
   "dataScienceMessages": {
     "en": [
-      "- Know your data better.",
-      "- Make better decisions, ",
-      "- With secrecy and reliability",
-      "- Expert advice"
+      "Know your data better",
+      "Make better decisions",
+      "With secrecy and reliability",
+      "Expert advice"
     ],
     "es": [
-      "- Conoce mejor tus datos.",
-      "- Tomar mejores decisiones",
-      "- Con secreto y confiabilidad",
-      "- Asesoramiento de expertos"
+      "Conoce mejor tus datos",
+      "Tomar mejores decisiones",
+      "Con secreto y confiabilidad",
+      "Asesoramiento de expertos"
     ],
     "pt": [
-      "- Conheça melhor os seus dados.",
-      "- Tome melhores decisões, ",
-      "- Com sigilo e confiabilidade",
-      "- Consultoria especializada"
+      "Conheça melhor os seus dados",
+      "Tome melhores decisões",
+      "Com sigilo e confiabilidade",
+      "Consultoria especializada"
     ]
   }
 }

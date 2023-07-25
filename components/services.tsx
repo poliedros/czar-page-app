@@ -32,64 +32,100 @@ export default function Services() {
               </h5>
               <Row>
                 <Col className="flex flex-col items-end">
-                  <h5 className="flex items-center m-3">
-                    {translations.servicesTopics[language][0]} &nbsp;
-                    {IconsByName(
-                      "io",
-                      "IoIosColorPalette",
-                      "40px",
-                      "white"
-                    )}{" "}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <span className="mr-3">
+                      {translations.servicesTopics[language][0]}
+                    </span>
+                    {IconsByName("io", "IoIosColorPalette", "40px", "white")}{" "}
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {translations.servicesTopics[language][2]} &nbsp;{" "}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <span className="mr-3">
+                      {translations.servicesTopics[language][2]}
+                    </span>
                     {IconsByName("md", "MdStars", "40px", "white")}
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {translations.servicesTopics[language][4]} &nbsp;{" "}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <span className="mr-3">
+                      {translations.servicesTopics[language][4]}
+                    </span>
                     {IconsByName("ri", "RiShoppingBag3Fill", "40px", "white")}
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {translations.servicesTopics[language][6]} &nbsp;{" "}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <span className="mr-3">
+                      {translations.servicesTopics[language][6]}
+                    </span>
                     {IconsByName("md", "MdOutlineAreaChart", "40px", "white")}
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {translations.servicesTopics[language][8]} &nbsp;{" "}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <span className="mr-3">
+                      {translations.servicesTopics[language][8]}
+                    </span>
                     {IconsByName("tb", "TbChartDots3", "40px", "white")}
                   </h5>
                 </Col>
-                <Col className="flex flex-col">
-                  <h5 className="flex items-center m-3">
-                    <div>{IconsByName("md", "MdOutlineWeb", "40px")}</div>{" "}
-                    &nbsp; {translations.servicesTopics[language][1]}
+                <Col className="flex flex-col items-start">
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    <div>{IconsByName("md", "MdOutlineWeb", "40px")}</div>
+                    <span className="ml-3">
+                      {translations.servicesTopics[language][1]}
+                    </span>
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {IconsByName("ri", "RiShieldStarFill", "40px", "white")}{" "}
-                    &nbsp; {translations.servicesTopics[language][3]}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    {IconsByName("ri", "RiShieldStarFill", "40px", "white")}
+                    <span className="ml-3">
+                      {translations.servicesTopics[language][3]}
+                    </span>
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {IconsByName("fa", "FaEye", "40px", "white")} &nbsp;
-                    {translations.servicesTopics[language][5]}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    {IconsByName("fa", "FaEye", "40px", "white")}
+                    <span className="ml-3">
+                      {translations.servicesTopics[language][5]}
+                    </span>
                   </h5>
-                  <h5 className="flex items-center m-3">
-                    {IconsByName("bi", "BiSupport", "40px", "white")} &nbsp;
-                    {translations.servicesTopics[language][7]}
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
+                    {IconsByName("bi", "BiSupport", "40px", "white")}
+                    <span className="ml-3">
+                      {translations.servicesTopics[language][7]}
+                    </span>
                   </h5>
-                  <h5 className="flex items-center m-3">
+                  <h5 className="flex items-center m-3 hover:text-[#29FC16] hover:animate-pulse unselectable">
                     {IconsByName(
                       "hi",
                       "HiPresentationChartLine",
                       "40px",
                       "white"
-                    )}{" "}
-                    &nbsp; {translations.servicesTopics[language][9]}
+                    )}
+                    <span className="ml-3">
+                      {translations.servicesTopics[language][9]}
+                    </span>
                   </h5>
                 </Col>
               </Row>
               <h5 className="font-thin my-6">
                 {translations.mainServicesSubMessage[language]}
               </h5>
-
+              <Col
+                md={12}
+                // xs={12}
+                // lg={4}
+                className="flex items-center justify-center"
+              >
+                <CapCard
+                  preview={{
+                    state: "DataScience",
+                    icon: "MdDocumentScanner",
+                    iconType: "md",
+                    type: "service",
+                    id: "0",
+                    pos: "5",
+                    message: "",
+                    icon2: "",
+                    bgImage: "twelfth",
+                    artist: "instagram.com/jem.sahagun",
+                    language: language,
+                  }}
+                />
+              </Col>
               <Col
                 md={12}
                 // xs={12}
@@ -102,7 +138,7 @@ export default function Services() {
                     icon: "MdWeb",
                     iconType: "md",
                     type: "service",
-                    id: "0",
+                    id: "1",
                     pos: "4",
                     message: "",
                     // icon2: "RiArtboardFill",
@@ -125,7 +161,7 @@ export default function Services() {
                     icon: "MdDomainVerification",
                     iconType: "md",
                     type: "service",
-                    id: "1",
+                    id: "2",
                     pos: "3",
                     message: "",
                     icon2: "",
@@ -147,7 +183,7 @@ export default function Services() {
                     icon: "RiRobotFill",
                     iconType: "ri",
                     type: "service",
-                    id: "2",
+                    id: "3",
                     pos: "2",
                     message: "",
                     icon2: "",

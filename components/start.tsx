@@ -40,11 +40,79 @@ export default function Start() {
 
   return (
     <>
+      {/* <div className="w-full !h-[100vh] relative flex justify-center items-center">
+        <div>
+          <h1 className="unselectable font-['Josefin_Sans'] text-[35vmin] text-white mb-0 puff-in-bottom">
+            <span
+              className="inline-block scale-x-[-1]"
+              style={{
+                filter: "fliph",
+              }}
+            >
+              C
+            </span>
+            ZAR
+            <BiPlusMedical className="!w-[36px] !h-[36px] absolute left-[calc(50%-18px)] top-[calc(50%-36px)] text-[7vmin]" />
+          </h1>
+        </div>
+        <h5
+          className="font-['M_PLUS_Code_Latin'] text-gray-400 absolute top-[75vh]" //[#29FC16]
+          style={{ textShadow: "1px 1px 4px #ced4da" }} //#29FC16
+        >
+          {word}_
+        </h5>
+      </div> */}
+      {/* <div className="flex w-[100vw] h-[100vh] absolute top-1/4 left-1/4 hover:animate-pulse">
+        <h1 className="unselectable puff-in-bottom font-['Josefin_Sans'] text-[35vmin]">
+          <span
+            className="inline-block align-top scale-x-[-1]"
+            style={{
+              filter: "fliph",
+            }}
+          >
+            C
+          </span>
+        </h1>
+        <h1 className="unselectable puff-in-bottom font-['Josefin_Sans'] text-[35vmin]">
+          Z
+        </h1>
+        <h1 className="unselectable puff-in-bottom font-['Josefin_Sans'] text-[35vmin]">
+          A
+        </h1>
+        <h1 className="unselectable puff-in-bottom font-['Josefin_Sans'] text-[35vmin]">
+          R
+        </h1>
+      </div> */}
       <div className="App" id="start">
-        <header className="App-header">
+        <div className="w-full !h-[100vh] relative flex justify-center items-center bg-[#282c34]">
           <div>
+            <h1 className="unselectable font-['Josefin_Sans'] text-[35vmin] text-white mb-0 puff-in-bottom-05">
+              <span
+                className="inline-block scale-x-[-1]"
+                style={{
+                  filter: "fliph",
+                }}
+              >
+                C
+              </span>
+              <span className="puff-in-bottom-1">Z</span>
+              <span className="puff-in-bottom-2">A</span>
+              <span className="puff-in-bottom-15">R</span>
+              <BiPlusMedical className="!w-[36px] !h-[36px] absolute left-[calc(50%-18px)] top-[calc(50%-36px)] text-[7vmin] text-flicker-in-glow hover:animate-ping" />
+            </h1>
+          </div>
+          <h5
+            className="font-['M_PLUS_Code_Latin'] text-gray-400 absolute top-[75vh]" //[#29FC16]
+            style={{ textShadow: "1px 1px 4px #ced4da" }} //#29FC16
+          >
+            {word}_
+          </h5>
+          {/* <BsMouse className="text-[#6b7280]" /> */}
+        </div>
+        {/*<header className="App-header">
+           <div>
             <h5 className="unselectable text-transparent my-12">none</h5>
-            <div className="flex hover:animate-pulse">
+            <div className="flex items-center justify-center hover:animate-pulse">
               <h1 className="unselectable -mb-20 puff-in-bottom font-['Josefin_Sans'] text-[35vmin]">
                 <span
                   className="inline-block align-top scale-x-[-1]"
@@ -75,7 +143,7 @@ export default function Start() {
             Análises de Publicidade Online,
             Estruturação de Programas,
             Hospedagem em Data Center 
-          </h5> */}
+          </h5> /}
           <BsChevronCompactUp className="slide-top fixed top-6 text-white z-[1]" />
           <BsChevronCompactDown className="slide-bottom fixed bottom-6 text-white z-[1]" />
           <BsMouse
@@ -88,13 +156,13 @@ export default function Start() {
             style={{ textShadow: "1px 1px 4px #ced4da" }} //#29FC16
           >
             {word}_
-          </h5>
-        </header>
+          </h5> 
+        </header>*/}
       </div>
 
       <Container className="unselectable">
         <h6
-          className="!fixed z-10 bottom-3 text-end backdrop-blur-sm p-[5px] text-white"
+          className="!fixed z-10 bottom-3 text-end backdrop-blur-sm p-[5px] text-white mb-10 sm:mb-0"
           style={{
             /* color: "white", position: "fixed", bottom: ".7rem", */ fontFamily:
               "'M PLUS Code Latin', sans-serif" /* , textAlign: "start", backdropFilter: "blur(5px)", padding: "5px" */ /*, width: "80vw" */,
